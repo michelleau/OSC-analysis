@@ -46,6 +46,52 @@ library(gridExtra)
 library(equatiomatic)
 library(psych)
 library(gridExtra)
-library(forecast)
-library(lmtest)
 ```
+
+# Descriptives/ Preliminary Analyses
+
+```{r data}
+data <- read.csv ("OSC_data.csv")
+data1 <- select (data, ID, AGE,GENDER,BIRTH_EXP,PSYC_DIS,COG_DIS, DIS, PLAY_GAME)
+View (data1)
+summary (data1)
+describe (data1)
+
+d1 <- filter (data1, AGE < 9 )
+d2 <- filter (data1, (AGE<12 & AGE>8))
+d3 <- filter (data1, AGE>11)
+d4 <- filter (data1, GENDER == "male")
+d5 <- filter (data1, GENDER == "female")
+d6 <- filter (data1, BIRTH_EXP == "V")
+d7 <- filter (data1, BIRTH_EXP == "C")
+d8 <- filter (data1, PSYC_DIS == "Y")
+d9 <- filter (data1, COG_DIS == "Y")
+d10 <- filter (data1, DIS == "Y")
+d11 <- filter (data1, PLAY_GAME == "Y")
+
+
+number_group <- c(nrow(d1),nrow(d2),nrow(d3),nrow(d4),nrow(d5),nrow(d6),nrow(d7),
+                  nrow(d8),nrow(d9),nrow(d10),nrow(d11))
+part_demographics <- data.frame(cbind(nrow(d1),nrow(d2),nrow(d3),nrow(d4),nrow(d5),nrow(d6),nrow(d7),nrow(d8),nrow(d9),nrow(d10),nrow(d11)))
+names (part_demographics) <- c("Age_Group1 (6 to 8 yrs)", "Age_Group2 (9 to 11 yrs)", "Age_Group3 (12< yrs)", "Gender_Male","Gender_Female", "Vaginally_born", "C-section_born", "Psych_Dis", "Cog_dis", "Gen_dis", "Video_gameplay")
+kable (part_demographics)
+
+
+  
+
+
+
+
+
+```
+
+# Filter 
+Age groups (3)
+F M
+V C
+PSY 
+COG
+DIS
+Game
+
+

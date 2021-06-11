@@ -1,248 +1,248 @@
-PART. DATE,PARTICIPANT ID,NOTES (If applicable),NAME,PARENTS,DOB (MM/DD/YY),AGE (DAY OF PART.),GENDER,COUNTRY OF BIRTH,PREMATURE?,BIRTH COMPICATIONS?,BORN (V/C),NORMAL VISION?,NORMAL HEARING?,TRAUM BRAIN INJ?,PSYC DISORDER?,COG DISABILITY?,Disability,P1 C OF BIRTH,P1 LANG,P1 HIGH EDU,P1 OCCUPATION,P2 C OF BIRTH,P2 LANG,P2 HIGH EDU,P2 OCCUPATION,VIDEO Q1,VIDEO Q2,VIDEO Q3,VIDEO Q4,VIDEO Q5,VIDEO Q6
-June 12,1,,,,08-18-2006,11,male,China,N,N,V,Y,Y,N,N,N,N,China,Cantonese/English,Bachelor's,Manager,N/A,N/A,N/A,N/A,Y,Y,First Person,2-5 yrs,Weekly,Moderately good 
-June 12,2,,,,05-07-2003,15,female,USA,N,N,V,Y,Y,N,N,N,N,USA,English,Some College,Banker ,USA,English/Arabic ,Bachelor's,Banker,Y,Y,First Person,10 + yrs,Once a month,Very good 
-June 12,3,Turned 17 a week before the study,,,06-06-2001,17,male,USA,N,N,V,Y,Y,N,N,N,N,USA,English,Some College,Banker ,USA,English/Arabic ,Bachelor's,Banker,Y,Y,Third Person,5-10 yrs,Weekly,Not very skilled
-June 12,4,,,,03-22-2006,12,male,Canada,N,N,C,Y,Y,N,N,N,N,Ecuador,Spanish,Some College,PSW,El Salvador,Spanish,No high school,Construction worker,Y,Y,First Person,5-10 yrs,Daily,Moderately good 
-June 12,5,,,,04-20-2010,8,female,Canada,N,N,V,Y,Y,N,N,N,N,Canada,English,Bachelor's,Engineer,Canada,English,Bachelor's,Sales,Y,Y,First Person,1 yr,Weekly,Moderately good 
-June 12,6,,,,11-22-2006,11,female,Canada,N,N,V,Y,Y,N,N,N,N,Canada,English,Some College,Child Care Professional,Canada,English,Some college,Cabinet Maker,Y,Y,Third Person,2-5 yrs,Once a month,Moderately good 
-June 12,7,Only completed one trial ,,,11-18-2010,7,male,USA,N,N,V,Y,Y,N,N,N,N,Malaysia,Mandarin,Bachelor's,House Wife,Malaysia,Mandarin,Graduate or Professional degree,Professor ,Y,Y,First Person,1 yr,Weekly,Not Skilled
-June 12,8,,,,04-03-2007,11,male,India,N,N,C,Y,Y,N,Y,N,Y,India,English/Hindi,Graduate or Professional degree,Professor,India,English/Hindi/Punjabi,Graduate or Professional degree,Real Estate ,Y,Y,First Person,2-5 yrs,Weekly,Moderately good 
-June 13,9,,,,01-27-2010,8,male,Canada,N,N,V,Y,Y,N,N,N,N,Canada,English/French,Some College,Nurse,Canada,English,High School Graduate,N/A,Y,Y,First Person,2-5 yrs,Daily,Moderately good 
-June 13,10,,,,01-02-2007,11,female,USA,Y,N,C,Y,Y,N,N,N,N,USA,English/Spanish,Graduate or Professional degree,Doctor,USA,English/Czech,Graduate or Professional degree,Teacher,Y,Y,Third Person,2-5 yrs,Weekly,Moderately good 
-June 17,12,,,,01-29-2010,8,female,canada,Y,Y,V,Y,N,N,N,N,N,Canada,English,Graduate or Professional Degree,Accountant,United Kingdom,English,Graduate or Profesional degree,Accountant,N,N,N/A,N/A,N/A,N/A
-June 17,13,,,,10-15-2005,12,male,USA,N,N,V,Y,Y,N,N,N,N,USA,English,Graduate or Professional Degree,HR Manager,USA,English,Graduate or Profesional degree,Engineer,Y,Y,Third Person,1 year,Daily,Moderately good
-June 17,14,,,,07-26-2005,13,male,India,N,N,V,Y,Y,N,N,N,N,India,"Hindi, Punjabi, English",Bachelors Degree,Teacher,India,"Hindi, Punjabi, English",Bachelors Degree,Business,Y,Y,First Person,2-5 years,Weekly,Very good
-June 17,15,,,,03-09-2001,16,female,Japan,N,N,V,Y,Y,N,N,N,N,N/A,N/A,High School Graduate,N/A,N/A,N/A,N/A,N/A,Y,N,First Person,2-5 years,Once a month,Moderately good
-June 17,16,,,,03-03-09,8,male,India,N,Y,C,Y,Y,N,N,N,N,India,Hindi,Graduate or Professional Degree,N/A,N/A,N/A,N/A,N/A,Y,Y,First Person,1 year,Weekly,Not very skilled
-June 18,17,,,,04-19-2007,11,female,canada,N,N,V,Y,Y,N,N,N,N,Canada,English/Dutch,Bachelors Degree,Respiratory Therapist ,Canada,English,Some college ,IT,Y,Y,First Person,2-5 years,Weekly,N/A
-June 18,18,,,,10-05-2007,10,female,canada,Y,N,V,Y,Y,N,N,N,N,Canada,English,Bachelors Degree,Nurse,Canada,English,High School,General Labor,Y,Y,First Person,1 year,Weekly,Moderately good
-June 18,19,,,,06-23-2007,10,female,canada,N,N,V,Y,Y,N,N,N,N,Canada,English,Bachelors Degree,Teacher,Canada,English,Bachelors Degree,Engineer,Y,Y,Third Person,5-10 years,Weekly,Moderately good
-June 18,20,,,,03-23-2009,9,female,canada,Y,N,V,Y,Y,N,N,N,N,Canada,English,Some College,Financial Representative ,N/A,N/A,N/A,N/A,Y,Y,First Person,1 year,Weekly,Not very skilled
-June 18,21,,,,04-21-2006,12,male,canada,N,N,V,Y,Y,N,N,N,N,Canada,English ,High School Graduate,Bank Clerk,Canada,English,Some college ,Mechanic ,Y,Y,First Person,2-5 years,Daily,Very good
-June 18,22,,,,11-11-2003,14,male,USA,N,N,V,Y,Y,N,N,N,N,USA,English,Some College,N/A,USA,English,Bachelors Degree,N/A,Y,Y,Third Person,5-10 years,Daily,Moderately good
-June 18,23,,,,07-07-2002,15,male,USA,N,N,V,Y,Y,N,N,N,N,Chile,Spanish/English,Some College,Paraeducator ,N/A,N/A,N/A,N/A,Y,Y,First Person,5-10 years,Daily,Very good
-June 18,24,,,,10-26-2004,13,male,USA,Y,Y,C,Y,Y,N,N,N,N,Chile,Spanish/English,Some College,Paraeducator ,N/A,N/A,N/A,N/A,Y,Y,First Person,5-10 years,Daily,Very good
-June 18,25,,,,10-04-2005,12,male,canada,N,N,V,Y,Y,N,N,N,N,India,English/Hindi,Graduate or Professional Degree,N/A,India,English/Hindi,Graduate or Profesional degree,Service,Y,Y,First Person,2-5 years,Daily,Very good
-June 18,26,,,,09-09-2004,13,female,India,N,N,V,N,Y,N,N,N,N,India,English/Hindi,Graduate or Professional Degree,N/A,India,English/Hindi,Graduate or Profesional degree,Service,Y,Y,First Person,2-5 years,Daily,Moderately good
-June 19,27,,,,12-25-2003,14,male,USA,N,N,V,Y,Y,N,N,Y,Y,Canada,English,Graduate or Professional Degree,Veterinarian,Canada,English,Bachelors Degree,Engineer,Y,Y,Third Person,2-5 years,Weekly,Moderately good
-June 19,28,Participant only completed one trial,,,11-03-2008,9,female,canada,N,N,V,Y,Y,N,N,N,N,Poland,Polish,Some College,Nurse,Mexico,Spanish/German,Some college ,Min Wright,Y,Y,First Person,2-5 years,Weekly,Moderately good
-June 19,29,,,,01-22-2007,11,male,canada,N,N,V,Y,N,N,N,N,N,Canada,English,No High School Diploma ,Restaurant Supervisor,Canada,English/French,High School,Laborer,Y,Y,First Person,2-5 years,Daily,Moderately good
-June 19,30,,,,06-10-2010,8,female,Singapore ,N,N,V,N,Y,N,N,N,N,India,English/Hindi,Bachelors Degree,N/A,India,English/Hindi,Graduate or Profesional degree,N/A,Y,Y,First Person,1 year,Once a month,Moderately good
-June 19,31,Participant was not fluent in English,,,04-12-2007,10,female,Ukraine ,N,N,C,N,Y,N,N,N,N,Ukraine,Russian,Graduate or Professional Degree,Engineer,N/A,N/A,N/A,N/A,N,N,N/A,N/A,N/A,N/A
-June 20,32,,,,11-05-2008,9,male ,USA,N,N,V,Y,Y,N,N,N,N,Philippines,English and Filipino,Bachelor's Degree,Physical Therapist,USA,English,Bachelor's Degree,IT,Y,Y,Third Person,2-5 years,Weekly,Moderately good
-June 20,33,Participant was colourblind,,,06-19-2011,7,male ,Canada,N,N,V,Y,Y,N,N,N,N,Canada,"Portuguese, French and English",Graduate or Professional Degree,Scientist,Canada,English,Bachelor's Degree,Engineer,Y,Y,Third Person,2-5 years,Weekly,Moderately good
-June 24,34,,,,09-12-2005,12,female,USA,N,N,C,Y,Y,N,N,N,N,Hong Kong,"Mandarin, Cantonese and English",Bachelor's Degree,IT,USA,"Mandarin, French and English",Graduate or Professional Degree,Electrical Engineer,Y,Y,Third Person,5-10 years,Daily,Moderately good
-June 24,35,,,,12-09-2002,15,female ,USA,N,N,V,Y,Y,N,N,N,N,Hong Kong,"Mandarin, Cantonese and English",Bachelor's Degree,IT,USA,"Mandarin, French and English",Graduate or Professional Degree,Electrical Engineer,Y,Y,Third Person,More than 10 years,Daily,Moderately good
-June 24,36,,,,11-09-2002,15,female,Canada,N,N,V,Y,Y,N,N,Y,Y,N/A,N/A,N/A,N/A,Canada,English,Some college or college diploma,Caretaker,Y,N,Third Person,1 year,Once a month,Moderately good
-June 24,37,,,,06-08-2006,12,female,Canada,N,N,C,Y,Y,N,N,Y,Y,Poland,English,Graduate or Professional Degree,Physician ,Israel,English,Graduate or Professional Degree,Physician ,Y,Y,First Person,5-10 years,Daily,Moderately good
-June 24,38,Participant used left hand to complete task,,,10-18-2007,10,male ,Canada,N,N,V,Y,Y,Y,Y,Y,Y,Canada,English and French,Bachelor's Degree,Publishing Manager,Canada,English,Bachelor's Degree,Project Manager,Y,Y,Third Person,2-5 years,Weekly,Moderately good
-June 24,39,,,,01-25-2010,8,male ,Canada,N,N,V,Y,Y,N,N,N,N,Canada,English and French,Bachelor's Degree,Publishing Manager,Canada,English,Bachelor's Degree,Project Manager,Y,Y,First Person,2-5 years,Weekly,Moderately good
-June 24,40,,,,07-12-2004,13,male ,Canada,N,N,V,Y,Y,N,N,N,N,Canada,English and French,Graduate or Professional Degree,Engineer,Canada,English and French,Graduate or Professional Degree,Consultant,Y,Y,Third Person,2-5 years,Daily,Very good
-June 24,41,,,,12-13-2005,12,,USA,N,N,V,Y,Y,N,N,N,N,Pakistan,Urdu and English,Graduate or Professional Degree,Physician ,Pakistan,"Urdu, English, French and Japanese",Graduate or Professional Degree,Physician ,Y,Y,First/Third Person,More than 10 years,Daily,Very good
-June 24,42,,,,02-28-2008,10,female,Canada,N,N,C,Y,Y,N,N,N,N,Guyana,English,High School graduate,Esthetician,Canada,English,Some college or college diploma,Electronics engineer,Y,Y,Third Person,2-5 years,Daily,Very good
-June 24,43,,,,02-13-2006,12,male,Canada,N,N,C,Y,Y,N,N,N,N,Guyana,English,High School graduate,Esthetician,Canada,English,Some college or college diploma,Electronics engineer,Y,Y,Third Person,2-5 years,Daily,Very good
-June 24,44,,,,09-07-2010,7,male,USA,N,Y,C,Y,Y,N,N,N,N,USA,English and Spanish,High School graduate,Mother,Canada,English,Bachelor's Degree,IT,Y,Y,Third Person,2-5 years,Weekly,Moderately good
-June 25,45,"Participant spoke fluent French,limited English but understood the task and also the father translated to make sure he understood",,,11-22-2006,11,male,Switzerland,N,N,V,Y,Y,N,N,N,N,Canada,French and English,Some college or college diploma,,Canada,English and French,Bachelor's Degree,Engineer,Y,Y,First/Third Person,2-5 years,Daily,Very good
-June 26,46,Participant did task version 1 instead of version 2,,,03-23-2010,8,male,Canada,Y,Y,C,Y,Y,Y,N,N,N,Canada,English,Bachelor's Degree,Pharmacy Assistant ,Canada,English,Some college,Nuclear Operator ,Y,Y,First Person,2-5 years,Weekly,Moderately good
-June 26,47,Participant did task version 1 instead of version 2,,,03-23-2010,8,male,Canada,Y,N,C,Y,Y,Y,N,N,N,Canada,English,Bachelor's Degree,Pharmacy Assistant ,Canada,English,Some college,Nuclear Operator ,Y,Y,First Person,2-5 years,Weekly,Moderately good
-June 26,48,,,,10-28-2005,12,male,Canada,N,N,V,Y,Y,N,N,N,N,Canada,English,Bachelor's Degree,N/A,N/A,N/A,N/A,N/A,Y,Y,First Person,5-10 years,Weekly,Very good
-June 26,49,,,,10-28-2005,12,male,Canada,N,N,V,Y,Y,N,N,N,N,Canada,English,Bachelor's Degree,N/A,N/A,N/A,N/A,N/A,Y,Y,First Person,5-10 years,Weekly,Very good
-June 26,50,,,,06-05-2005,13,male,Canada,N,N,V,Y,Y,N,N,N,N,Canada,English,Bachelor's Degree,Hairstylist ,Canada,English,Some college,Master Electrician ,Y,Y,First Person,5-10 years,Daily,Moderately good
-June 26,51,,,,01-24-2005,13,male,Canada,N,N,C,Y,Y,N,N,N,N,Jamaica,English ,Bachelor's Degree,HR Manager ,N/A,N/A,N/A,N/A,Y,Y,First/Third Person,5-10 years,Daily,Very good
-June 26,52,,,,03-24-2007,11,male,Jamaica ,N,N,V,Y,Y,N,N,Y,Y,Canada ,English,Bachelor's Degree,Engineer,N/A,N/A,N/A,N/A,Y,Y,First Person,5-10 years,Weekly,Very good
-June 26,53,,,,03-28-2006,12,female,Canada,N,N,V,Y,Y,N,N,N,N,N/A,N/A,N/A,N/A,Canada,English,Bachelor's Degree,Engineer,Y,N,Third Person,5-10 years,Once a month,Moderately good
-June 27,54,,,,01-08-2008,10,female ,Canada,N,N,V,Y,Y,N,N,N,N,Canada,English ,Bachelor's Degree,Teacher,Ireland ,English,Some college,Plumber ,Y,Y,First Person,2-5 years ,Daily,Very good
-June 27,55,,,,10-12-2009,8,female,Canada,N,N,V,Y,Y,N,N,Y,Y,Canada,English ,Bachelor's Degree,Student ,Canada,English,Some college,Military ,Y,N,First Person,N/A,Once a month,Not Skilled 
-June 27,56,,,,09-12-2007,11,female,Canada,Y,N,C,Y,Y,N,N,Y,Y,United Kingdom ,English/French ,Graduate or Professional Degree,Politician,Canada,English,High School,N/A,Y,Y,First Person,2-5 years ,Weekly,Very good
-June 27,57,,,,09-26-2007,11,female,Canada ,N,N,V,Y,N,N,N,N,N,Canada ,English ,Bachelor's Degree,Health Care Provider ,N/A,N/A,N/A,N/A,Y,Y,Third Person,2-5 years ,Weekly,Moderately good
-June 27,58,,,,03-10-2007,11,female,Canada ,Y,N,V,Y,Y,N,N,N,N,Canada,English ,Some college or college diploma,Payroll ,N/A,N/A,N/A,N/A ,N,N,N/A,N/A,N/A,N/A
-June 27,59,,,,01-27-2008,10,male,Canada ,N,N,C,Y,N,N,N,N,N,Canada ,English ,Some college or college diploma,N/A,N/A,N/A,N/A,N/A,Y,Y,First Person,1 year,Once a month,Not very skilled
-June 27,60,,,,08-02-2008,9,female,Canada ,N,N,V,Y,Y,N,N,N,N,Canada ,English ,Graduate or Professional Degree,Realtor ,Canada,English,Graduate or Professional Degree,Game Artist ,Y,Y,Third Person,2-5 years ,Weekly,Moderately good
-June 27,62,,,,03-06-2008,10,male,Canada ,N,N,V,Y,Y,N,N,N,N,South Africa ,English,Graduate or Professional Degree,Accountant ,N/A,N/A,N/A,N/A,Y,Y,First Person,2-5 years ,Weekly,Very good
-June 27,63,Participant started to aimlessly press buttons during trial 2,,,10-24-2009,9,male,Canada ,N,N,V,N,Y,N,N,N,N,Canada ,English ,Graduate or Professional Degree,Homemaker ,Canada,English,Graduate or Professional Degree,Transit Operator ,Y,Y,First Person,2-5 years ,Daily,Moderately good
-June 27,64,,,,12-30-2007,10,male,Canada ,Y,Y,V,Y,Y,N,N,N,N,Canada ,English ,Some college or college diploma,CEO,Canada,English,Graduate or Professional Degree,CEO,Y,Y,First Person,2-5 years ,Weekly,Moderately good
-June 27,65,Participant was not fluent in English ,,,12-27-2004,10,male,Russia,N,N,V,Y,Y,N,N,N,N,Russia,Russian,Bachelor's Degree,Lawyer ,Russia,Russian ,Graduate or Professional Degree,Engineer,Y,Y,Third Person,2-5 years ,Daily,Moderately good
-June 27,66,,,,12-07-2007,10,female,Canada ,N,N,V,Y,Y,N,N,N,N,Canada ,English/French ,Graduate or Professional Degree,Surgeon,Canada,English,Some college or college diploma,Youth Pastor ,Y,N,First Person,N/A,Less than once a year ,Not Skilled 
-June 27,67,,,,06-17-2010,8,female,Canada ,N,Y,V,Y,Y,N,N,N,N,USA,English,Some college or college diploma,Nurse ,Canada ,English and French,Some college or college diploma,Carpenter ,Y,Y,Third Person,2-5 years ,Weekly,Moderately good
-June 27,68,,,,05-13-2007,11,female,Canada ,N,N,V,Y,Y,N,N,N,N,USA,English,Some college or college diploma,Nurse ,Canada ,English and French,Some college or college diploma,Carpenter ,Y,Y,Third Person,2-5 years ,Weekly,Moderately good
-July 8,69,Participant completed only Part 1/2 of the task and wasn't paying attention (clicking aimlessly almost) during the task.,,,01-17-2011,7,female,Canada,N,N,V,Y,Y,N,N,N,N,Canada,,Bachelor's Degree,Commercial Producer,Canada,,Bachelor's degree,Sales Executive,Y,Y,Third Person,2-5 years,Daily,Not very skilled
-July 8,70,,,,11-04-2002,15,female,Canada,N,N,C,Y,Y,N,N,N,N,Canada,English,Bachelor's Degree,Teacher,Canada,English,Graduate or Professional degree,School Superintendent,Y,Y,Third Person,5-10 years,Daily,Very good
-July 8,71,,,,03-29-2010,8,female,Canada,N,N,C,N,Y,N,N,N,N,Canada,English,Some college or college diploma,Early Childhood Educator,Canada,English,Some college or college diploma,Paramedic,Y,Y,First Person,1 year,Daily,Moderately good
-July 8,72,,,,10-10-2009,8,male,Canada,N,N,V,N,Y,N,N,N,N,Canada,French and English,Bachelor's Degree,Systems Analyst,Canada,English,Graduate or Professional degree,"CPA, Public Accountant",Y,Y,First Person,2-5 years,Daily,Moderately good
-July 8,73,,,,02-15-2004,14,male,Brazil,N,N,C,Y,Y,N,N,N,N,Brazil,"Portuguese, English and French",Graduate or Professional Degree,Physician,Brazil,"Portuguese, English, French and Spanish",Graduate or Professional degree,Physician,Y,Y,Third Person,More than 10 years,Daily,Very good
-July 8,74,,,,05-03-05,13,male,Canada,N,N,V,N,Y,N,N,N,N,Bahamas,English and French,Bachelor's Degree,Philanthropy Executive,Canada,English and French,Graduate or Professional degree,Scientist,Y,Y,First/Third Person,5-10 years,Daily,Moderately good
-July 8,75,,,,10-08-2011,6,male,Canada,N,N,V,Y,Y,N,N,N,N,Canada,English,Some college or college diploma,Admin Assistant,India,English,Some college or college diploma,IT,Y,Y,First Person,2-5 years,Weekly,Moderately good
-July 8,76,,,,12-10-2004,13,female,China,N,N,C,Y,Y,N,N,N,N,China,,Graduate or Professional Degree,Electrical and Computer Engineering,China,,Graduate or Professional degree,Software,Y,Y,First Person,5-10 years,Once a month,Not very skilled
-July 22,77,Participant 077 only completed one trial,,,03-09-2010,8,male,Canada,N,N,C,Y,Y,N,N,N,N,Canada,English,Bachelor's Degree,,China,English,Bachelor's degree,Manager,Y,Y,First/Third Person,2-5 years,Weekly,Not very skilled
-July 22,78,,,,03-17-2010,8,female,Canada,N,N,V,Y,Y,N,N,N,N,Canada,English,High school graduate,mother,USA,English,Some college or college diploma,pipefitter,Y,Y,First Person,2-5 years,Weekly,Moderately good
-July 22,79,,,,01-15-2007,11,female,Canada,N,N,C,Y,N,N,N,N,N,Canada,English,High school graduate,,USA,English,Some college or college diploma,,Y,Y,First Person,2-5 years,Weekly,Moderately good
-July 22,80,,,,09-29-2010,7,male,Canada,N,N,V,Y,Y,N,N,N,N,Canada,English,Graduate or Professional Degree,Minister,USA,English,High school graduate,Mechanic,Y,Y,First/Third Person,2-5 years,Daily,Moderately good
-July 22,81,,,,02-02-2010,8,male,Canada,N,N,V,Y,Y,N,N,N,N,Canada,English and Punjabi,Some college or college diploma,,Canada,English and Punjabi,High school graduate,,Y,Y,First Person,2-5 years,Weekly,Not very skilled
-July 22,82,,,,07-16-2008,10,male,Canada,N,N,V,Y,Y,N,N,N,N,Canada,English and French,Some college or college diploma,Corporate Social Responsibility,Canada,English,N/A,Business owner,Y,Y,Third Person,5-10 years,Daily,Moderately good
-July 22,83,,,,10-24-2008,9,male ,Canada,N,N,V,Y,Y,N,N,N,N,Canada,,Some college or college diploma,Banking,Canada,,Some college or college diploma,Manufacturing,Y,Y,First Person,2-5 years,Daily,Very good
-July 22,84,,,,01-14-2005,13,female,Canada,N,N,V,Y,Y,N,N,N,N,Canada,,Some college or college diploma,Banking,Canada,,Some college or college diploma,Manufacturing,Y,N,First Person,5-10 years,Once a month,Not very skilled
-July 22,85,,,,05-24-2006,12,female,Canada,N,N,V,N,Y,N,N,N,N,Canada,English,High school graduate,Restoration,N/A,N/A,N/A,N/A,Y,Y,First Person,5-10 years,Weekly,Moderately good
-July 22,86,,,,03-30-2008,10,female ,Canada,N,N,V,Y,Y,N,N,N,N,Canada,English,Graduate or Professional Degree,Outdoor Education Program Director,Canada,English and French,Graduate or Professional degree,Director at Right to Play,Y,Y,Third Person,2-5 years,Weekly,Moderately good
-July 22,87,,,,04-21-2005,13,female,Canada,N,N,V,Y,Y,N,N,N,N,Canada,English,Graduate or Professional Degree,Outdoor Education Program Director,Canada,English and French,Graduate or Professional degree,Director at Right to Play,Y,Y,Third Person,5-10 years,Weekly,Moderately good
-July 22,88,,,,02-27-2008,10,male,Canada,Y,N,V,Y,Y,N,N,N,N,China,Chinese and English,Some college or college diploma,,China,Chinese and English,Some college or college diploma,,Y,N,Third Person,N/A,N/A,Not skilled
-July 22,89,,,,01-12-2009,9,female,Canada,N,N,V,Y,Y,N,Y,Y,Y,Canada,English,Bachelor's Degree,Consultant,Canada,English,Bachelor's degree,Student,Y,Y,Third Person,1 year,Daily,Very good
-July 22,90,,,,12-27-2004,13,male,Canada,N,Y,V,Y,Y,N,Y,N,Y,Canada,English,Bachelor's Degree,Consultant,Canada,English,Bachelor's degree,Student,Y,Y,First Person,2-5 years,Daily,Very good
-July 22,91,,,,07-13-2010,8,male,Canada,N,N,V,Y,Y,N,N,N,N,Bermuda,English,Graduate or Professional Degree,Lawyer,Canada,English,Graduate or Professional degree,Chiropractor,Y,Y,First Person,5-10 years,Daily,Moderately good
-July 22,92,,,,05-22-2008,10,male,Canada,N,N,V,Y,Y,N,N,N,N,Bermuda,English,Graduate or Professional Degree,Lawyer,Canada,English,Graduate or Professional degree,Chiropractor,Y,Y,First Person,5-10 years,Daily,Moderately good
-July 22,93,,,,03-09-2008,10,male,United Kingdom,N,N,V,Y,Y,N,N,N,N,United Kingdom,English,Graduate or Professional Degree,Family Outreach Support Worker,N/A,N/A,N/A,N/A,Y,Y,Third Person,2-5 years,Daily,Moderately good
-July 29,99,,,,8-3-2007,10,male,USA,N,N,C,Y,Y,N,N,N,N,USA,English and French,Graduate or Professional Degree,Performance Improvement Consultant,Germany,English and German,Graduate or Professional degree,Chief Medical Officer,Y,Y,First/Third Person,2-5 years,Weekly,Moderately good
-July 29,100,,,,12-09-2003,14,female,Canada,N,N,V,Y,Y,N,N,N,N,Canada,English and Italian,Bachelor's Degree,Financial Analyst,Canada,English and Italian,Some college or college diploma,Mechanical Engineer,Y,Y,Third Person,5-10 years,Once a month,Moderately good
-July 29,101,,,,03-16-2007,11,female ,Canada,Y,N,V,N,Y,N,Y,N,Y,Canada,English and Italian,Bachelor's Degree,Financial Analyst,Canada,English and Italian,Some college or college diploma,Mechanical Engineer,Y,Y,Third Person,5-10 years,Once a month,Moderately good
-July 29,102,,,,09-26-2007,10,female,USA,N,N,V,Y,Y,N,N,N,N,USA,English,Bachelor's Degree,Teacher,USA,English,Bachelor's degree,Architect,Y,Y,First Person,2-5 years,Once a month,Moderately good
-July 29,103,,,,05-08-2005,13,male,USA,N,N,V,Y,N,N,N,N,N,USA,English,Bachelor's Degree,Teacher,USA,English,Bachelor's degree,Architect,Y,Y,Third Person,2-5 years,Weekly,Very good
-July 30,104,,,,07-10-2009,9,male,Canada ,N,Y,V,Y,Y,N,N,N,N,Hong Kong,Chinese and English,Graduate or Professional Degree,Occupational Therapist ,N/A,N/A,N/A,N/A,Y,Y,First/Third Person,1 year ,Weekly ,Moderately good
-July 30,105,"Data is shown as ""Task_2018_Jul_30_1100"" in data folder",,,10-06-2009,8,male,United Kingdom,N,N,C,Y,Y,N,N,N,N,South Africa ,Afrikaans/English,Graduate or Professional Degree,Physiotherapist ,N/A,N/A,N/A,N/A,Y,Y,Third Person,2-5 years ,Weekly ,Moderately good
-July 30,106,,,,08-10-2004,13,male,Norway,N,N,V,N,Y,N,N,N,N,Canada ,English,Graduate or Professional Degree,Teacher,Canada ,English,Graduate or Professional Degree,Teacher,Y,Y,Third Person,5-10 years ,Daily,Moderately good
-July 30,107,,,,09-20-2006,11,female ,China,N,N,C,N,Y,N,N,N,N,Canada ,English,Graduate or Professional Degree,Teacher,Canada ,English,Graduate or Professional Degree,Teacher,Y,Y,Third Person,5-10 years ,Daily,Moderately good
-July 30,108,,,,02-22-2010,8,female ,USA,N,N,C,Y,Y,N,N,N,N,United Kingdom,English ,Graduate or Professional Degree,N/A,Canada ,English,Graduate or Professional Degree,N/A,Y,Y,Third Person,2-5 years ,Weekly,Not very skilled
-July 30,109,,,,09-24-2009,8,female ,Canada ,Y,N,V,Y,Y,N,N,N,N,Canada,English ,No High School Diploma ,House Wife ,N/A,N/A,N/A,N/A,Y,Y,Third Person,1 year ,Weekly,Very good
-July 30,110,Participant only completed one trial,,,07-09-2012,6,female ,Canada,N,N,V,Y,Y,N,N,N,N,Canada ,English ,Bachelor's Degree,Nurse ,Canada ,English ,Some college or college diploma,Teacher's Aid,Y,Y,Third Person,1 year ,Weekly ,Moderately good
-July 30,111,,,,01-05-2003,15,female ,Taiwan,N,N,C,N,Y,N,N,N,N,USA,Mandarin and English,Graduate or Professional Degree,CEO,USA,Mandarin and English,Graduate or Professional Degree,Engineer ,Y,Y,First Person,1 year ,Weekly ,Moderately good
-July 30,112,,,,02-07-2011,7,male ,USA,N,N,V,Y,Y,N,N,N,N,USA,Mandarin and English,Graduate or Professional Degree,CEO,USA,Mandarin and English,Graduate or Professional Degree,Engineer ,Y,Y,First Person,1 year ,Weekly ,Moderately good
-July 30,113,Participant only completed one trial,,,07-13-2011,7,female ,Canada ,N,N,V,Y,Y,N,N,N,N,United Kingdom,English,Graduate or Professional Degree,Home Maker ,Canada ,English ,Some college or college diploma,Account Executive ,N,N,N/A,N/A,N/A,N/A
-July 30,114,,,,12-17-2006,11,female ,Canada ,N,N,V,N,Y,N,N,N,N,Canada ,English/French ,Graduate or Professional Degree,N/A,N/A,N/A,N/A,N/A,Y,Y,Third Person,5-10 years ,Once a month,Moderately good
-July 30,115,,,,08-12-2008,9,female,USA,N,N,V,Y,Y,N,N,N,N,USA ,English/French ,Graduate or Professional Degree,N/A,USA ,English/French/Spanish,Bachelors Degree,N/A,Y,Y,Third Person,5-10 years ,Weekly,Moderately good
-July 30,116,,,,03-02-2008,10,male,Canada ,N,N,C,N,Y,N,N,N,N,Germany,English/German/French,Bachelor's Degree,Art Manager ,Canada,English ,Some college or college diploma,Sales Director ,Y,Y,First Person,2-5 years ,Daily,Very good
-July 30,117,,,,10-17-2010,7,male,Canada ,Y,N,V,Y,Y,N,N,N,N,Canada ,Chinese and English,Bachelor's Degree,Researcher ,N/A,N/A,N/A,N/A,Y,Y,First/Third Person,2-5 years ,Daily,Moderately good
-July 30,118,,,,12-22-2009,8,female,Canada ,N,N,V,Y,Y,N,N,N,N,Iran,Persian,Bachelor's Degree,House Wife ,Canada,English,Graduate or Professional Degree,Finance,Y,Y,First/Third Person,2-5 years ,Daily,Moderately good
-July 30,119,,,,01-14-2010,8,female ,Canada ,N,N,V,Y,Y,N,N,N,N,Iran,Farsi,Graduate or Professional Degree,Doctor ,Iran,Farsi,Graduate or Professional Degree,Engineer ,Y,Y,First Person,1 year ,Daily,Moderately good
-August 12,120,,,,07-19-2004,14,male,Canada,N,Y,V,Y,Y,N,N,N,N,China,Mandarin,Bachelor's degree,,China,Mandarin,Bachelor's degree,,Y,Y,First Person,2-5 years,Daily,Moderately good
-August 12,121,,,,05-30-2006,12,male,USA,N,N,V,Y,Y,N,N,N,N,USA,English,Some college or college diploma,Security Alarm/Installation Manager,,,,,Y,Y,First Person,2-5 years,Daily,Very good
-August 12,122,,,,01-02-2007,11,male,Lebanon,N,N,C,Y,Y,N,N,N,N,Lebanon,"English, French and Arabic",Graduate or Professional Degree,Teacher,Lebanon,English and Arabic,Some college or college diploma,Product Manager,Y,Y,First Person,2-5 years,Daily,Very good
-August 12,123,"Participant 123 had a cast on right hand but was able to use it, but preferred to do the task with left hand only.",,,05-24-2011,7,female,Canada,N,N,V,Y,Y,N,N,N,N,Canada,English,Graduate or Professional Degree,Consultant,Canada,English ,Some college or college diploma,Management,N,N,N/A,N/A,N/A,N/A
-August 12,124,,,,09-09-2005,12,male,Canada,N,N,V,Y,Y,N,N,N,N,India,"English, Hindi and Punjabi",Bachelor's degree,Merchandiese Handler,India,"English, Hindi and Punjabi",Bachelor's degree,Owner operator,Y,Y,First Person,2-5 years,Daily,Moderately good
-August 13,125,,,,12-10-2006,11,male,Canada,N,N,V,Y,Y,N,N,N,N,Jamaica,English,Bachelor's degree,Entrepreneur,N/A,N/A,N/A,N/A,Y,Y,First Person,2-5 years ,Daily,Very good
-August 13,126,,,,02-27-2006,12,male,Canada ,N,N,V,Y,Y,N,N,N,N,Canada ,English ,Some college or college diploma,Security Officer ,Canada,English,Some college or college diploma,College Coach ,Y,Y,Third Person,2-5 years ,Daily,Very good
-August 13,127,,,,08-04-2009,9,male,Canada ,N,N,V,Y,Y,N,N,N,N,Canada ,English ,Some college or college diploma,Security Officer ,Canada,English,Some college or college diploma,College Coach ,Y,Y,Third Person,2-5 years ,Daily,Very good
-August 13,128,,,,06-04-2007,11,female,Canada ,N,N,V,Y,Y,N,N,N,N,Iran,Persian,Bachelor's degree,School Bus Driver ,Iran,Persian,Some college or college diploma,Construction Worker ,Y,Y,Third Person,1 year,Daily,Moderately good
-August 13,129,,,,10-18-2006,11,male,Canada ,N,N,C,Y,Y,N,N,N,N,Canada ,English,Graduate or Professional Degree,Teacher ,Canada,English ,Some college or college diploma,Millwright ,Y,Y,First/Third Person,5-10 years ,Daily,Very good
-August 13,130,,,,09-08-2009,9,female,Canada ,N,N,V,Y,Y,N,N,N,N,Iran,Farsi,Bachelor's degree,N/A,Iran,Farsi,Some college or college diploma,N/A,Y,Y,First Person,1 year ,Daily,Very good
-August 13,131,,,,04-22-2009,9,male,Canada ,N,N,V,Y,Y,N,N,N,N,Canada ,English/French ,High school graduate,Waitress ,Canada,English/French/Greek,High School Graduate ,Technician ,Y,Y,First Person,2-5 years ,Daily,Not very skilled
-August 13,132,,,,09-21-2009,8,female,Canada ,N,N,V,Y,Y,N,N,N,N,Philippines,Misaya/English,Some college or college diploma,Care Aid,Canada ,English ,Some college or college diploma,Power Generation ,Y,Y,First Person,2-5 years ,Daily,Very good
-August 13,133,,,,11-29-2006,11,female,Canada ,N,N,V,Y,Y,N,N,N,N,Philippines,Misaya/English,Some college or college diploma,Care Aid,Canada ,English ,Some college or college diploma,Power Generation ,Y,Y,First Person,2-5 years ,Daily,Very good
-August 13,134,,,,09-05-2007,10,male,Canada ,N,N,V,Y,Y,N,N,N,N,China,Chinese,Bachelor's degree,N/A,N/A,N/A,N/A,N/A,Y,Y,Third Person,5-10 years ,Daily,Moderately good
-August 13,135,,,,04-16-2011,7,female,Canada ,N,N,V,Y,Y,N,N,N,N,Canada ,English,Graduate or Professional Degree,VP of HR,England ,English ,Some college or college diploma,Director Communication,Y,Y,Third Person,2-5 years ,Once a month,Moderately good
-August 13,136,,,,11-06-2007,10,male,Canada ,N,Y,V,Y,Y,N,N,N,N,Canada ,English ,Bachelor's degree,Event Coordinator ,Canada,English ,Graduate or Professional Degree,Accountant ,Y,Y,Third Person,2-5 years ,Daily,Moderately good
-August 20,137,,,,07-13-2007,11,male,Canada,N,N,C,Y,Y,N,N,N,N,China,Mandarin,Graduate or Professional Degree,Accountant ,China,Mandarin,Graduate or Professional Degree,IT Specialist,Y,Y,First/Third Person,2-5 years ,Weekly,Moderately good
-August 20,138,,,,01-25-2012,6,male,Canada,N,N,V,Y,Y,N,N,N,N,China,Mandarin,Graduate or Professional Degree,Accountant ,China,Mandarin,Graduate or Professional Degree,IT Specialist,Y,Y,First/Third Person,2-5 years ,Weekly,Moderately good
-August 20,139,,,,05-18-2010,8,female,Canada,N,N,V,Y,Y,N,N,N,N,Canada ,English ,Graduate or Professional Degree,Social Worker,Canada ,English ,Graduate or Professional Degree,Teacher,Y,Y,Third Person,2-5 years,Weekly,Not very skilled
-August 27,140,,,,05-20-2010,8,female,Canada,N,N,C,Y,Y,N,N,N,N,Trinidad,English,High school graduate,House Mom,Trinidad,English,Graduate or Professional Degree,Accountant ,Y,Y,First Person,5-10 years ,Weekly,Moderately good
-August 27,141,,,,12-04-2007,10,male,Canada ,Y,N,C,Y,Y,N,N,N,N,Trinidad,English,High school graduate,House Mom,Trinidad,English,Graduate or Professional Degree,Accountant ,Y,Y,Third Person,5-10 years ,Weekly,Very good
-August 27,142,Participant only completed one trial ,,,12-01-2011,6,female,Canada ,N,N,V,N,Y,N,N,N,N,Canada ,English ,Bachelor's degree,House Mom,United Kingdom,English,Bachelor's degree,Engineer,Y,Y,Third Person,6 months,Once a month,Moderately good
-August 27,143,,,,12-07-2010,7,female,Canada ,Y,N,V,Y,Y,N,N,N,N,Canada ,English ,Some college or college diploma,Support Worker ,Canada,English ,High School Graduate ,Transit Operator ,Y,Y,First Person,1 year ,Weekly ,Moderately good
-August 27,144,,,,07-16-2011,7,male,Canada ,N,N,V,Y,Y,N,N,N,N,Canada ,English ,Some college or college diploma,Book Keeper ,Canada ,English ,High School Graduate ,Sales,Y,Y,First Person,2-5 years,Daily,Moderately good
-August 27,145,,,,04-02-2007,11,female,Canada ,N,N,V,Y,Y,N,N,N,N,Poland,Polish/English,Bachelor's degree,Engineer ,N/A,N/A,N/A,N/A,Y,Y,First Person,2-5 years ,Daily,Very good
-August 27,146,,,,02-10-2009,9,female,Canada ,N,N,V,Y,Y,N,N,N,N,Columbia,Spanish/English ,High school graduate,Bus Driver ,N/A,N/A,N/A,N/A,Y,Y,First Person,1 year ,Daily,Moderately good
-August 27,147,,,,1-10-2010,8,male,USA,N,N,V,Y,Y,N,N,N,N,USA ,English ,Graduate or Professional Degree,Therapist ,N/A,N/A,N/A,N/A,Y,Y,First Person,2-5 years ,Daily,Moderately good
-August 27,148,,,,11-8-2010,7,male,USA,N,N,V,Y,Y,N,N,N,N,USA,English ,Graduate or Professional Degree,Therapist ,N/A,N/A,N/A,N/A,Y,Y,First Person,2-5 years ,Weekly ,Moderately good
-November 18,149,Did not have earphone on for half of study ,,,12-2-2007,10,female,Canada,N,N,V,Y,Y,N,N,N,N,Canada,English,Graduate or Professional Degree,Real estate broker,Canada,English,Graduate or Professional Degree,Lawyer,Y,Y,N/A,1 year,Daily,Moderately good
-November 18,150,,,,10-11-2010,8,male,Canada,Y,Y,C,Y,Y,N,Y,N,Y,Vietnam,English/Vietnamese/French ,Graduate or Professional Degree,Public servant,Australia,English,High School Graduate ,Stay at home dad,Y,Y,First Person,2-5 years ,Once a month,Moderately good
-November 18,151,Not wearing headphones/family talking around her /Got distracted for a minute half way through ,,,06-02-2012,6,female ,Canada,N,N,V,Y,Y,N,N,N,N,Canada,English,Graduate or Professional Degree,Teacher,Canada,English,Graduate or Professional Degree,Lawyer,Y,Y,Third Person,2-5 years ,Weekly ,N/A
-November 18,152,At the beginning did not understand what to do but caught on in middle of part 1,,,03-28-2012,6,female,Canada,N,N,C,Y,Y,N,N,N,N,Canada,French/English ,Bachelor's degree,Consultant IT,Canada ,French/English ,Bachelor's degree,Supervisor IT,Y,N,Third Person,2-5 years ,Once a month,Not skilled
-November 18,153,,,,12-29-2005,12,female ,Canada,N,N,C,Y,Y,N,N,N,N,Canada,English ,High school graduate,N/A,Canada,English/French ,Graduate or Professional Degree,Pilot ,Y,Y,First/Third Person,2-5 years ,Weekly ,Moderately good
-November 18,154,,,,06-29-2007,11,female,Canada,N,N,V,Y,Y,N,N,N,N,Canada,English,High school graduate,Auto body ,Canada,English ,Some college or college diploma,Trade,Y,Y,First Person,2-5 years ,Once a month,Not very skilled
-November 18,155,,,,05-12-2006,12,female ,Canada,Y,N,V,Y,Y,N,N,N,N,Canada,English ,Bachelor's degree,Stay at home,Canada,English ,Bachelor's degree,Developer ,Y,Y,Third Person,5-10 years ,Daily,Moderately good
-November 18,156,,,,01-08-2010,8,female,Canada,Y,N,V,Y,Y,N,N,N,N,Canada ,English ,Bachelor's degree,Stay at home,Canada,English ,Bachelor's degree,Developer ,Y,Y,Third Person,5-10 years ,Daily,Moderately good
-November 18,157,,,,03/272010,8,male,Canada,N,N,V,Y,Y,N,N,N,N,Russia,Russian ,No High School Diploma ,N/A,N/A,N/A,N/A,N/A,N,N,N/A,N/A,N/A,N/A
-November 18,158,Did not input the age and id number/was a little confused/ waste a minute to reexplain ,,,01-12-2008,10,female,Canada,N,N,V,Y,Y,N,N,N,N,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Y,Y,First Person,2-5 years ,Weekly ,Not very skilled
-November 18,159,,,,09-07-2006,12,female ,Canada,N,N,V,Y,Y,N,N,N,N,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Y,Y,First Person,2-5 years ,Weekly ,Not very skilled
-November 18,160,,,,01-11-2011,7,male,Canada,N,N,V,Y,Y,N,N,N,N,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Y,Y,Third Person,2-5 years,Weekly ,Moderately good
-November 18,161,,,,09-01-2010,8,male,Canada,N,N,V,Y,Y,N,N,N,N,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Y,N,First Person,2-5 years ,Once a month,Not very skilled
-November 18,162,got confused and frustrated with the instructios/ was going to stop after part one / took off the headphone for the part 2/ got distracted by her friends ,,,10-19-2007,11,female,Canada,Y,N,V,Y,Y,N,N,N,N,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Y,Y,First Person,1 year,once every 6 months,Moderately good
-November 18,163,,,,10-19-2009,9,female ,Canada ,N,N,V,Y,Y,N,N,Y,Y,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Y,N,First Person,1 year ,Once a month,Not skilled 
-November 18,164,,,,10-02-2007,11,male ,Canada ,N,N,V,Y,Y,N,N,N,N,India,N/A,Graduate or Professional Degree,N/A,N/A,N/A,Graduate or Professional Degree,Senior customs officer,Y,Y,First Person,2-5 years ,Weekly ,Very good
-November 18,165,,,,02-04-2010,8,male,Canada,N,N,V,Y,Y,N,N,N,N,India,N/A,Graduate or Professional Degree,N/A,N/A,N/A,Graduate or Professional Degree,Senior customs officer,Y,Y,First Person,2-5 years ,Weekly ,Very good
-November 18,166,,,,07-09-2010,8,female ,Canada,N,N,V,Y,Y,N,N,N,N,Canada,English,Some college or college diploma,Law clerk ,Canada ,English ,Some college or college diploma,IT Analyst ,Y,Y,First Person,6 months ,Daily,Moderately good
-November 18,167,,,,04-17-2010,11,male ,USA,N,N,N/A,Y,Y,N,N,N,N,USA ,English ,Bachelor's degree,Buyer,Israel ,English ,Bachelor's degree,Cheif,Y,Y,First Person,2-5 years,Daily,Moderately good
-November 18,168,,,,12-25-2011,6,female,USA,N,N,C,Y,Y,N,N,N,N,USA ,English ,Bachelor's degree,Buyer,Israel ,English ,Bachelor's degree,Cheif,N/A,N/A,N/A,N/A,N/A,N/A
-November 18,169,,,,02-16-2012,6,female,Canada,Y,Y,C,Y,Y,N,N,N,N,Canada ,English ,Bachelor's degree,Director ,Canada,English,High School Graduate ,Chef,N,N,N/A,N/A,N/A,N/A
-November 25,170,Signed by her grandparent ,,,08-09-2007,11,female,Canada,N,N,V,Y,Y,N,N,N,N,Canada,English ,Some college or college diploma,Production Lead (Graphic design),N/A,N/A,N/A,N/A,Y,N/A,N/A,2-5 years ,N/A,N/A
-November 25,171,,,,09-16-2011,7,female,Canada,N,N,V,Y,Y,N,N,N,N,Canada,English/French ,Graduate or Professional Degree,Psycologist ,Canada ,English/Urdu/Gujrati,Bachelor's degree,Finance ,N,N,N/A,N/A,N/A,N/A
-November 25,172,,,,N/A,11,male,N/A,N,N,V,N,Y,N,N,N,N,Canada,French/English ,Bachelor's degree,Engineer ,Canada,N/A,Graduate or Professional Degree,Lawyer,Y,Y,First Person,2-5 years ,Weekly ,Very good
-November 25,173,,,,01-30-2009,11,female,Canada,N,N,C,Y,Y,N,N,N,N,China ,Mandarine/ English ,Graduate or Professional Degree,house maker,China,Mandarine/English ,Graduate or Professional Degree,investment manager,Y,Y,Third Person,6 months,Weekly ,Moderately good
-November 25,174,,,,12-15-2010,7,male,Canada,N,N,C,Y,Y,N,N,N,N,England,English,Some college or college diploma,IT,Venezuela ,Spanish/English ,Graduate or Professional Degree,Product Manager,Y,Y,Third Person,2-5 years ,Daily,Moderately good
-November 25,175,,,,N/A,10,male ,China,N,N,V,Y,Y,N,N,N,N,China,Chinese /English ,Graduate or Professional Degree,Dental Hggiene,China,Chinese/English ,Graduate or Professional Degree,Nurse,Y,N,N/A,N/A,N/A,N/A
-November 25,176,,,,08-26-2003,15,female,USA,Y,N,V,N,Y,N,N,N,N,USA,English ,Some college or college diploma,Vet tech ,USA,English ,Graduate or Professional Degree,Engineer,Y,Y,First/Third Person,More than 10 years,Daily,Moderately good
-November 25,177,,,,03-24-2012,6,male,Canada,N,N,V,N,N,N,N,N,N,Argantina,Spanish/English ,Graduate or Professional Degree,IT,Argantina,Spanish/English ,Some college or college diploma,Millwright ,Y,Y,Third Person,1 year,Once a month,Not skilled 
-November 25,178,,,,07-19-2010,8,male,Canada,N,N,V,Y,Y,N,N,Y,Y,Argantina,Spanish/English ,Graduate or Professional Degree,IT,Argantina,Spanish/English ,Some college or college diploma,Millwright ,Y,Y,Third Person,1 year,Once a month,Not very skilled
-November 25,179,,,,05-11-2009,9,male,Canada,N,N,V,Y,Y,N,N,N,N,China,Mandarine,Bachelor's degree,N/A,China,Mandarine ,Bachelor's degree,Assembler,Y,N,N/A,N/A,Once a month,Not very skilled 
-November 25,180,,,,03-25-2009,9,female,Canada,N,N,V,Y,Y,N,N,N,N,Canada,English,Some college or college diploma,Stay at home,Canada,English,Graduate or Professional Degree,Finance,Y,Y,First Person,2-5 years,Weekly,Moderately good
-November 25,181,,,,05-07-2010,9,male,Canada,N,N,C,Y,Y,N,N,N,N,China,English/Chinese,Graduate or Professional Degree,House wife ,Canada,English,Bachelor's degree,IT manager ,Y,Y,First Person,2-5 years,Weekly,Moderately good
-November 25,182,,,,08-26-2010,9,female,Canada,N,N,V,N,Y,N,N,N,N,Canada,English,Bachelors Degree,Teacher,Canada,English,Some college or college diploma,Cad Technician,Y,Y,Third Person,2-5 years,Weekly,Not very skilled 
-November 25,183,,,,09-29-2008,11,male,Canada,N,N,V,N,Y,N,Y,Y,Y,Canada ,English,Bachelors Degree,Teacher,Canada,English,some college or college diploma,Cad Technician,Y,Y,Third Person,2-5 years,Weekly,Moderately good
-November 25,184,,,,11-02-2005,14,female,Canada,N,N,V,Y,Y,N,N,Y,Y,Puerto Rico,Spanish/English/French,Graduate or Professional Degree,Web Designer ,Chile,Spanish/English/French,some college or college diploma,Tech Support ,Y,Y,First Person,2-5 years,Weekly ,Moderately good
-November 25,185,,,,12-19-2009,9,female,Canada,N,N,V,Y,Y,N,N,N,N,Puerto Rico,Spanish/English/French,Graduate or Professional Degree,Web Designer ,Chile,Spanish/English/French,Some college or college diploma,Tech Support ,Y,Y,Third Person,2-5 years,Weekly,Very good 
-November 25,186,,,,6-4-2012,6,male,Canada,N,N,V,Y,Y,N,N,N,N,China,English/Mandarin,Bachelors Degree,N/A,N/A,N/A,N/A,N/A,N,N,N/A,N/A,N/A,N/A
-November 25,187,,,,11-25-2009,9,female,Canada,N,Y,C,Y,Y,Y,N,N,N,Canada,English/French ,Bachelors Degree,Digital Marketer ,Canada,English,Some college or college diploma,Graphic Designer,Y,Y,Third Person,1 Year,Once a month,Not very skilled 
-November 25,188,,,,08-06-2010,9,female,Canada,Y,Y,V,Y,Y,N,N,N,N,Canada,English,Some college or college diploma,Machinist,Canada,English,N/A,ODSP,Y,Y,First/Third Person,2-5 year,Daily,Moderately good
-November 25,189,,,,08-13-2007,11,male,Canda,N,N,C,Y,Y,N,N,N,N,Vietnam,"Vietnamese, Catonese, English",some,N/A,Vietnam,"Vietnamese, Cantonese, English",Some college or college diploma,N/A,Y,Y,First/Third Person,5-10 years,Daily ,Moderately good
-November 25,190,,,,06-12-2010,10,male,USA,N,N,V,Y,Y,N,N,N,N,Vietnam,"English, Vietnamese",Graduate or Professional Degree,Software Manager,Vietnam,"English, Vietnamese",Graduate or Professional Degree,Teacher ,Y,Y,First/Third Person,2-5 years,Weekly,Moderately good
-December 2,191,,,,09-19-2007,11,male,Canada,N,N,V,Y,Y,N,N,Y,Y,Canada,English,Some college or college diploma,Stay at home,,,,,Y,Y,Third Person,2-5 years,Daily,Moderately good
-December 2,192,,,,08-01-2009,9,female,Canada,N,N,V,Y,Y,N,N,N,N,Canada,English,Some college or college diploma,N/A,,,,,Y,Y,Third Person,2-5 years ,Weekly,Moderately good
-December 2,194,,,,07-07-2009,9,male,Canada,Y,N,C,Y,Y,N,N,Y,Y,Canada,English,Bachelors Degree,Legal Assistant ,Scotland,English,Some college or college diploma,IT,Y,Y,First/Third Person,2-5 years ,Daily,Moderately good
-December 2,195,,,,05-22-2006,12,male,Canada,N,N,V,Y,Y,N,N,N,N,Canada,"English, French",Graduate or Professional Degree,Teacher,Canada,English,Some college or college diploma,Manager,Y,Y,First/Third Person,2-5 years ,Daily,Very good 
-December 2,196,,,,08-29-2008,11,male,Canada,N,N,V,Y,Y,N,N,N,N,Ukraine,"Russian, English",Graduate or Professional Degree,Computer Engineer,Russia,"Russian, English",Graduate or professional degree,Computer Engineer,Y,Y,First/ Third Person,2-5 years,Daily ,Very good 
-December 2,197,,,,10-18-2011,7,male,Canada,N,N,V,Y,Y,N,N,Y,Y,Israel ,Hebrew/English ,Bachelors Degree,Designer,Canada,"English, French",Graduate or professional degree,Scientist,Y,Y,Third Person,2-5 years,Weekly,Moderately good
-December 2,198,,,,N/A/N/A/2007,11,female,Canada,N,N,V,N,Y,N,N,N,N,China,Chinese,Bachelors Degree,Systems,Canada,English,Bachelors Degree,systems ,Y,Y,First Person,5-10 years,Daily,Moderately good
-December 2,199,,,,12-04-2008,10,female,China,N,N,C,Y,Y,N,N,N,N,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Y,Y,First Person,1 year,Daily,Moderately good
-December 2,200,,,,08-09-2008,10,female,Canada,Y,N,C,Y,Y,N,N,N,N,China,Mandarin,Bachelor's degree,Doctor,China,Mandarin,Bachelors Degree,Engineer ,Y,Y,Third Person,5-10 years ,Weekly ,Moderately good
-December 2,201,,,,06-08-2010,9,female,Canada,Y,N,V,Y,Y,N,N,N,N,Canada,English,Some college or college diploma,N/A,Canada,English,Some college or college diploma,N/A,Y,Y,First Person,2-5 years,Daily,Very good
-December 2,202,,,,08-07-2005,14,male,Canada,N/A,Y,C,Y,Y,N,N,N/A,N,Canada,English,Graduate or Professional Degree,Catering,Canada,English,Bachelors Degree,Self-employed,Y,Y,N/A,5-10 years,Weekly,Moderately good
-December 2,203,,,,20/11/2009,9,male,Canada,N,N,C,Y,Y,N,N,N,N,Canada,English,Graduate or Professional Degree,Catering,Canada,English,Bachelors Degree,Self-employed,Y,Y,First Person,2-5 years,Weekly ,Moderately good
-December 2,204,,,,N/A/08/2007,11,female,China,N,N,C,Y,Y,N,N,N,N,China,English,Bachelors Degree,N/A,China,English,Bachelors Degree,IT,Y,Y,N/A,6 months,Weekly,Not applicable 
-December 2,205,,,,07-27-2012,12,male,Canada,Y,N,V,Y,Y,N,N,N,N,Mexico,Spanish/English,Bachelor Degree,Teacher,Pakistan,Urdu/English,Some college or college diploma,Bus Operator,Y,N,Third Person,6 months,Once a month,Not very skilled 
-December 2,206,,,,02-05-2007,11,female,Canada,Y,N,V,N,Y,N,N,N,N,Mexico,Spanish/English,Bachelor's degree,Teacher,Pakistan,Urdu/English,Some college or college diploma,Bus Operator ,Y,N,Third Person,6 months ,Once a month ,Not very skilled 
-December 2,207,,,,09-23-2009,9,female,Canada,N,N,V,Y,Y,N,N,N,N,Latvia,English/Russian,Bachelor's Degree,Facility Management ,Latvia ,English/Russian,Bachelors Degree,IT,Y,Y,First Person,2-5 Years ,Once a month,Moderately good
-December 2,208,,,,03-16-2011,8,male,Canada,N,N,V,Y,Y,N,N,N,N,Latvia,English/Russian,Bachelors Degree,Facility Management ,Latvia ,English/Russian,Bachelors Degree,IT,Y,Y,First/ Third Person,2-5 years ,Once a month,Moderately good
-December 2,209,,,,10-22-2012,6,male,Canada,N,N,V,Y,Y,N,N,N,N,Pakistan,Urdu/English,Graduate or Professional Degree,Housewife,Pakistan,Urdu/English,Graduate or Professional Degree,Banker,Y,Y,First Person,1 year,Daily,Very good
-December 9,210,,,,09-07-2012,12,female,Canada,Y,N,V,Y,Y,N,N,N,N,Canada,English/French ,Bachelors Degree,Finance,Canada,English,Graduate or professional degree,Medical Research,Y,N,Third Person,2-5 years,Once a month,Not very skilled 
-December 9,211,,,,08-17-2008,10,female,Canada,Y,Y,C,N,Y,N,N,N,N,Ukraine,Ukranian/English ,Bachelors Degree,Bus Architect,Ukraine,English/Ukranian,Graduate or professional degree,Financial Analyst,Y,Y,First Person,2-5 years,Weekly ,Not very skilled 
-December 9,212,,,,08-18-2008,10,female,Canada,Y,Y,C,N,Y,N,N,N,N,Ukraine,Ukranian/English ,Bachelors Degree,Bus Architect,Ukraine,English/Ukranian,Graduate or professional degree,Financial Analyst,Y,Y,First Person,2-5 years,Weekly ,Not very skilled 
-December 9,213,,,,08-17-2008,10,male,Canada,Y,Y,C,Y,Y,N,N,Y,Y,Ukraine,Ukranian/English ,Bachelors Degree,Bus Architect,Ukraine,English/Ukranian,Graduate or professional degree,Financial Analyst,Y,Y,First Person,2-5 years ,Weekly ,Not very skilled 
-December 9,214,,,,04-09-2008,10,male,Canada,N,N,V,Y,Y,N,N,N,N,Canada,N/A,Bachelors Degree,Creative Director ,Canada,N/A,Graduate or professional degree,Manager,Y,Y,First Person,2-5 years,Weeklyh,Moderately good
-December 9,215,,,,10-30-2007,11,male,Canada,N,Y,C,Y,Y,N,N,Y,Y,Canada,French/English ,N/A,Hair Dresser ,Canada,N/A,Some college or college diploma,Coach Mechanic ,Y,Y,First Person,5-10 years ,Weekly ,Very good 
-December 9,219,,,,10-24-2011,8,female,Canada,N,N,V,Y,Y,N,N,N,N,Canada,French/English ,Graduate or Professional Degree,Archivist,Canada,English,Graduate or professional degree,CPA Accountant,Y,Y,Third Person,2/5 years,Weekly,Moderately good
-December 9,220,,,,01-12-2006,13,female,Canada,N,N,V,Y,Y,N,N,N,N,Canada,English,Some college or college diploma,Systems Implementation Specialist ,Canada,English,Some college or college diploma,Technologist,Y,Y,First Person,1 year,Weekly,Moderately good
-December 9,221,,,,11-20-2010,9,female,Canada,N,N,V,N,N,N,N,N,N,Canada,N/A,Some college or college diploma,Systems Implementation Specialist ,Canada,English,Some college or college diploma,Technologist,Y,Y,First Person,1 year,Weekly,Moderately good
-December 9,222,,,,10-29-2008,10,female,Canada,N,N,C,Y,Y,N,N,N,N,Philippines,English/Tagaloy,Some college or college diploma,Manufacturing ,Philippines,English/Tagaloy,Some college or college diploma,Technician,Y,Y,First Person,5-10 years,Weekly,Moderately good
-December 9,223,,,,10-29-2008,10,female,Canada,N,N,C,Y,Y,N,N,N,N,Philippines,English/Tagaloy,Some college or college diploma,Manufacturing ,Philippines,English/Tagaloy,Some college or college diploma,Technician,Y,Y,First Person,5-10 years,Weekly,Moderately good
-December 9,224,,,,11-01-2003,16,female,Canada,N,N,V,Y,Y,N,N,N,N,N/A,Student,N/A,N/A,N/A,N/A,N/A,N/A,Y,Y,First Person,2-5 years,Daily,Not skilled 
-December 9,225,,,,06-18-2003,16,female,Canada,Y,N,C,Y,Y,N,N,N,N,N/A,Student,N/A,N/A,N/A,N/A,N/A,N/A,Y,N,First Person,5-10 years,once every 6 months,Moderately good
-December 9,226,,,,08-06-2007,11,female ,Canada,N,N,V,Y,Y,N,N,N,N,N/A,English,Bachelor's Degree,IT,N/A,English,Bachelors Degree,Lab Tech,Y,Y,First Person,2-5 years,Weekly,Moderately good
-December 9,227,,,,06-29-2006,13,female,Canada,N,N,V,N,Y,N,N,N,N,Trinidad,English,Some college or college diploma,Technologist ,Philippines,English/Tagaloy,some college or college diploma,Admin ,Y,Y,First/third Person,5-10 years ,Daily,Very good 
-December 9,228,,,,06-09-2011,8,female,Canada,N,N,V,Y,Y,N,N,N,N,USA,English,Bachelors Degree,N/A,Canada,English,Bachelors Degree,N/A,N,N,N/A,Not applicable,Not applicable,Not applicable 
-December 9,229,,,,11-08-2009,9,female,Canada,N,N,V,Y,Y,N,N,N,N,USA,English,Bachelors Degree,N/A,Canda,English,Bachelors Degree,N/A,N,N,N/A,Not applicable,Not applicable,Not applicable 
-December 9,230,,,,12-21-2010,9,female ,Canada,N,N,C,Y,Y,N,N,N,N,Philippines,Tagacog/Ilocano/English ,some college or college diploma/bachelors degree,Nanny,N/A,N/A,N/A,N/A,Y,N,N/A,N/A,Less than once a year ,Not applicable 
-December 9,231,,,,02-02-2008,10,male ,Canada,N,N,C,Y,Y,N,N,N,N,Canada,English,Bachelors Degree,Teacher ,USA,English,Bachelors Degree,Planner ,Y,Y,First/Third Person,2-5 years,Daily,Very good 
-December 9,232,,,,12-04-2009,9,male ,Canada,N,N,C,Y,Y,N,N,N,N,Canada,English,Bachelors Degree,Teacher ,USA,English,Bachelors Degree,Planner ,Y,Y, First/Third Person,2-5 years ,Daily,Very good 
-December 9,233,,,,04-05-2006,13,male ,Canada,N,N,V,Y,Y,N,N,N,N,Colombia,Spanish,Graduate or Professional Degree,Industrial Engineer,Spain,Spanish,Graduate or professional degree,Industrial Engineer ,Y,N/A,First Person,5-10 years ,Once a month,Moderately good
-December 9,234,,,,05-07-2009,9,male ,Canada,N,N,V,Y,Y,N,N,N,N,Spain ,Spanish,Graduate or Professional Degree,Industrial Engineer,Colombia,Spanish,Graduate or professional degree,Industrial Engineer ,Y,Y,First Person,2-5 years ,Weekly ,Moderately good
-December 16,235,,,,07-15-2011,8,female ,Canada,N,N,V,Y,Y,N,N,N,N,Brazil,Portuguese/English,Graduate or Professional Degree,Officer ,Brazil,N/A,GRaduate or professional degree,Manager ,Y,Y,First Person,2-5 years ,Weekly,Moderately good
-December 16,236,,,,N/A/N/A/2008,10,male ,Russia,N,N,V,Y,Y,N,N,N,N,Russia ,Russian,Graduate or Professional Degree,N/A,Russia,English/Russian,Graduate or professional degree,Consultant ,Y,Y,Third Person,6 months ,Weekly ,Not very skilled 
-December 16,237,,,,12-05-2008,10,female ,Canada,N,N,V,Y,Y,N,N,N,N,Canada,English,Bachelors Degree,Financial Assistant ,Canada,English,Bachelors Degree,Food Safety Inspector ,N,N,N/A,N/A,N/A,N/A
-December 16,238,,,,01-18-2002,16,female ,Brazil,N,N,C,Y,Y,N,N,N,N,Brazil,Portuguese,Bachelors Degree,Government Employed ,Brazil,Portugese,High school graduate ,Business,N,N,First Person,5-10 years ,Once a month,Moderately good
-December 16,239,,,,03-13-2007,11,female ,Canada,N,N,C,Y,Y,N,N,N,N,USA,English,Some college or college diploma,Forensic Video Analyst ,Canada,English ,Bachelors Degree,Bank Manager ,Y,Y,First Person,2-5 years ,Weekly ,Moderately good
-December 16,240,,,,08-01-2009,9,male ,Canada,Y,Y,C,Y,Y,N,N,N,N,USA,English ,Some college or college diploma,Forensic Video Analyst ,Canada,English,Bachelors Degree,Bank Manager ,Y,Y,First Person,2-5 years ,Daily ,Very good 
-December 16,241,,,,11-02-2011,8,female ,Romania ,Y,Y,V,Y,Y,N,N,N,N,Romania,Romanian/English,Bachelors Degree,Finance ,Romania,Romanian/English,Bachelors Degree,Surveyor ,Y,N,N/A,Not applicable,Once a month,Not very skilled 
-December 16,243,,,,10-21-2011,8,female ,Canada,N,N,V,Y,Y,N,N,N,N,Canada,English ,Graduate or Professional Degree,Teacher ,Canada,English ,Graduate or professional degree,Engineer ,Y,Y,Third Person,1 year,Weekly,Moderately good
-December 16,244,,,,10-26-2011,8,male ,Canada,N,N,C,Y,Y,N,N,N,N,N/A,N/A,N/A,N/A,Hong Kong ,English/Cantonese/Mandarin,Bachelors Degree,N/A,Y,N,Third Person,Not applicable,Once a month,Moderately good
-December 16,245,,,,08-19-2007,11,male ,Canada,N,N,V,Y,Y,N,N,N,N,India,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Y,Y,First Person,1 year ,Weekly,Moderately good
-December 16,246,,,,07-10-2011,8,male ,Canada,N,Y,V,Y,Y,N,N,N,N,Canada,English/French/Hebrew,Bachelors Degree,Teacher ,USA,English ,Bachelors Degree,Sales,Y,Y,Third Person,1 year,Weekly,Moderately good
-December 16,247,,,,07-10-2011,8,male,Canada,N,Y,V,Y,Y,N,N,N,N,Canada,English/French/Hebrew,Bachelors Degree,Teacher ,USA,English ,Bachelors Degree,Sales,Y,Y,Third Person,1 year,Weekly,Moderately good
-December 16,248,,,,06-29-2007,11,male ,Canada,N,N,V,Y,Y,N,N,N,N,Canada,English/French/Hebrew,Bachelors Degree,Teacher ,USA,English ,Bachelors Degree,Sales,Y,Y,Third Person,2-5 year,Daily ,Very good 
-December 16,249,,,,03-31-2007,11,female,Canada,N,N,V,Y,Y,N,N,N,N,Canada,English,Some college or college diploma,ECE,South Africa,English,Some college or college diploma,Renovation,Y,Y,Third Person,2-5 years,once every 6 months,Not very skilled
-December 16,250,,,,08-17-2008,10,male ,Canada,N,N,V,Y,Y,N,N,N,N,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Y,Y,Third Person,2-5 years ,once every 6 months,Very good 
-December 23,251,,,,06-17-2007,11,female ,Canada,N,N,V,Y,Y,N,N,N,N,Canada,English,Graduate or Professional Degree,Lawyer ,Canada,English,Graduate or professional degree,Doctor ,Y,Y,Third Person,5-10 years ,Daily ,Moderately good
-December 23,252,,,,07-08-2009,9,male ,Canada,N,N,V,Y,Y,N,N,N,N,Canada,English ,High school graduate/some college or college diploma,Home maker ,Canada,English ,High school graduate/some college or college diploma,Labourer ,Y,Y,Third Person,2-5 years ,Weekly,Very good 
-December 23,253,,,,11/N/A/2012,7,female ,Canada,N,N,V,Y,Y,N,N,N,N,Canada,English ,Graduate or Professional Degree,Accountant ,Canada,English ,Some college or college diploma/graduate or professional degree,IT,N,N,N/A,N/A,N/A,N/A
-December 23,254,,,,10-15-2003,16,male ,Canada,N,N,V,N,Y,N,N,N,N,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Y,Y,First Person,5-10 years ,Daily ,Very good 
-December 23,255,,,,01-27-2009,9,male ,Peru,N,N,V,Y,Y,N,N,N,N,Peru ,Spanish/English,Graduate or Professional Degree,Medical Assistant ,Peru,Spanish/English/French/Italian/Portuguese,Graduate or professional degree,Medical Assistant ,Y,Y,First Person,2-5 years ,Daily ,Moderately good
-December 23,256,,,,05-27-2010,9,female ,Canada,N,N,V,Y,Y,N,N,N,N,Peru ,Spanish/English ,Graduate or Professional Degree,Medical Assistant ,Peru,Spanish/English/French/Italian/Portuguese,Graduate or professional degree,Medical Assistant ,Y,Y,First Person,1 year ,Weekly ,Moderately good
+PART. DATE,ID,NOTES (If applicable),NAME,PARENTS,DOB (MM/DD/YY),AGE,GENDER,COUNTRY OF BIRTH,PREMATURE?,BIRTH COMPICATIONS?,BIRTH_EXP,NORMAL VISION?,NORMAL HEARING?,TRAUM BRAIN INJ?,PSYC_DIS,COG_DIS,DIS,P1 C OF BIRTH,P1 LANG,P1 HIGH EDU,P1 OCCUPATION,P2 C OF BIRTH,P2 LANG,P2 HIGH EDU,P2 OCCUPATION,PLAY_GAME,RECENT_PLAY,GAME_MODE,GAME_EXP,GAME_FREQ,GAME_SKILL
+Jun-12,1,,,,08-18-2006,11,male,China,N,N,V,Y,Y,N,N,N,N,China,Cantonese/English,Bachelor's,Manager,N/A,N/A,N/A,N/A,Y,Y,First Person,2-5 yrs,Weekly,Moderately good 
+Jun-12,2,,,,05-07-2003,15,female,USA,N,N,V,Y,Y,N,N,N,N,USA,English,Some College,Banker ,USA,English/Arabic ,Bachelor's,Banker,Y,Y,First Person,10 + yrs,Once a month,Very good 
+Jun-12,3,Turned 17 a week before the study,,,06-06-2001,17,male,USA,N,N,V,Y,Y,N,N,N,N,USA,English,Some College,Banker ,USA,English/Arabic ,Bachelor's,Banker,Y,Y,Third Person,5-10 yrs,Weekly,Not very skilled
+Jun-12,4,,,,03-22-2006,12,male,Canada,N,N,C,Y,Y,N,N,N,N,Ecuador,Spanish,Some College,PSW,El Salvador,Spanish,No high school,Construction worker,Y,Y,First Person,5-10 yrs,Daily,Moderately good 
+Jun-12,5,,,,04-20-2010,8,female,Canada,N,N,V,Y,Y,N,N,N,N,Canada,English,Bachelor's,Engineer,Canada,English,Bachelor's,Sales,Y,Y,First Person,1 yr,Weekly,Moderately good 
+Jun-12,6,,,,11-22-2006,11,female,Canada,N,N,V,Y,Y,N,N,N,N,Canada,English,Some College,Child Care Professional,Canada,English,Some college,Cabinet Maker,Y,Y,Third Person,2-5 yrs,Once a month,Moderately good 
+Jun-12,7,Only completed one trial ,,,11-18-2010,7,male,USA,N,N,V,Y,Y,N,N,N,N,Malaysia,Mandarin,Bachelor's,House Wife,Malaysia,Mandarin,Graduate or Professional degree,Professor ,Y,Y,First Person,1 yr,Weekly,Not Skilled
+Jun-12,8,,,,04-03-2007,11,male,India,N,N,C,Y,Y,N,Y,N,Y,India,English/Hindi,Graduate or Professional degree,Professor,India,English/Hindi/Punjabi,Graduate or Professional degree,Real Estate ,Y,Y,First Person,2-5 yrs,Weekly,Moderately good 
+Jun-13,9,,,,01-27-2010,8,male,Canada,N,N,V,Y,Y,N,N,N,N,Canada,English/French,Some College,Nurse,Canada,English,High School Graduate,N/A,Y,Y,First Person,2-5 yrs,Daily,Moderately good 
+Jun-13,10,,,,01-02-2007,11,female,USA,Y,N,C,Y,Y,N,N,N,N,USA,English/Spanish,Graduate or Professional degree,Doctor,USA,English/Czech,Graduate or Professional degree,Teacher,Y,Y,Third Person,2-5 yrs,Weekly,Moderately good 
+Jun-17,12,,,,01-29-2010,8,female,canada,Y,Y,V,Y,N,N,N,N,N,Canada,English,Graduate or Professional Degree,Accountant,United Kingdom,English,Graduate or Profesional degree,Accountant,N,N,N/A,N/A,N/A,N/A
+Jun-17,13,,,,10-15-2005,12,male,USA,N,N,V,Y,Y,N,N,N,N,USA,English,Graduate or Professional Degree,HR Manager,USA,English,Graduate or Profesional degree,Engineer,Y,Y,Third Person,1 year,Daily,Moderately good
+Jun-17,14,,,,07-26-2005,13,male,India,N,N,V,Y,Y,N,N,N,N,India,"Hindi, Punjabi, English",Bachelors Degree,Teacher,India,"Hindi, Punjabi, English",Bachelors Degree,Business,Y,Y,First Person,2-5 years,Weekly,Very good
+Jun-17,15,,,,03-09-2001,16,female,Japan,N,N,V,Y,Y,N,N,N,N,N/A,N/A,High School Graduate,N/A,N/A,N/A,N/A,N/A,Y,N,First Person,2-5 years,Once a month,Moderately good
+Jun-17,16,,,,03-03-2009,8,male,India,N,Y,C,Y,Y,N,N,N,N,India,Hindi,Graduate or Professional Degree,N/A,N/A,N/A,N/A,N/A,Y,Y,First Person,1 year,Weekly,Not very skilled
+Jun-18,17,,,,04-19-2007,11,female,canada,N,N,V,Y,Y,N,N,N,N,Canada,English/Dutch,Bachelors Degree,Respiratory Therapist ,Canada,English,Some college ,IT,Y,Y,First Person,2-5 years,Weekly,N/A
+Jun-18,18,,,,10-05-2007,10,female,canada,Y,N,V,Y,Y,N,N,N,N,Canada,English,Bachelors Degree,Nurse,Canada,English,High School,General Labor,Y,Y,First Person,1 year,Weekly,Moderately good
+Jun-18,19,,,,06-23-2007,10,female,canada,N,N,V,Y,Y,N,N,N,N,Canada,English,Bachelors Degree,Teacher,Canada,English,Bachelors Degree,Engineer,Y,Y,Third Person,5-10 years,Weekly,Moderately good
+Jun-18,20,,,,03-23-2009,9,female,canada,Y,N,V,Y,Y,N,N,N,N,Canada,English,Some College,Financial Representative ,N/A,N/A,N/A,N/A,Y,Y,First Person,1 year,Weekly,Not very skilled
+Jun-18,21,,,,04-21-2006,12,male,canada,N,N,V,Y,Y,N,N,N,N,Canada,English ,High School Graduate,Bank Clerk,Canada,English,Some college ,Mechanic ,Y,Y,First Person,2-5 years,Daily,Very good
+Jun-18,22,,,,11-11-2003,14,male,USA,N,N,V,Y,Y,N,N,N,N,USA,English,Some College,N/A,USA,English,Bachelors Degree,N/A,Y,Y,Third Person,5-10 years,Daily,Moderately good
+Jun-18,23,,,,07-07-2002,15,male,USA,N,N,V,Y,Y,N,N,N,N,Chile,Spanish/English,Some College,Paraeducator ,N/A,N/A,N/A,N/A,Y,Y,First Person,5-10 years,Daily,Very good
+Jun-18,24,,,,10-26-2004,13,male,USA,Y,Y,C,Y,Y,N,N,N,N,Chile,Spanish/English,Some College,Paraeducator ,N/A,N/A,N/A,N/A,Y,Y,First Person,5-10 years,Daily,Very good
+Jun-18,25,,,,10-04-2005,12,male,canada,N,N,V,Y,Y,N,N,N,N,India,English/Hindi,Graduate or Professional Degree,N/A,India,English/Hindi,Graduate or Profesional degree,Service,Y,Y,First Person,2-5 years,Daily,Very good
+Jun-18,26,,,,09-09-2004,13,female,India,N,N,V,N,Y,N,N,N,N,India,English/Hindi,Graduate or Professional Degree,N/A,India,English/Hindi,Graduate or Profesional degree,Service,Y,Y,First Person,2-5 years,Daily,Moderately good
+Jun-19,27,,,,12-25-2003,14,male,USA,N,N,V,Y,Y,N,N,Y,Y,Canada,English,Graduate or Professional Degree,Veterinarian,Canada,English,Bachelors Degree,Engineer,Y,Y,Third Person,2-5 years,Weekly,Moderately good
+Jun-19,28,Participant only completed one trial,,,11-03-2008,9,female,canada,N,N,V,Y,Y,N,N,N,N,Poland,Polish,Some College,Nurse,Mexico,Spanish/German,Some college ,Min Wright,Y,Y,First Person,2-5 years,Weekly,Moderately good
+Jun-19,29,,,,01-22-2007,11,male,canada,N,N,V,Y,N,N,N,N,N,Canada,English,No High School Diploma ,Restaurant Supervisor,Canada,English/French,High School,Laborer,Y,Y,First Person,2-5 years,Daily,Moderately good
+Jun-19,30,,,,06-10-2010,8,female,Singapore ,N,N,V,N,Y,N,N,N,N,India,English/Hindi,Bachelors Degree,N/A,India,English/Hindi,Graduate or Profesional degree,N/A,Y,Y,First Person,1 year,Once a month,Moderately good
+Jun-19,31,Participant was not fluent in English,,,04-12-2007,10,female,Ukraine ,N,N,C,N,Y,N,N,N,N,Ukraine,Russian,Graduate or Professional Degree,Engineer,N/A,N/A,N/A,N/A,N,N,N/A,N/A,N/A,N/A
+Jun-20,32,,,,11-05-2008,9,male ,USA,N,N,V,Y,Y,N,N,N,N,Philippines,English and Filipino,Bachelor's Degree,Physical Therapist,USA,English,Bachelor's Degree,IT,Y,Y,Third Person,2-5 years,Weekly,Moderately good
+Jun-20,33,Participant was colourblind,,,06-19-2011,7,male ,Canada,N,N,V,Y,Y,N,N,N,N,Canada,"Portuguese, French and English",Graduate or Professional Degree,Scientist,Canada,English,Bachelor's Degree,Engineer,Y,Y,Third Person,2-5 years,Weekly,Moderately good
+Jun-24,34,,,,09-12-2005,12,female,USA,N,N,C,Y,Y,N,N,N,N,Hong Kong,"Mandarin, Cantonese and English",Bachelor's Degree,IT,USA,"Mandarin, French and English",Graduate or Professional Degree,Electrical Engineer,Y,Y,Third Person,5-10 years,Daily,Moderately good
+Jun-24,35,,,,12-09-2002,15,female ,USA,N,N,V,Y,Y,N,N,N,N,Hong Kong,"Mandarin, Cantonese and English",Bachelor's Degree,IT,USA,"Mandarin, French and English",Graduate or Professional Degree,Electrical Engineer,Y,Y,Third Person,More than 10 years,Daily,Moderately good
+Jun-24,36,,,,11-09-2002,15,female,Canada,N,N,V,Y,Y,N,N,Y,Y,N/A,N/A,N/A,N/A,Canada,English,Some college or college diploma,Caretaker,Y,N,Third Person,1 year,Once a month,Moderately good
+Jun-24,37,,,,06-08-2006,12,female,Canada,N,N,C,Y,Y,N,N,Y,Y,Poland,English,Graduate or Professional Degree,Physician ,Israel,English,Graduate or Professional Degree,Physician ,Y,Y,First Person,5-10 years,Daily,Moderately good
+Jun-24,38,Participant used left hand to complete task,,,10-18-2007,10,male ,Canada,N,N,V,Y,Y,Y,Y,Y,Y,Canada,English and French,Bachelor's Degree,Publishing Manager,Canada,English,Bachelor's Degree,Project Manager,Y,Y,Third Person,2-5 years,Weekly,Moderately good
+Jun-24,39,,,,01-25-2010,8,male ,Canada,N,N,V,Y,Y,N,N,N,N,Canada,English and French,Bachelor's Degree,Publishing Manager,Canada,English,Bachelor's Degree,Project Manager,Y,Y,First Person,2-5 years,Weekly,Moderately good
+Jun-24,40,,,,07-12-2004,13,male ,Canada,N,N,V,Y,Y,N,N,N,N,Canada,English and French,Graduate or Professional Degree,Engineer,Canada,English and French,Graduate or Professional Degree,Consultant,Y,Y,Third Person,2-5 years,Daily,Very good
+Jun-24,41,,,,12-13-2005,12,,USA,N,N,V,Y,Y,N,N,N,N,Pakistan,Urdu and English,Graduate or Professional Degree,Physician ,Pakistan,"Urdu, English, French and Japanese",Graduate or Professional Degree,Physician ,Y,Y,First/Third Person,More than 10 years,Daily,Very good
+Jun-24,42,,,,02-28-2008,10,female,Canada,N,N,C,Y,Y,N,N,N,N,Guyana,English,High School graduate,Esthetician,Canada,English,Some college or college diploma,Electronics engineer,Y,Y,Third Person,2-5 years,Daily,Very good
+Jun-24,43,,,,02-13-2006,12,male,Canada,N,N,C,Y,Y,N,N,N,N,Guyana,English,High School graduate,Esthetician,Canada,English,Some college or college diploma,Electronics engineer,Y,Y,Third Person,2-5 years,Daily,Very good
+Jun-24,44,,,,09-07-2010,7,male,USA,N,Y,C,Y,Y,N,N,N,N,USA,English and Spanish,High School graduate,Mother,Canada,English,Bachelor's Degree,IT,Y,Y,Third Person,2-5 years,Weekly,Moderately good
+Jun-25,45,"Participant spoke fluent French,limited English but understood the task and also the father translated to make sure he understood",,,11-22-2006,11,male,Switzerland,N,N,V,Y,Y,N,N,N,N,Canada,French and English,Some college or college diploma,,Canada,English and French,Bachelor's Degree,Engineer,Y,Y,First/Third Person,2-5 years,Daily,Very good
+Jun-26,46,Participant did task version 1 instead of version 2,,,03-23-2010,8,male,Canada,Y,Y,C,Y,Y,Y,N,N,N,Canada,English,Bachelor's Degree,Pharmacy Assistant ,Canada,English,Some college,Nuclear Operator ,Y,Y,First Person,2-5 years,Weekly,Moderately good
+Jun-26,47,Participant did task version 1 instead of version 2,,,03-23-2010,8,male,Canada,Y,N,C,Y,Y,Y,N,N,N,Canada,English,Bachelor's Degree,Pharmacy Assistant ,Canada,English,Some college,Nuclear Operator ,Y,Y,First Person,2-5 years,Weekly,Moderately good
+Jun-26,48,,,,10-28-2005,12,male,Canada,N,N,V,Y,Y,N,N,N,N,Canada,English,Bachelor's Degree,N/A,N/A,N/A,N/A,N/A,Y,Y,First Person,5-10 years,Weekly,Very good
+Jun-26,49,,,,10-28-2005,12,male,Canada,N,N,V,Y,Y,N,N,N,N,Canada,English,Bachelor's Degree,N/A,N/A,N/A,N/A,N/A,Y,Y,First Person,5-10 years,Weekly,Very good
+Jun-26,50,,,,06-05-2005,13,male,Canada,N,N,V,Y,Y,N,N,N,N,Canada,English,Bachelor's Degree,Hairstylist ,Canada,English,Some college,Master Electrician ,Y,Y,First Person,5-10 years,Daily,Moderately good
+Jun-26,51,,,,01-24-2005,13,male,Canada,N,N,C,Y,Y,N,N,N,N,Jamaica,English ,Bachelor's Degree,HR Manager ,N/A,N/A,N/A,N/A,Y,Y,First/Third Person,5-10 years,Daily,Very good
+Jun-26,52,,,,03-24-2007,11,male,Jamaica ,N,N,V,Y,Y,N,N,Y,Y,Canada ,English,Bachelor's Degree,Engineer,N/A,N/A,N/A,N/A,Y,Y,First Person,5-10 years,Weekly,Very good
+Jun-26,53,,,,03-28-2006,12,female,Canada,N,N,V,Y,Y,N,N,N,N,N/A,N/A,N/A,N/A,Canada,English,Bachelor's Degree,Engineer,Y,N,Third Person,5-10 years,Once a month,Moderately good
+Jun-27,54,,,,01-08-2008,10,female ,Canada,N,N,V,Y,Y,N,N,N,N,Canada,English ,Bachelor's Degree,Teacher,Ireland ,English,Some college,Plumber ,Y,Y,First Person,2-5 years ,Daily,Very good
+Jun-27,55,,,,10-12-2009,8,female,Canada,N,N,V,Y,Y,N,N,Y,Y,Canada,English ,Bachelor's Degree,Student ,Canada,English,Some college,Military ,Y,N,First Person,N/A,Once a month,Not Skilled 
+Jun-27,56,,,,09-12-2007,11,female,Canada,Y,N,C,Y,Y,N,N,Y,Y,United Kingdom ,English/French ,Graduate or Professional Degree,Politician,Canada,English,High School,N/A,Y,Y,First Person,2-5 years ,Weekly,Very good
+Jun-27,57,,,,09-26-2007,11,female,Canada ,N,N,V,Y,N,N,N,N,N,Canada ,English ,Bachelor's Degree,Health Care Provider ,N/A,N/A,N/A,N/A,Y,Y,Third Person,2-5 years ,Weekly,Moderately good
+Jun-27,58,,,,03-10-2007,11,female,Canada ,Y,N,V,Y,Y,N,N,N,N,Canada,English ,Some college or college diploma,Payroll ,N/A,N/A,N/A,N/A ,N,N,N/A,N/A,N/A,N/A
+Jun-27,59,,,,01-27-2008,10,male,Canada ,N,N,C,Y,N,N,N,N,N,Canada ,English ,Some college or college diploma,N/A,N/A,N/A,N/A,N/A,Y,Y,First Person,1 year,Once a month,Not very skilled
+Jun-27,60,,,,08-02-2008,9,female,Canada ,N,N,V,Y,Y,N,N,N,N,Canada ,English ,Graduate or Professional Degree,Realtor ,Canada,English,Graduate or Professional Degree,Game Artist ,Y,Y,Third Person,2-5 years ,Weekly,Moderately good
+Jun-27,62,,,,03-06-2008,10,male,Canada ,N,N,V,Y,Y,N,N,N,N,South Africa ,English,Graduate or Professional Degree,Accountant ,N/A,N/A,N/A,N/A,Y,Y,First Person,2-5 years ,Weekly,Very good
+Jun-27,63,Participant started to aimlessly press buttons during trial 2,,,10-24-2009,9,male,Canada ,N,N,V,N,Y,N,N,N,N,Canada ,English ,Graduate or Professional Degree,Homemaker ,Canada,English,Graduate or Professional Degree,Transit Operator ,Y,Y,First Person,2-5 years ,Daily,Moderately good
+Jun-27,64,,,,12-30-2007,10,male,Canada ,Y,Y,V,Y,Y,N,N,N,N,Canada ,English ,Some college or college diploma,CEO,Canada,English,Graduate or Professional Degree,CEO,Y,Y,First Person,2-5 years ,Weekly,Moderately good
+Jun-27,65,Participant was not fluent in English ,,,12-27-2004,10,male,Russia,N,N,V,Y,Y,N,N,N,N,Russia,Russian,Bachelor's Degree,Lawyer ,Russia,Russian ,Graduate or Professional Degree,Engineer,Y,Y,Third Person,2-5 years ,Daily,Moderately good
+Jun-27,66,,,,12-07-2007,10,female,Canada ,N,N,V,Y,Y,N,N,N,N,Canada ,English/French ,Graduate or Professional Degree,Surgeon,Canada,English,Some college or college diploma,Youth Pastor ,Y,N,First Person,N/A,Less than once a year ,Not Skilled 
+Jun-27,67,,,,06-17-2010,8,female,Canada ,N,Y,V,Y,Y,N,N,N,N,USA,English,Some college or college diploma,Nurse ,Canada ,English and French,Some college or college diploma,Carpenter ,Y,Y,Third Person,2-5 years ,Weekly,Moderately good
+Jun-27,68,,,,05-13-2007,11,female,Canada ,N,N,V,Y,Y,N,N,N,N,USA,English,Some college or college diploma,Nurse ,Canada ,English and French,Some college or college diploma,Carpenter ,Y,Y,Third Person,2-5 years ,Weekly,Moderately good
+Jul-08,69,Participant completed only Part 1/2 of the task and wasn't paying attention (clicking aimlessly almost) during the task.,,,01-17-2011,7,female,Canada,N,N,V,Y,Y,N,N,N,N,Canada,,Bachelor's Degree,Commercial Producer,Canada,,Bachelor's degree,Sales Executive,Y,Y,Third Person,2-5 years,Daily,Not very skilled
+Jul-08,70,,,,11-04-2002,15,female,Canada,N,N,C,Y,Y,N,N,N,N,Canada,English,Bachelor's Degree,Teacher,Canada,English,Graduate or Professional degree,School Superintendent,Y,Y,Third Person,5-10 years,Daily,Very good
+Jul-08,71,,,,03-29-2010,8,female,Canada,N,N,C,N,Y,N,N,N,N,Canada,English,Some college or college diploma,Early Childhood Educator,Canada,English,Some college or college diploma,Paramedic,Y,Y,First Person,1 year,Daily,Moderately good
+Jul-08,72,,,,10-10-2009,8,male,Canada,N,N,V,N,Y,N,N,N,N,Canada,French and English,Bachelor's Degree,Systems Analyst,Canada,English,Graduate or Professional degree,"CPA, Public Accountant",Y,Y,First Person,2-5 years,Daily,Moderately good
+Jul-08,73,,,,02-15-2004,14,male,Brazil,N,N,C,Y,Y,N,N,N,N,Brazil,"Portuguese, English and French",Graduate or Professional Degree,Physician,Brazil,"Portuguese, English, French and Spanish",Graduate or Professional degree,Physician,Y,Y,Third Person,More than 10 years,Daily,Very good
+Jul-08,74,,,,05-03-2005,13,male,Canada,N,N,V,N,Y,N,N,N,N,Bahamas,English and French,Bachelor's Degree,Philanthropy Executive,Canada,English and French,Graduate or Professional degree,Scientist,Y,Y,First/Third Person,5-10 years,Daily,Moderately good
+Jul-08,75,,,,10-08-2011,6,male,Canada,N,N,V,Y,Y,N,N,N,N,Canada,English,Some college or college diploma,Admin Assistant,India,English,Some college or college diploma,IT,Y,Y,First Person,2-5 years,Weekly,Moderately good
+Jul-08,76,,,,12-10-2004,13,female,China,N,N,C,Y,Y,N,N,N,N,China,,Graduate or Professional Degree,Electrical and Computer Engineering,China,,Graduate or Professional degree,Software,Y,Y,First Person,5-10 years,Once a month,Not very skilled
+Jul-22,77,Participant 077 only completed one trial,,,03-09-2010,8,male,Canada,N,N,C,Y,Y,N,N,N,N,Canada,English,Bachelor's Degree,,China,English,Bachelor's degree,Manager,Y,Y,First/Third Person,2-5 years,Weekly,Not very skilled
+Jul-22,78,,,,03-17-2010,8,female,Canada,N,N,V,Y,Y,N,N,N,N,Canada,English,High school graduate,mother,USA,English,Some college or college diploma,pipefitter,Y,Y,First Person,2-5 years,Weekly,Moderately good
+Jul-22,79,,,,01-15-2007,11,female,Canada,N,N,C,Y,N,N,N,N,N,Canada,English,High school graduate,,USA,English,Some college or college diploma,,Y,Y,First Person,2-5 years,Weekly,Moderately good
+Jul-22,80,,,,09-29-2010,7,male,Canada,N,N,V,Y,Y,N,N,N,N,Canada,English,Graduate or Professional Degree,Minister,USA,English,High school graduate,Mechanic,Y,Y,First/Third Person,2-5 years,Daily,Moderately good
+Jul-22,81,,,,02-02-2010,8,male,Canada,N,N,V,Y,Y,N,N,N,N,Canada,English and Punjabi,Some college or college diploma,,Canada,English and Punjabi,High school graduate,,Y,Y,First Person,2-5 years,Weekly,Not very skilled
+Jul-22,82,,,,07-16-2008,10,male,Canada,N,N,V,Y,Y,N,N,N,N,Canada,English and French,Some college or college diploma,Corporate Social Responsibility,Canada,English,N/A,Business owner,Y,Y,Third Person,5-10 years,Daily,Moderately good
+Jul-22,83,,,,10-24-2008,9,male ,Canada,N,N,V,Y,Y,N,N,N,N,Canada,,Some college or college diploma,Banking,Canada,,Some college or college diploma,Manufacturing,Y,Y,First Person,2-5 years,Daily,Very good
+Jul-22,84,,,,01-14-2005,13,female,Canada,N,N,V,Y,Y,N,N,N,N,Canada,,Some college or college diploma,Banking,Canada,,Some college or college diploma,Manufacturing,Y,N,First Person,5-10 years,Once a month,Not very skilled
+Jul-22,85,,,,05-24-2006,12,female,Canada,N,N,V,N,Y,N,N,N,N,Canada,English,High school graduate,Restoration,N/A,N/A,N/A,N/A,Y,Y,First Person,5-10 years,Weekly,Moderately good
+Jul-22,86,,,,03-30-2008,10,female ,Canada,N,N,V,Y,Y,N,N,N,N,Canada,English,Graduate or Professional Degree,Outdoor Education Program Director,Canada,English and French,Graduate or Professional degree,Director at Right to Play,Y,Y,Third Person,2-5 years,Weekly,Moderately good
+Jul-22,87,,,,04-21-2005,13,female,Canada,N,N,V,Y,Y,N,N,N,N,Canada,English,Graduate or Professional Degree,Outdoor Education Program Director,Canada,English and French,Graduate or Professional degree,Director at Right to Play,Y,Y,Third Person,5-10 years,Weekly,Moderately good
+Jul-22,88,,,,02-27-2008,10,male,Canada,Y,N,V,Y,Y,N,N,N,N,China,Chinese and English,Some college or college diploma,,China,Chinese and English,Some college or college diploma,,Y,N,Third Person,N/A,N/A,Not skilled
+Jul-22,89,,,,01-12-2009,9,female,Canada,N,N,V,Y,Y,N,Y,Y,Y,Canada,English,Bachelor's Degree,Consultant,Canada,English,Bachelor's degree,Student,Y,Y,Third Person,1 year,Daily,Very good
+Jul-22,90,,,,12-27-2004,13,male,Canada,N,Y,V,Y,Y,N,Y,N,Y,Canada,English,Bachelor's Degree,Consultant,Canada,English,Bachelor's degree,Student,Y,Y,First Person,2-5 years,Daily,Very good
+Jul-22,91,,,,07-13-2010,8,male,Canada,N,N,V,Y,Y,N,N,N,N,Bermuda,English,Graduate or Professional Degree,Lawyer,Canada,English,Graduate or Professional degree,Chiropractor,Y,Y,First Person,5-10 years,Daily,Moderately good
+Jul-22,92,,,,05-22-2008,10,male,Canada,N,N,V,Y,Y,N,N,N,N,Bermuda,English,Graduate or Professional Degree,Lawyer,Canada,English,Graduate or Professional degree,Chiropractor,Y,Y,First Person,5-10 years,Daily,Moderately good
+Jul-22,93,,,,03-09-2008,10,male,United Kingdom,N,N,V,Y,Y,N,N,N,N,United Kingdom,English,Graduate or Professional Degree,Family Outreach Support Worker,N/A,N/A,N/A,N/A,Y,Y,Third Person,2-5 years,Daily,Moderately good
+Jul-29,99,,,,08-03-2007,10,male,USA,N,N,C,Y,Y,N,N,N,N,USA,English and French,Graduate or Professional Degree,Performance Improvement Consultant,Germany,English and German,Graduate or Professional degree,Chief Medical Officer,Y,Y,First/Third Person,2-5 years,Weekly,Moderately good
+Jul-29,100,,,,12-09-2003,14,female,Canada,N,N,V,Y,Y,N,N,N,N,Canada,English and Italian,Bachelor's Degree,Financial Analyst,Canada,English and Italian,Some college or college diploma,Mechanical Engineer,Y,Y,Third Person,5-10 years,Once a month,Moderately good
+Jul-29,101,,,,03-16-2007,11,female ,Canada,Y,N,V,N,Y,N,Y,N,Y,Canada,English and Italian,Bachelor's Degree,Financial Analyst,Canada,English and Italian,Some college or college diploma,Mechanical Engineer,Y,Y,Third Person,5-10 years,Once a month,Moderately good
+Jul-29,102,,,,09-26-2007,10,female,USA,N,N,V,Y,Y,N,N,N,N,USA,English,Bachelor's Degree,Teacher,USA,English,Bachelor's degree,Architect,Y,Y,First Person,2-5 years,Once a month,Moderately good
+Jul-29,103,,,,05-08-2005,13,male,USA,N,N,V,Y,N,N,N,N,N,USA,English,Bachelor's Degree,Teacher,USA,English,Bachelor's degree,Architect,Y,Y,Third Person,2-5 years,Weekly,Very good
+Jul-30,104,,,,07-10-2009,9,male,Canada ,N,Y,V,Y,Y,N,N,N,N,Hong Kong,Chinese and English,Graduate or Professional Degree,Occupational Therapist ,N/A,N/A,N/A,N/A,Y,Y,First/Third Person,1 year ,Weekly ,Moderately good
+Jul-30,105,"Data is shown as ""Task_2018_Jul_30_1100"" in data folder",,,10-06-2009,8,male,United Kingdom,N,N,C,Y,Y,N,N,N,N,South Africa ,Afrikaans/English,Graduate or Professional Degree,Physiotherapist ,N/A,N/A,N/A,N/A,Y,Y,Third Person,2-5 years ,Weekly ,Moderately good
+Jul-30,106,,,,08-10-2004,13,male,Norway,N,N,V,N,Y,N,N,N,N,Canada ,English,Graduate or Professional Degree,Teacher,Canada ,English,Graduate or Professional Degree,Teacher,Y,Y,Third Person,5-10 years ,Daily,Moderately good
+Jul-30,107,,,,09-20-2006,11,female ,China,N,N,C,N,Y,N,N,N,N,Canada ,English,Graduate or Professional Degree,Teacher,Canada ,English,Graduate or Professional Degree,Teacher,Y,Y,Third Person,5-10 years ,Daily,Moderately good
+Jul-30,108,,,,02-22-2010,8,female ,USA,N,N,C,Y,Y,N,N,N,N,United Kingdom,English ,Graduate or Professional Degree,N/A,Canada ,English,Graduate or Professional Degree,N/A,Y,Y,Third Person,2-5 years ,Weekly,Not very skilled
+Jul-30,109,,,,09-24-2009,8,female ,Canada ,Y,N,V,Y,Y,N,N,N,N,Canada,English ,No High School Diploma ,House Wife ,N/A,N/A,N/A,N/A,Y,Y,Third Person,1 year ,Weekly,Very good
+Jul-30,110,Participant only completed one trial,,,07-09-2012,6,female ,Canada,N,N,V,Y,Y,N,N,N,N,Canada ,English ,Bachelor's Degree,Nurse ,Canada ,English ,Some college or college diploma,Teacher's Aid,Y,Y,Third Person,1 year ,Weekly ,Moderately good
+Jul-30,111,,,,01-05-2003,15,female ,Taiwan,N,N,C,N,Y,N,N,N,N,USA,Mandarin and English,Graduate or Professional Degree,CEO,USA,Mandarin and English,Graduate or Professional Degree,Engineer ,Y,Y,First Person,1 year ,Weekly ,Moderately good
+Jul-30,112,,,,02-07-2011,7,male ,USA,N,N,V,Y,Y,N,N,N,N,USA,Mandarin and English,Graduate or Professional Degree,CEO,USA,Mandarin and English,Graduate or Professional Degree,Engineer ,Y,Y,First Person,1 year ,Weekly ,Moderately good
+Jul-30,113,Participant only completed one trial,,,07-13-2011,7,female ,Canada ,N,N,V,Y,Y,N,N,N,N,United Kingdom,English,Graduate or Professional Degree,Home Maker ,Canada ,English ,Some college or college diploma,Account Executive ,N,N,N/A,N/A,N/A,N/A
+Jul-30,114,,,,12-17-2006,11,female ,Canada ,N,N,V,N,Y,N,N,N,N,Canada ,English/French ,Graduate or Professional Degree,N/A,N/A,N/A,N/A,N/A,Y,Y,Third Person,5-10 years ,Once a month,Moderately good
+Jul-30,115,,,,08-12-2008,9,female,USA,N,N,V,Y,Y,N,N,N,N,USA ,English/French ,Graduate or Professional Degree,N/A,USA ,English/French/Spanish,Bachelors Degree,N/A,Y,Y,Third Person,5-10 years ,Weekly,Moderately good
+Jul-30,116,,,,03-02-2008,10,male,Canada ,N,N,C,N,Y,N,N,N,N,Germany,English/German/French,Bachelor's Degree,Art Manager ,Canada,English ,Some college or college diploma,Sales Director ,Y,Y,First Person,2-5 years ,Daily,Very good
+Jul-30,117,,,,10-17-2010,7,male,Canada ,Y,N,V,Y,Y,N,N,N,N,Canada ,Chinese and English,Bachelor's Degree,Researcher ,N/A,N/A,N/A,N/A,Y,Y,First/Third Person,2-5 years ,Daily,Moderately good
+Jul-30,118,,,,12-22-2009,8,female,Canada ,N,N,V,Y,Y,N,N,N,N,Iran,Persian,Bachelor's Degree,House Wife ,Canada,English,Graduate or Professional Degree,Finance,Y,Y,First/Third Person,2-5 years ,Daily,Moderately good
+Jul-30,119,,,,01-14-2010,8,female ,Canada ,N,N,V,Y,Y,N,N,N,N,Iran,Farsi,Graduate or Professional Degree,Doctor ,Iran,Farsi,Graduate or Professional Degree,Engineer ,Y,Y,First Person,1 year ,Daily,Moderately good
+Aug-12,120,,,,07-19-2004,14,male,Canada,N,Y,V,Y,Y,N,N,N,N,China,Mandarin,Bachelor's degree,,China,Mandarin,Bachelor's degree,,Y,Y,First Person,2-5 years,Daily,Moderately good
+Aug-12,121,,,,05-30-2006,12,male,USA,N,N,V,Y,Y,N,N,N,N,USA,English,Some college or college diploma,Security Alarm/Installation Manager,,,,,Y,Y,First Person,2-5 years,Daily,Very good
+Aug-12,122,,,,01-02-2007,11,male,Lebanon,N,N,C,Y,Y,N,N,N,N,Lebanon,"English, French and Arabic",Graduate or Professional Degree,Teacher,Lebanon,English and Arabic,Some college or college diploma,Product Manager,Y,Y,First Person,2-5 years,Daily,Very good
+Aug-12,123,"Participant 123 had a cast on right hand but was able to use it, but preferred to do the task with left hand only.",,,05-24-2011,7,female,Canada,N,N,V,Y,Y,N,N,N,N,Canada,English,Graduate or Professional Degree,Consultant,Canada,English ,Some college or college diploma,Management,N,N,N/A,N/A,N/A,N/A
+Aug-12,124,,,,09-09-2005,12,male,Canada,N,N,V,Y,Y,N,N,N,N,India,"English, Hindi and Punjabi",Bachelor's degree,Merchandiese Handler,India,"English, Hindi and Punjabi",Bachelor's degree,Owner operator,Y,Y,First Person,2-5 years,Daily,Moderately good
+Aug-13,125,,,,12-10-2006,11,male,Canada,N,N,V,Y,Y,N,N,N,N,Jamaica,English,Bachelor's degree,Entrepreneur,N/A,N/A,N/A,N/A,Y,Y,First Person,2-5 years ,Daily,Very good
+Aug-13,126,,,,02-27-2006,12,male,Canada ,N,N,V,Y,Y,N,N,N,N,Canada ,English ,Some college or college diploma,Security Officer ,Canada,English,Some college or college diploma,College Coach ,Y,Y,Third Person,2-5 years ,Daily,Very good
+Aug-13,127,,,,08-04-2009,9,male,Canada ,N,N,V,Y,Y,N,N,N,N,Canada ,English ,Some college or college diploma,Security Officer ,Canada,English,Some college or college diploma,College Coach ,Y,Y,Third Person,2-5 years ,Daily,Very good
+Aug-13,128,,,,06-04-2007,11,female,Canada ,N,N,V,Y,Y,N,N,N,N,Iran,Persian,Bachelor's degree,School Bus Driver ,Iran,Persian,Some college or college diploma,Construction Worker ,Y,Y,Third Person,1 year,Daily,Moderately good
+Aug-13,129,,,,10-18-2006,11,male,Canada ,N,N,C,Y,Y,N,N,N,N,Canada ,English,Graduate or Professional Degree,Teacher ,Canada,English ,Some college or college diploma,Millwright ,Y,Y,First/Third Person,5-10 years ,Daily,Very good
+Aug-13,130,,,,09-08-2009,9,female,Canada ,N,N,V,Y,Y,N,N,N,N,Iran,Farsi,Bachelor's degree,N/A,Iran,Farsi,Some college or college diploma,N/A,Y,Y,First Person,1 year ,Daily,Very good
+Aug-13,131,,,,04-22-2009,9,male,Canada ,N,N,V,Y,Y,N,N,N,N,Canada ,English/French ,High school graduate,Waitress ,Canada,English/French/Greek,High School Graduate ,Technician ,Y,Y,First Person,2-5 years ,Daily,Not very skilled
+Aug-13,132,,,,09-21-2009,8,female,Canada ,N,N,V,Y,Y,N,N,N,N,Philippines,Misaya/English,Some college or college diploma,Care Aid,Canada ,English ,Some college or college diploma,Power Generation ,Y,Y,First Person,2-5 years ,Daily,Very good
+Aug-13,133,,,,11-29-2006,11,female,Canada ,N,N,V,Y,Y,N,N,N,N,Philippines,Misaya/English,Some college or college diploma,Care Aid,Canada ,English ,Some college or college diploma,Power Generation ,Y,Y,First Person,2-5 years ,Daily,Very good
+Aug-13,134,,,,09-05-2007,10,male,Canada ,N,N,V,Y,Y,N,N,N,N,China,Chinese,Bachelor's degree,N/A,N/A,N/A,N/A,N/A,Y,Y,Third Person,5-10 years ,Daily,Moderately good
+Aug-13,135,,,,04-16-2011,7,female,Canada ,N,N,V,Y,Y,N,N,N,N,Canada ,English,Graduate or Professional Degree,VP of HR,England ,English ,Some college or college diploma,Director Communication,Y,Y,Third Person,2-5 years ,Once a month,Moderately good
+Aug-13,136,,,,11-06-2007,10,male,Canada ,N,Y,V,Y,Y,N,N,N,N,Canada ,English ,Bachelor's degree,Event Coordinator ,Canada,English ,Graduate or Professional Degree,Accountant ,Y,Y,Third Person,2-5 years ,Daily,Moderately good
+Aug-20,137,,,,07-13-2007,11,male,Canada,N,N,C,Y,Y,N,N,N,N,China,Mandarin,Graduate or Professional Degree,Accountant ,China,Mandarin,Graduate or Professional Degree,IT Specialist,Y,Y,First/Third Person,2-5 years ,Weekly,Moderately good
+Aug-20,138,,,,01-25-2012,6,male,Canada,N,N,V,Y,Y,N,N,N,N,China,Mandarin,Graduate or Professional Degree,Accountant ,China,Mandarin,Graduate or Professional Degree,IT Specialist,Y,Y,First/Third Person,2-5 years ,Weekly,Moderately good
+Aug-20,139,,,,05-18-2010,8,female,Canada,N,N,V,Y,Y,N,N,N,N,Canada ,English ,Graduate or Professional Degree,Social Worker,Canada ,English ,Graduate or Professional Degree,Teacher,Y,Y,Third Person,2-5 years,Weekly,Not very skilled
+Aug-27,140,,,,05-20-2010,8,female,Canada,N,N,C,Y,Y,N,N,N,N,Trinidad,English,High school graduate,House Mom,Trinidad,English,Graduate or Professional Degree,Accountant ,Y,Y,First Person,5-10 years ,Weekly,Moderately good
+Aug-27,141,,,,12-04-2007,10,male,Canada ,Y,N,C,Y,Y,N,N,N,N,Trinidad,English,High school graduate,House Mom,Trinidad,English,Graduate or Professional Degree,Accountant ,Y,Y,Third Person,5-10 years ,Weekly,Very good
+Aug-27,142,Participant only completed one trial ,,,12-01-2011,6,female,Canada ,N,N,V,N,Y,N,N,N,N,Canada ,English ,Bachelor's degree,House Mom,United Kingdom,English,Bachelor's degree,Engineer,Y,Y,Third Person,6 months,Once a month,Moderately good
+Aug-27,143,,,,12-07-2010,7,female,Canada ,Y,N,V,Y,Y,N,N,N,N,Canada ,English ,Some college or college diploma,Support Worker ,Canada,English ,High School Graduate ,Transit Operator ,Y,Y,First Person,1 year ,Weekly ,Moderately good
+Aug-27,144,,,,07-16-2011,7,male,Canada ,N,N,V,Y,Y,N,N,N,N,Canada ,English ,Some college or college diploma,Book Keeper ,Canada ,English ,High School Graduate ,Sales,Y,Y,First Person,2-5 years,Daily,Moderately good
+Aug-27,145,,,,04-02-2007,11,female,Canada ,N,N,V,Y,Y,N,N,N,N,Poland,Polish/English,Bachelor's degree,Engineer ,N/A,N/A,N/A,N/A,Y,Y,First Person,2-5 years ,Daily,Very good
+Aug-27,146,,,,02-10-2009,9,female,Canada ,N,N,V,Y,Y,N,N,N,N,Columbia,Spanish/English ,High school graduate,Bus Driver ,N/A,N/A,N/A,N/A,Y,Y,First Person,1 year ,Daily,Moderately good
+Aug-27,147,,,,01-10-2010,8,male,USA,N,N,V,Y,Y,N,N,N,N,USA ,English ,Graduate or Professional Degree,Therapist ,N/A,N/A,N/A,N/A,Y,Y,First Person,2-5 years ,Daily,Moderately good
+Aug-27,148,,,,11-08-2010,7,male,USA,N,N,V,Y,Y,N,N,N,N,USA,English ,Graduate or Professional Degree,Therapist ,N/A,N/A,N/A,N/A,Y,Y,First Person,2-5 years ,Weekly ,Moderately good
+Nov-18,149,Did not have earphone on for half of study ,,,12-02-2007,10,female,Canada,N,N,V,Y,Y,N,N,N,N,Canada,English,Graduate or Professional Degree,Real estate broker,Canada,English,Graduate or Professional Degree,Lawyer,Y,Y,N/A,1 year,Daily,Moderately good
+Nov-18,150,,,,10-11-2010,8,male,Canada,Y,Y,C,Y,Y,N,Y,N,Y,Vietnam,English/Vietnamese/French ,Graduate or Professional Degree,Public servant,Australia,English,High School Graduate ,Stay at home dad,Y,Y,First Person,2-5 years ,Once a month,Moderately good
+Nov-18,151,Not wearing headphones/family talking around her /Got distracted for a minute half way through ,,,06-02-2012,6,female ,Canada,N,N,V,Y,Y,N,N,N,N,Canada,English,Graduate or Professional Degree,Teacher,Canada,English,Graduate or Professional Degree,Lawyer,Y,Y,Third Person,2-5 years ,Weekly ,N/A
+Nov-18,152,At the beginning did not understand what to do but caught on in middle of part 1,,,03-28-2012,6,female,Canada,N,N,C,Y,Y,N,N,N,N,Canada,French/English ,Bachelor's degree,Consultant IT,Canada ,French/English ,Bachelor's degree,Supervisor IT,Y,N,Third Person,2-5 years ,Once a month,Not skilled
+Nov-18,153,,,,12-29-2005,12,female ,Canada,N,N,C,Y,Y,N,N,N,N,Canada,English ,High school graduate,N/A,Canada,English/French ,Graduate or Professional Degree,Pilot ,Y,Y,First/Third Person,2-5 years ,Weekly ,Moderately good
+Nov-18,154,,,,06-29-2007,11,female,Canada,N,N,V,Y,Y,N,N,N,N,Canada,English,High school graduate,Auto body ,Canada,English ,Some college or college diploma,Trade,Y,Y,First Person,2-5 years ,Once a month,Not very skilled
+Nov-18,155,,,,05-12-2006,12,female ,Canada,Y,N,V,Y,Y,N,N,N,N,Canada,English ,Bachelor's degree,Stay at home,Canada,English ,Bachelor's degree,Developer ,Y,Y,Third Person,5-10 years ,Daily,Moderately good
+Nov-18,156,,,,01-08-2010,8,female,Canada,Y,N,V,Y,Y,N,N,N,N,Canada ,English ,Bachelor's degree,Stay at home,Canada,English ,Bachelor's degree,Developer ,Y,Y,Third Person,5-10 years ,Daily,Moderately good
+Nov-18,157,,,,03/272010,8,male,Canada,N,N,V,Y,Y,N,N,N,N,Russia,Russian ,No High School Diploma ,N/A,N/A,N/A,N/A,N/A,N,N,N/A,N/A,N/A,N/A
+Nov-18,158,Did not input the age and id number/was a little confused/ waste a minute to reexplain ,,,01-12-2008,10,female,Canada,N,N,V,Y,Y,N,N,N,N,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Y,Y,First Person,2-5 years ,Weekly ,Not very skilled
+Nov-18,159,,,,09-07-2006,12,female ,Canada,N,N,V,Y,Y,N,N,N,N,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Y,Y,First Person,2-5 years ,Weekly ,Not very skilled
+Nov-18,160,,,,01-11-2011,7,male,Canada,N,N,V,Y,Y,N,N,N,N,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Y,Y,Third Person,2-5 years,Weekly ,Moderately good
+Nov-18,161,,,,09-01-2010,8,male,Canada,N,N,V,Y,Y,N,N,N,N,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Y,N,First Person,2-5 years ,Once a month,Not very skilled
+Nov-18,162,got confused and frustrated with the instructios/ was going to stop after part one / took off the headphone for the part 2/ got distracted by her friends ,,,10-19-2007,11,female,Canada,Y,N,V,Y,Y,N,N,N,N,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Y,Y,First Person,1 year,once every 6 months,Moderately good
+Nov-18,163,,,,10-19-2009,9,female ,Canada ,N,N,V,Y,Y,N,N,Y,Y,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Y,N,First Person,1 year ,Once a month,Not skilled 
+Nov-18,164,,,,10-02-2007,11,male ,Canada ,N,N,V,Y,Y,N,N,N,N,India,N/A,Graduate or Professional Degree,N/A,N/A,N/A,Graduate or Professional Degree,Senior customs officer,Y,Y,First Person,2-5 years ,Weekly ,Very good
+Nov-18,165,,,,02-04-2010,8,male,Canada,N,N,V,Y,Y,N,N,N,N,India,N/A,Graduate or Professional Degree,N/A,N/A,N/A,Graduate or Professional Degree,Senior customs officer,Y,Y,First Person,2-5 years ,Weekly ,Very good
+Nov-18,166,,,,07-09-2010,8,female ,Canada,N,N,V,Y,Y,N,N,N,N,Canada,English,Some college or college diploma,Law clerk ,Canada ,English ,Some college or college diploma,IT Analyst ,Y,Y,First Person,6 months ,Daily,Moderately good
+Nov-18,167,,,,04-17-2010,11,male ,USA,N,N,N/A,Y,Y,N,N,N,N,USA ,English ,Bachelor's degree,Buyer,Israel ,English ,Bachelor's degree,Cheif,Y,Y,First Person,2-5 years,Daily,Moderately good
+Nov-18,168,,,,12-25-2011,6,female,USA,N,N,C,Y,Y,N,N,N,N,USA ,English ,Bachelor's degree,Buyer,Israel ,English ,Bachelor's degree,Cheif,N,N,N/A,N/A,N/A,N/A
+Nov-18,169,,,,02-16-2012,6,female,Canada,Y,Y,C,Y,Y,N,N,N,N,Canada ,English ,Bachelor's degree,Director ,Canada,English,High School Graduate ,Chef,N,N,N/A,N/A,N/A,N/A
+Nov-25,170,Signed by her grandparent ,,,08-09-2007,11,female,Canada,N,N,V,Y,Y,N,N,N,N,Canada,English ,Some college or college diploma,Production Lead (Graphic design),N/A,N/A,N/A,N/A,Y,N,N/A,2-5 years ,N/A,N/A
+Nov-25,171,,,,09-16-2011,7,female,Canada,N,N,V,Y,Y,N,N,N,N,Canada,English/French ,Graduate or Professional Degree,Psycologist ,Canada ,English/Urdu/Gujrati,Bachelor's degree,Finance ,N,N,N/A,N/A,N/A,N/A
+Nov-25,172,,,,N/A,11,male,N/A,N,N,V,N,Y,N,N,N,N,Canada,French/English ,Bachelor's degree,Engineer ,Canada,N/A,Graduate or Professional Degree,Lawyer,Y,Y,First Person,2-5 years ,Weekly ,Very good
+Nov-25,173,,,,01-30-2009,11,female,Canada,N,N,C,Y,Y,N,N,N,N,China ,Mandarine/ English ,Graduate or Professional Degree,house maker,China,Mandarine/English ,Graduate or Professional Degree,investment manager,Y,Y,Third Person,6 months,Weekly ,Moderately good
+Nov-25,174,,,,12-15-2010,7,male,Canada,N,N,C,Y,Y,N,N,N,N,England,English,Some college or college diploma,IT,Venezuela ,Spanish/English ,Graduate or Professional Degree,Product Manager,Y,Y,Third Person,2-5 years ,Daily,Moderately good
+Nov-25,175,,,,N/A,10,male ,China,N,N,V,Y,Y,N,N,N,N,China,Chinese /English ,Graduate or Professional Degree,Dental Hggiene,China,Chinese/English ,Graduate or Professional Degree,Nurse,Y,N,N/A,N/A,N/A,N/A
+Nov-25,176,,,,08-26-2003,15,female,USA,Y,N,V,N,Y,N,N,N,N,USA,English ,Some college or college diploma,Vet tech ,USA,English ,Graduate or Professional Degree,Engineer,Y,Y,First/Third Person,More than 10 years,Daily,Moderately good
+Nov-25,177,,,,03-24-2012,6,male,Canada,N,N,V,N,N,N,N,N,N,Argantina,Spanish/English ,Graduate or Professional Degree,IT,Argantina,Spanish/English ,Some college or college diploma,Millwright ,Y,Y,Third Person,1 year,Once a month,Not skilled 
+Nov-25,178,,,,07-19-2010,8,male,Canada,N,N,V,Y,Y,N,N,Y,Y,Argantina,Spanish/English ,Graduate or Professional Degree,IT,Argantina,Spanish/English ,Some college or college diploma,Millwright ,Y,Y,Third Person,1 year,Once a month,Not very skilled
+Nov-25,179,,,,05-11-2009,9,male,Canada,N,N,V,Y,Y,N,N,N,N,China,Mandarine,Bachelor's degree,N/A,China,Mandarine ,Bachelor's degree,Assembler,Y,N,N/A,N/A,Once a month,Not very skilled 
+Nov-25,180,,,,03-25-2009,9,female,Canada,N,N,V,Y,Y,N,N,N,N,Canada,English,Some college or college diploma,Stay at home,Canada,English,Graduate or Professional Degree,Finance,Y,Y,First Person,2-5 years,Weekly,Moderately good
+Nov-25,181,,,,05-07-2010,9,male,Canada,N,N,C,Y,Y,N,N,N,N,China,English/Chinese,Graduate or Professional Degree,House wife ,Canada,English,Bachelor's degree,IT manager ,Y,Y,First Person,2-5 years,Weekly,Moderately good
+Nov-25,182,,,,08-26-2010,9,female,Canada,N,N,V,N,Y,N,N,N,N,Canada,English,Bachelors Degree,Teacher,Canada,English,Some college or college diploma,Cad Technician,Y,Y,Third Person,2-5 years,Weekly,Not very skilled 
+Nov-25,183,,,,09-29-2008,11,male,Canada,N,N,V,N,Y,N,Y,Y,Y,Canada ,English,Bachelors Degree,Teacher,Canada,English,some college or college diploma,Cad Technician,Y,Y,Third Person,2-5 years,Weekly,Moderately good
+Nov-25,184,,,,11-02-2005,14,female,Canada,N,N,V,Y,Y,N,N,Y,Y,Puerto Rico,Spanish/English/French,Graduate or Professional Degree,Web Designer ,Chile,Spanish/English/French,some college or college diploma,Tech Support ,Y,Y,First Person,2-5 years,Weekly ,Moderately good
+Nov-25,185,,,,12-19-2009,9,female,Canada,N,N,V,Y,Y,N,N,N,N,Puerto Rico,Spanish/English/French,Graduate or Professional Degree,Web Designer ,Chile,Spanish/English/French,Some college or college diploma,Tech Support ,Y,Y,Third Person,2-5 years,Weekly,Very good 
+Nov-25,186,,,,06-04-2012,6,male,Canada,N,N,V,Y,Y,N,N,N,N,China,English/Mandarin,Bachelors Degree,N/A,N/A,N/A,N/A,N/A,N,N,N/A,N/A,N/A,N/A
+Nov-25,187,,,,11-25-2009,9,female,Canada,N,Y,C,Y,Y,Y,N,N,N,Canada,English/French ,Bachelors Degree,Digital Marketer ,Canada,English,Some college or college diploma,Graphic Designer,Y,Y,Third Person,1 Year,Once a month,Not very skilled 
+Nov-25,188,,,,08-06-2010,9,female,Canada,Y,Y,V,Y,Y,N,N,N,N,Canada,English,Some college or college diploma,Machinist,Canada,English,N/A,ODSP,Y,Y,First/Third Person,2-5 year,Daily,Moderately good
+Nov-25,189,,,,08-13-2007,11,male,Canda,N,N,C,Y,Y,N,N,N,N,Vietnam,"Vietnamese, Catonese, English",some,N/A,Vietnam,"Vietnamese, Cantonese, English",Some college or college diploma,N/A,Y,Y,First/Third Person,5-10 years,Daily ,Moderately good
+Nov-25,190,,,,06-12-2010,10,male,USA,N,N,V,Y,Y,N,N,N,N,Vietnam,"English, Vietnamese",Graduate or Professional Degree,Software Manager,Vietnam,"English, Vietnamese",Graduate or Professional Degree,Teacher ,Y,Y,First/Third Person,2-5 years,Weekly,Moderately good
+Dec-02,191,,,,09-19-2007,11,male,Canada,N,N,V,Y,Y,N,N,Y,Y,Canada,English,Some college or college diploma,Stay at home,,,,,Y,Y,Third Person,2-5 years,Daily,Moderately good
+Dec-02,192,,,,08-01-2009,9,female,Canada,N,N,V,Y,Y,N,N,N,N,Canada,English,Some college or college diploma,N/A,,,,,Y,Y,Third Person,2-5 years ,Weekly,Moderately good
+Dec-02,194,,,,07-07-2009,9,male,Canada,Y,N,C,Y,Y,N,N,Y,Y,Canada,English,Bachelors Degree,Legal Assistant ,Scotland,English,Some college or college diploma,IT,Y,Y,First/Third Person,2-5 years ,Daily,Moderately good
+Dec-02,195,,,,05-22-2006,12,male,Canada,N,N,V,Y,Y,N,N,N,N,Canada,"English, French",Graduate or Professional Degree,Teacher,Canada,English,Some college or college diploma,Manager,Y,Y,First/Third Person,2-5 years ,Daily,Very good 
+Dec-02,196,,,,08-29-2008,11,male,Canada,N,N,V,Y,Y,N,N,N,N,Ukraine,"Russian, English",Graduate or Professional Degree,Computer Engineer,Russia,"Russian, English",Graduate or professional degree,Computer Engineer,Y,Y,First/ Third Person,2-5 years,Daily ,Very good 
+Dec-02,197,,,,10-18-2011,7,male,Canada,N,N,V,Y,Y,N,N,Y,Y,Israel ,Hebrew/English ,Bachelors Degree,Designer,Canada,"English, French",Graduate or professional degree,Scientist,Y,Y,Third Person,2-5 years,Weekly,Moderately good
+Dec-02,198,,,,N/A/N/A/2007,11,female,Canada,N,N,V,N,Y,N,N,N,N,China,Chinese,Bachelors Degree,Systems,Canada,English,Bachelors Degree,systems ,Y,Y,First Person,5-10 years,Daily,Moderately good
+Dec-02,199,,,,12-04-2008,10,female,China,N,N,C,Y,Y,N,N,N,N,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Y,Y,First Person,1 year,Daily,Moderately good
+Dec-02,200,,,,08-09-2008,10,female,Canada,Y,N,C,Y,Y,N,N,N,N,China,Mandarin,Bachelor's degree,Doctor,China,Mandarin,Bachelors Degree,Engineer ,Y,Y,Third Person,5-10 years ,Weekly ,Moderately good
+Dec-02,201,,,,06-08-2010,9,female,Canada,Y,N,V,Y,Y,N,N,N,N,Canada,English,Some college or college diploma,N/A,Canada,English,Some college or college diploma,N/A,Y,Y,First Person,2-5 years,Daily,Very good
+Dec-02,202,,,,08-07-2005,14,male,Canada,N/A,Y,C,Y,Y,N,N,N/A,N,Canada,English,Graduate or Professional Degree,Catering,Canada,English,Bachelors Degree,Self-employed,Y,Y,N/A,5-10 years,Weekly,Moderately good
+Dec-02,203,,,,20-11-2009,9,male,Canada,N,N,C,Y,Y,N,N,N,N,Canada,English,Graduate or Professional Degree,Catering,Canada,English,Bachelors Degree,Self-employed,Y,Y,First Person,2-5 years,Weekly ,Moderately good
+Dec-02,204,,,,N/A/08/2007,11,female,China,N,N,C,Y,Y,N,N,N,N,China,English,Bachelors Degree,N/A,China,English,Bachelors Degree,IT,Y,Y,N/A,6 months,Weekly,Not applicable 
+Dec-02,205,,,,07-27-2012,12,male,Canada,Y,N,V,Y,Y,N,N,N,N,Mexico,Spanish/English,Bachelor Degree,Teacher,Pakistan,Urdu/English,Some college or college diploma,Bus Operator,Y,N,Third Person,6 months,Once a month,Not very skilled 
+Dec-02,206,,,,02-05-2007,11,female,Canada,Y,N,V,N,Y,N,N,N,N,Mexico,Spanish/English,Bachelor's degree,Teacher,Pakistan,Urdu/English,Some college or college diploma,Bus Operator ,Y,N,Third Person,6 months ,Once a month ,Not very skilled 
+Dec-02,207,,,,09-23-2009,9,female,Canada,N,N,V,Y,Y,N,N,N,N,Latvia,English/Russian,Bachelor's Degree,Facility Management ,Latvia ,English/Russian,Bachelors Degree,IT,Y,Y,First Person,2-5 Years ,Once a month,Moderately good
+Dec-02,208,,,,03-16-2011,8,male,Canada,N,N,V,Y,Y,N,N,N,N,Latvia,English/Russian,Bachelors Degree,Facility Management ,Latvia ,English/Russian,Bachelors Degree,IT,Y,Y,First/ Third Person,2-5 years ,Once a month,Moderately good
+Dec-02,209,,,,10-22-2012,6,male,Canada,N,N,V,Y,Y,N,N,N,N,Pakistan,Urdu/English,Graduate or Professional Degree,Housewife,Pakistan,Urdu/English,Graduate or Professional Degree,Banker,Y,Y,First Person,1 year,Daily,Very good
+Dec-09,210,,,,09-07-2012,12,female,Canada,Y,N,V,Y,Y,N,N,N,N,Canada,English/French ,Bachelors Degree,Finance,Canada,English,Graduate or professional degree,Medical Research,Y,N,Third Person,2-5 years,Once a month,Not very skilled 
+Dec-09,211,,,,08-17-2008,10,female,Canada,Y,Y,C,N,Y,N,N,N,N,Ukraine,Ukranian/English ,Bachelors Degree,Bus Architect,Ukraine,English/Ukranian,Graduate or professional degree,Financial Analyst,Y,Y,First Person,2-5 years,Weekly ,Not very skilled 
+Dec-09,212,,,,08-18-2008,10,female,Canada,Y,Y,C,N,Y,N,N,N,N,Ukraine,Ukranian/English ,Bachelors Degree,Bus Architect,Ukraine,English/Ukranian,Graduate or professional degree,Financial Analyst,Y,Y,First Person,2-5 years,Weekly ,Not very skilled 
+Dec-09,213,,,,08-17-2008,10,male,Canada,Y,Y,C,Y,Y,N,N,Y,Y,Ukraine,Ukranian/English ,Bachelors Degree,Bus Architect,Ukraine,English/Ukranian,Graduate or professional degree,Financial Analyst,Y,Y,First Person,2-5 years ,Weekly ,Not very skilled 
+Dec-09,214,,,,04-09-2008,10,male,Canada,N,N,V,Y,Y,N,N,N,N,Canada,N/A,Bachelors Degree,Creative Director ,Canada,N/A,Graduate or professional degree,Manager,Y,Y,First Person,2-5 years,Weeklyh,Moderately good
+Dec-09,215,,,,10-30-2007,11,male,Canada,N,Y,C,Y,Y,N,N,Y,Y,Canada,French/English ,N/A,Hair Dresser ,Canada,N/A,Some college or college diploma,Coach Mechanic ,Y,Y,First Person,5-10 years ,Weekly ,Very good 
+Dec-09,219,,,,10-24-2011,8,female,Canada,N,N,V,Y,Y,N,N,N,N,Canada,French/English ,Graduate or Professional Degree,Archivist,Canada,English,Graduate or professional degree,CPA Accountant,Y,Y,Third Person,2/5 years,Weekly,Moderately good
+Dec-09,220,,,,01-12-2006,13,female,Canada,N,N,V,Y,Y,N,N,N,N,Canada,English,Some college or college diploma,Systems Implementation Specialist ,Canada,English,Some college or college diploma,Technologist,Y,Y,First Person,1 year,Weekly,Moderately good
+Dec-09,221,,,,11-20-2010,9,female,Canada,N,N,V,N,N,N,N,N,N,Canada,N/A,Some college or college diploma,Systems Implementation Specialist ,Canada,English,Some college or college diploma,Technologist,Y,Y,First Person,1 year,Weekly,Moderately good
+Dec-09,222,,,,10-29-2008,10,female,Canada,N,N,C,Y,Y,N,N,N,N,Philippines,English/Tagaloy,Some college or college diploma,Manufacturing ,Philippines,English/Tagaloy,Some college or college diploma,Technician,Y,Y,First Person,5-10 years,Weekly,Moderately good
+Dec-09,223,,,,10-29-2008,10,female,Canada,N,N,C,Y,Y,N,N,N,N,Philippines,English/Tagaloy,Some college or college diploma,Manufacturing ,Philippines,English/Tagaloy,Some college or college diploma,Technician,Y,Y,First Person,5-10 years,Weekly,Moderately good
+Dec-09,224,,,,11-01-2003,16,female,Canada,N,N,V,Y,Y,N,N,N,N,N/A,Student,N/A,N/A,N/A,N/A,N/A,N/A,Y,Y,First Person,2-5 years,Daily,Not skilled 
+Dec-09,225,,,,06-18-2003,16,female,Canada,Y,N,C,Y,Y,N,N,N,N,N/A,Student,N/A,N/A,N/A,N/A,N/A,N/A,Y,N,First Person,5-10 years,once every 6 months,Moderately good
+Dec-09,226,,,,08-06-2007,11,female ,Canada,N,N,V,Y,Y,N,N,N,N,N/A,English,Bachelor's Degree,IT,N/A,English,Bachelors Degree,Lab Tech,Y,Y,First Person,2-5 years,Weekly,Moderately good
+Dec-09,227,,,,06-29-2006,13,female,Canada,N,N,V,N,Y,N,N,N,N,Trinidad,English,Some college or college diploma,Technologist ,Philippines,English/Tagaloy,some college or college diploma,Admin ,Y,Y,First/third Person,5-10 years ,Daily,Very good 
+Dec-09,228,,,,06-09-2011,8,female,Canada,N,N,V,Y,Y,N,N,N,N,USA,English,Bachelors Degree,N/A,Canada,English,Bachelors Degree,N/A,N,N,N/A,Not applicable,Not applicable,Not applicable 
+Dec-09,229,,,,11-08-2009,9,female,Canada,N,N,V,Y,Y,N,N,N,N,USA,English,Bachelors Degree,N/A,Canda,English,Bachelors Degree,N/A,N,N,N/A,Not applicable,Not applicable,Not applicable 
+Dec-09,230,,,,12-21-2010,9,female ,Canada,N,N,C,Y,Y,N,N,N,N,Philippines,Tagacog/Ilocano/English ,some college or college diploma/bachelors degree,Nanny,N/A,N/A,N/A,N/A,Y,N,N/A,N/A,Less than once a year ,Not applicable 
+Dec-09,231,,,,02-02-2008,10,male ,Canada,N,N,C,Y,Y,N,N,N,N,Canada,English,Bachelors Degree,Teacher ,USA,English,Bachelors Degree,Planner ,Y,Y,First/Third Person,2-5 years,Daily,Very good 
+Dec-09,232,,,,12-04-2009,9,male ,Canada,N,N,C,Y,Y,N,N,N,N,Canada,English,Bachelors Degree,Teacher ,USA,English,Bachelors Degree,Planner ,Y,Y, First/Third Person,2-5 years ,Daily,Very good 
+Dec-09,233,,,,04-05-2006,13,male ,Canada,N,N,V,Y,Y,N,N,N,N,Colombia,Spanish,Graduate or Professional Degree,Industrial Engineer,Spain,Spanish,Graduate or professional degree,Industrial Engineer ,Y,N,First Person,5-10 years ,Once a month,Moderately good
+Dec-09,234,,,,05-07-2009,9,male ,Canada,N,N,V,Y,Y,N,N,N,N,Spain ,Spanish,Graduate or Professional Degree,Industrial Engineer,Colombia,Spanish,Graduate or professional degree,Industrial Engineer ,Y,Y,First Person,2-5 years ,Weekly ,Moderately good
+Dec-16,235,,,,07-15-2011,8,female ,Canada,N,N,V,Y,Y,N,N,N,N,Brazil,Portuguese/English,Graduate or Professional Degree,Officer ,Brazil,N/A,GRaduate or professional degree,Manager ,Y,Y,First Person,2-5 years ,Weekly,Moderately good
+Dec-16,236,,,,N/A/N/A/2008,10,male ,Russia,N,N,V,Y,Y,N,N,N,N,Russia ,Russian,Graduate or Professional Degree,N/A,Russia,English/Russian,Graduate or professional degree,Consultant ,Y,Y,Third Person,6 months ,Weekly ,Not very skilled 
+Dec-16,237,,,,12-05-2008,10,female ,Canada,N,N,V,Y,Y,N,N,N,N,Canada,English,Bachelors Degree,Financial Assistant ,Canada,English,Bachelors Degree,Food Safety Inspector ,N,N,N/A,N/A,N/A,N/A
+Dec-16,238,,,,01-18-2002,16,female ,Brazil,N,N,C,Y,Y,N,N,N,N,Brazil,Portuguese,Bachelors Degree,Government Employed ,Brazil,Portugese,High school graduate ,Business,N,N,First Person,5-10 years ,Once a month,Moderately good
+Dec-16,239,,,,03-13-2007,11,female ,Canada,N,N,C,Y,Y,N,N,N,N,USA,English,Some college or college diploma,Forensic Video Analyst ,Canada,English ,Bachelors Degree,Bank Manager ,Y,Y,First Person,2-5 years ,Weekly ,Moderately good
+Dec-16,240,,,,08-01-2009,9,male ,Canada,Y,Y,C,Y,Y,N,N,N,N,USA,English ,Some college or college diploma,Forensic Video Analyst ,Canada,English,Bachelors Degree,Bank Manager ,Y,Y,First Person,2-5 years ,Daily ,Very good 
+Dec-16,241,,,,11-02-2011,8,female ,Romania ,Y,Y,V,Y,Y,N,N,N,N,Romania,Romanian/English,Bachelors Degree,Finance ,Romania,Romanian/English,Bachelors Degree,Surveyor ,Y,N,N/A,Not applicable,Once a month,Not very skilled 
+Dec-16,243,,,,10-21-2011,8,female ,Canada,N,N,V,Y,Y,N,N,N,N,Canada,English ,Graduate or Professional Degree,Teacher ,Canada,English ,Graduate or professional degree,Engineer ,Y,Y,Third Person,1 year,Weekly,Moderately good
+Dec-16,244,,,,10-26-2011,8,male ,Canada,N,N,C,Y,Y,N,N,N,N,N/A,N/A,N/A,N/A,Hong Kong ,English/Cantonese/Mandarin,Bachelors Degree,N/A,Y,N,Third Person,Not applicable,Once a month,Moderately good
+Dec-16,245,,,,08-19-2007,11,male ,Canada,N,N,V,Y,Y,N,N,N,N,India,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Y,Y,First Person,1 year ,Weekly,Moderately good
+Dec-16,246,,,,07-10-2011,8,male ,Canada,N,Y,V,Y,Y,N,N,N,N,Canada,English/French/Hebrew,Bachelors Degree,Teacher ,USA,English ,Bachelors Degree,Sales,Y,Y,Third Person,1 year,Weekly,Moderately good
+Dec-16,247,,,,07-10-2011,8,male,Canada,N,Y,V,Y,Y,N,N,N,N,Canada,English/French/Hebrew,Bachelors Degree,Teacher ,USA,English ,Bachelors Degree,Sales,Y,Y,Third Person,1 year,Weekly,Moderately good
+Dec-16,248,,,,06-29-2007,11,male ,Canada,N,N,V,Y,Y,N,N,N,N,Canada,English/French/Hebrew,Bachelors Degree,Teacher ,USA,English ,Bachelors Degree,Sales,Y,Y,Third Person,2-5 year,Daily ,Very good 
+Dec-16,249,,,,03-31-2007,11,female,Canada,N,N,V,Y,Y,N,N,N,N,Canada,English,Some college or college diploma,ECE,South Africa,English,Some college or college diploma,Renovation,Y,Y,Third Person,2-5 years,once every 6 months,Not very skilled
+Dec-16,250,,,,08-17-2008,10,male ,Canada,N,N,V,Y,Y,N,N,N,N,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Y,Y,Third Person,2-5 years ,once every 6 months,Very good 
+Dec-23,251,,,,06-17-2007,11,female ,Canada,N,N,V,Y,Y,N,N,N,N,Canada,English,Graduate or Professional Degree,Lawyer ,Canada,English,Graduate or professional degree,Doctor ,Y,Y,Third Person,5-10 years ,Daily ,Moderately good
+Dec-23,252,,,,07-08-2009,9,male ,Canada,N,N,V,Y,Y,N,N,N,N,Canada,English ,High school graduate/some college or college diploma,Home maker ,Canada,English ,High school graduate/some college or college diploma,Labourer ,Y,Y,Third Person,2-5 years ,Weekly,Very good 
+Dec-23,253,,,,11/N/A/2012,7,female ,Canada,N,N,V,Y,Y,N,N,N,N,Canada,English ,Graduate or Professional Degree,Accountant ,Canada,English ,Some college or college diploma/graduate or professional degree,IT,N,N,N/A,N/A,N/A,N/A
+Dec-23,254,,,,10-15-2003,16,male ,Canada,N,N,V,N,Y,N,N,N,N,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Y,Y,First Person,5-10 years ,Daily ,Very good 
+Dec-23,255,,,,01-27-2009,9,male ,Peru,N,N,V,Y,Y,N,N,N,N,Peru ,Spanish/English,Graduate or Professional Degree,Medical Assistant ,Peru,Spanish/English/French/Italian/Portuguese,Graduate or professional degree,Medical Assistant ,Y,Y,First Person,2-5 years ,Daily ,Moderately good
+Dec-23,256,,,,05-27-2010,9,female ,Canada,N,N,V,Y,Y,N,N,N,N,Peru ,Spanish/English ,Graduate or Professional Degree,Medical Assistant ,Peru,Spanish/English/French/Italian/Portuguese,Graduate or professional degree,Medical Assistant ,Y,Y,First Person,1 year ,Weekly ,Moderately good
 Jan 13. 2019,257,,,,04-21-2009,9,female ,Canada,N,N,V,Y,Y,N,N,N,N,Canada,English ,some college or college diploma,Office Manager ,Canada,English ,Some college or college diploma,GIS,Y,Y,First/Third Person,5-10 years ,Daily ,Moderately good
 Jan 13. 2019,258,,,,03-05-2007,11,female ,Canada,N,N,C,Y,Y,N,N,N,N,Canada,English ,Graduate or Professional Degree,Writer ,Canada,English ,Bachelors Degree,Housing ,Y,N,First Person,2-5 years ,Once a month ,Not very skilled 
 Jan 13. 2019,259,,,,09-04-2012,7,female ,Canada,N,N,V,Y,Y,N,N,N,N,Canada,English ,Some college or college diploma,Sales,Canada,English ,Some college or college diploma ,Restaurant ,Y,Y,First Person,1 year ,Weekly ,Moderately good
@@ -315,10 +315,10 @@ Feb 10. 2019,326,,,,07-30-2011,8,female ,Canada,N,N,C,Y,Y,N,N,N,N,Canada,English
 Feb 10. 2019,327,,,,09-16-2011,8,male ,France ,N,N,V,Y,Y,N,N,N,N,France ,French/English ,Bachelors Degree,Teacher,France ,French/English ,Bachelors Degree,Educational Assistant ,Y,Y,Third Person,2-5 years ,Once a month ,Not very skilled 
 Feb 10. 2019,328,,,,05-23-2009,10,male ,France ,N,N,V,Y,Y,N,N,N,N,France ,French,High school graduate,Teacher,France ,French,High school graduate,Analyst,Y,N,Third Person,1 year ,Once a month,Moderately good
 Feb 10. 2019,329,,,,05-29-2007,11,female ,Canada,N,N,V,Y,Y,N,N,N,N,Canada,N/A,Some college or college diploma,Court officer ,Canada,N/A,Some college or college diploma,Collection Manager ,Y,Y,First Person,1 year ,Daily,Moderately good
-Feb 10. 2019,330,,,,11-09-2008,11,female ,Canada,N,N,V,Y,Y,N,N,N,N,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+Feb 10. 2019,330,,,,11-09-2008,11,female ,Canada,N,N,V,Y,Y,N,N,N,N,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N,N,N/A,N/A,N/A,N/A
 Feb 10. 2019,331,,,,11-12-2008,11,female ,Canada,N,N,V,Y,Y,N,N,N,N,China,Mandarin/English/French,Graduate or Professional Degree,Pharmaceutical Formulation Scientist ,N/A,N/A,N/A,N/A,Y,Y,Third Person,5-10 years ,Daily ,Very good 
 Feb 10. 2019,332,,,,05-20-2012,7,male ,Canada,N,N,V,Y,Y,N,N,N,N,Hong Kong,Cantonese/English,Bachelors Degree,Teacher ,Canada,Cantonese/English/French,Bachelors Degree,Sales/Marketing ,Y,Y,First Person,1 year ,Weekly ,Moderately good
-Feb 10. 2019,333,,,,01-19-2007,11,male ,Canada,Y,Y,C,Y,Y,N,N,Y,Y,Canada,English ,Some college or college diploma,Nurse,Canada,English/French ,Bachelors Degree,Teacher ,Y,N/A,N/A,2-5 years ,Daily ,Very good 
+Feb 10. 2019,333,,,,01-19-2007,11,male ,Canada,Y,Y,C,Y,Y,N,N,Y,Y,Canada,English ,Some college or college diploma,Nurse,Canada,English/French ,Bachelors Degree,Teacher ,Y,N,N/A,2-5 years ,Daily ,Very good 
 Feb 10. 2019,334,,,,05-14-2007,11,female ,Canada,N,N,V,Y,Y,N,N,N,N,Canada,English ,Bachelors Degree,Teacher ,Canada,English ,Bachelors Degree,Landlord ,Y,Y,First/Third Person,5-10 years ,Daily ,Moderately good
 Feb 10. 2019,335,,,,01-19-2007,11,female ,Canada,Y,Y,C,Y,Y,N,N,N,N,Canada,English ,Some college or college diploma ,Registered Nurse ,Canada,English ,Bachelors Degree,Teacher ,Y,Y,First Person,5-10 years ,Daily ,Very good 
 Feb 10. 2019,336,,,,12-21-2004,15,female ,Canada,N,N,V,Y,Y,N,N,N,N,Canada,English ,Bachelors Degree,Teacher ,Canada,English ,Bachelors Degree,Landlord ,Y,Y,First Person,5-10 years ,Daily ,Not very skilled 
@@ -353,667 +353,3 @@ Feb 10. 2019,343,,,,11-14-2010,9,male ,Israel,N,N,V,Y,Y,N,N,N,N,Russia ,Russian/
 "Feb 24, 2019",365,,,,08-02-2009,10,male ,Serbia,N,N,V,Y,Y,N,N,N,N,Serbia,Serbian/English,Graduate or professional degree,English Teacher ,Serbia ,Serbian/English ,High school graduate ,Cartoonist ,Y,Y,First Person,2-5 years ,Daily ,Very good 
 "Feb 24, 2019",366,,,,11-13-2012,7,male ,N/A,N,N,V,Y,Y,N,N,N,N,Serbia ,Serbian/English,Graduate or professional degree,English Teacher ,Serbia ,Serbian/English ,High school graduate ,Cartoonist ,Y,Y,First Person,2-5 years ,Daily ,Moderately good 
 "Feb 24, 2019",367,,,,09-27-2010,9,female ,Brazil,N,N,C,Y,Y,N,N,N,N,Brazil,Portugese,Graduate or professional degree,Dentist,Brazil,Portugese,Bachelors Degree,Admin,Y,Y,Third Person,6 months ,Once a month,Not very skilled 
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
