@@ -2,17 +2,50 @@
 title: "Data_Analysis_OSC"
 author: "Aarthi Ravi"
 date: "08/06/2021"
-output: html_document
+output: 
+    pdf_document:
+        toc: true
+        toc_depth: 5
+        number_sections: true
+        highlight: tango
+
+knit: (
+  function(inputFile, encoding) { 
+    
+    pOutputName = "OverallAnalysis_Revised"
+    
+    pOutputSrc = "P1B" 
+    
+    pDate = format(Sys.time(), '%Y-%m-%d-%Z_%H_%M')
+    
+    pFileName <- paste(pOutputName,pOutputSrc, pDate, sep = "-") 
+
+    rmarkdown::render( 
+      input       = inputFile, 
+      encoding    = encoding, 
+      params      = list(sub_title = pSubTitle),
+      output_dir = paste(dirname(inputFile), "Output", sep = "/"),      
+      output_file =  pFileName)
+  })
 ---
 
-```{r setup, include=FALSE}
+```{r setup}
+require("knitr")
 knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(tidy.opts=list(width.cutoff=50),tidy=TRUE)
 ```
 
-We need to start working soon! Its too gloomy outside.
-
-<<<<<<< HEAD
-=======
-### you can type
-### type
->>>>>>> 9e991639e58fc683807c8d1a1cf0f895c6a350c2
+```{r Libraries}
+library(data.table)
+library(tidyverse)
+library(magrittr)
+library(lavaan)
+library(car)
+library(tidySEM)
+library(gridExtra)
+library(equatiomatic)
+library(psych)
+library(gridExtra)
+library(forecast)
+library(lmtest)
+```
