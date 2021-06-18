@@ -10,7 +10,7 @@ knitr::opts_chunk$set(echo = TRUE)
 knitr::opts_chunk$set(tidy.opts=list(width.cutoff=50),tidy=TRUE)
 ```
 
-```{r Libraries}
+```{r,`results = FALSE`}
 library(data.table)
 library(tidyverse)
 library(magrittr)
