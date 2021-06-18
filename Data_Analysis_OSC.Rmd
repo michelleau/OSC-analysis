@@ -1,34 +1,9 @@
 ---
-title: "Data_Analysis_OSC"
+title: "OSC_Data_Analysis"
 author: "Aarthi Ravi"
-date: "08/06/2021"
-output: 
-    pdf_document:
-        toc: true
-        toc_depth: 5
-        number_sections: true
-        highlight: tango
-
-knit: (
-  function(inputFile, encoding) { 
-    
-    pOutputName = "OverallAnalysis_Revised"
-    
-    pOutputSrc = "P1B" 
-    
-    pDate = format(Sys.time(), '%Y-%m-%d-%Z_%H_%M')
-    
-    pFileName <- paste(pOutputName,pOutputSrc, pDate, sep = "-") 
-
-    rmarkdown::render( 
-      input       = inputFile, 
-      encoding    = encoding, 
-      params      = list(sub_title = pSubTitle),
-      output_dir = paste(dirname(inputFile), "Output", sep = "/"),      
-      output_file =  pFileName)
-  })
+date: "18/06/2021"
+output: html_document
 ---
-
 ```{r setup}
 require("knitr")
 knitr::opts_chunk$set(echo = TRUE)
@@ -46,6 +21,7 @@ library(gridExtra)
 library(equatiomatic)
 library(psych)
 library(gridExtra)
+library(car)
 ```
 
 # Descriptives/ Preliminary Analyses
