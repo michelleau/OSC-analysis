@@ -8,9 +8,7 @@ output: html_document
 require("knitr")
 knitr::opts_chunk$set(echo = TRUE)
 knitr::opts_chunk$set(tidy.opts=list(width.cutoff=50),tidy=TRUE)
-```
 
-```{r,`results = FALSE`}
 library(data.table)
 library(tidyverse)
 library(magrittr)
@@ -27,8 +25,9 @@ library(car)
 # Descriptives/ Preliminary Analyses
 
 ```{r data}
-data <- read.csv ("OSC_data.csv")
-data1 <- select (data, ID, AGE,GENDER,BIRTH_EXP,PSYC_DIS,COG_DIS, DIS, PLAY_GAME)
+data <- read.csv ("OSC_cleaned.csv")
+View (data)
+data1 <- select (data, ID, AGE,GENDER,BIRTH_EXP,PSYC_DIS,COG_DIS, DIS, PLAY_GAME, REAC_TIME, ACCURACY)
 View (data1)
 summary (data1)
 describe (data1)
@@ -49,25 +48,42 @@ d11 <- filter (data1, PLAY_GAME == "Y")
 number_group <- c(nrow(d1),nrow(d2),nrow(d3),nrow(d4),nrow(d5),nrow(d6),nrow(d7),
                   nrow(d8),nrow(d9),nrow(d10),nrow(d11))
 part_demographics <- data.frame(cbind(nrow(d1),nrow(d2),nrow(d3),nrow(d4),nrow(d5),nrow(d6),nrow(d7),nrow(d8),nrow(d9),nrow(d10),nrow(d11)))
+
 names (part_demographics) <- c("Age_Group1 (6 to 8 yrs)", "Age_Group2 (9 to 11 yrs)", "Age_Group3 (12< yrs)", "Gender_Male","Gender_Female", "Vaginally_born", "C-section_born", "Psych_Dis", "Cog_dis", "Gen_dis", "Video_gameplay")
+
+
 kable (part_demographics)
-
-
-  
-
-
-
-
 
 ```
 
-# Filter 
-Age groups (3)
-F M
-V C
-PSY 
-COG
-DIS
-Game
+# Data Distribution Plots
+```{r plots}
+# Normal Distribution
 
+shapiro.test(data1$REAC_TIME)
+shapiro.test(data1$ACCURACY)
+hist (data1$REAC_TIME)
+hist(data1$ACCURACY)
+aq.plot()
+
+
+
+ks.test(data1$REAC_TIME, "pnorm", mean=mean(data1$REAC_TIME), sd=sd(data1$REAC_TIME))
+??mshapiro.test
+install.packages("mvnormtest")
+
+```
+
+# Correlation check
+```{r cor}
+cor.test (data1$REAC_TIME, data1$ACCURACY, method = "pearson")
+plot (data1$ACCURACY~data1$REAC_TIME)
+```
+
+There is a positive weak correlation , r = 0.4, between Reaction Time and Accuracy in trials. 
+
+# MANOVA
+```{r MANOVA}
+
+```
 
