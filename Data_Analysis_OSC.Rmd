@@ -20,6 +20,7 @@ library(equatiomatic)
 library(psych)
 library(gridExtra)
 library(car)
+
 ```
 
 # Descriptives/ Preliminary Analyses
@@ -53,25 +54,43 @@ names (part_demographics) <- c("Age_Group1 (6 to 8 yrs)", "Age_Group2 (9 to 11 y
 
 
 kable (part_demographics)
+```
+# Creating Factors
+```{r Factors}
+# Creating factors
+data1$AGE_GROUPS <- factor(data1$AGE)
+data1$AGE_GROUPS <- data1$AGE
+data1$AGE_GROUPS[which(data1$AGE < 9)]<- "1"
+data1$AGE_GROUPS[which(data1$AGE<12 & data1$AGE>8)]<- "2"
+data1$AGE_GROUPS[which(data1$AGE > 11)]<- "3"
 
+data1$AGE_GROUPS <- as.factor (data1$AGE_GROUPS)
+data1$BIRTH_EXP <- as.factor (data1$BIRTH_EXP)
+data1$GENDER <- as.factor(data1$GENDER)
 ```
 
 # Data Distribution Plots
 ```{r plots}
 # Normal Distribution
 
-shapiro.test(data1$REAC_TIME)
+shapiro.test(d2$REAC_TIME)
 shapiro.test(data1$ACCURACY)
+shapiro.test(d2$AGE)
 hist (data1$REAC_TIME)
 hist(data1$ACCURACY)
-aq.plot()
+hist(data1$AGE)
 
+# Boxplot distribution for Age Groups
+boxplot (data1$REAC_TIME~data1$AGE_GROUPS)
+boxplot (data1$ACCURACY~ data1$AGE_GROUPS)
 
+# Boxplot distribution for Birth Experience Groups
+boxplot (data1$REAC_TIME~data1$BIRTH_EXP)
+boxplot (data1$ACCURACY~data1$BIRTH_EXP)
 
-ks.test(data1$REAC_TIME, "pnorm", mean=mean(data1$REAC_TIME), sd=sd(data1$REAC_TIME))
-??mshapiro.test
-install.packages("mvnormtest")
-
+# Boxplot distribution for Gender
+boxplot (data1$REAC_TIME~data1$GENDER)
+boxplot (data1$ACCURACY~data1$GENDER)
 ```
 
 # Correlation check
