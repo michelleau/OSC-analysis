@@ -20,7 +20,6 @@ library(equatiomatic)
 library(psych)
 library(gridExtra)
 library(ggplot2)
-
 ```
 
 # Descriptives/ Preliminary Analyses
@@ -55,6 +54,7 @@ names (part_demographics) <- c("Age_Group1 (6 to 8 yrs)", "Age_Group2 (9 to 11 y
 
 kable (part_demographics)
 ```
+
 # Creating Factors
 ```{r Factors}
 # Creating factors
@@ -92,7 +92,7 @@ boxplot (data1$REAC_TIME~data1$BIRTH_EXP)
 boxplot (data1$ACCURACY~data1$BIRTH_EXP)
 
 qplot(AGE_GROUPS, REAC_TIME, data=data1, fill = BIRTH_EXP, geom = 'boxplot', main = "Mixed ANOVA")
-
+qplot(AGE_GROUPS, ACCURACY, data=data1, fill = BIRTH_EXP, geom = 'boxplot', main = "Mixed ANOVA")
 
 # Boxplot distribution for Gender
 boxplot (data1$REAC_TIME~data1$GENDER)
@@ -106,9 +106,12 @@ boxplot (data1$ACCURACY~data1$GENDER)
 ```{r cor}
 cor.test (data1$REAC_TIME, data1$ACCURACY, method = "pearson")
 plot (data1$ACCURACY~data1$REAC_TIME)
+
+chisq.test(data1$BIRTH_EXP, data1$DIS, correct = FALSE)
 ```
 
 There is a positive weak correlation , r = 0.4, between Reaction Time and Accuracy in trials. 
+
 
 #TWO-WAY ANOVA
 ```{r ANOVA}
