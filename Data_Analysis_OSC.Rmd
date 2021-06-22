@@ -19,7 +19,7 @@ library(gridExtra)
 library(equatiomatic)
 library(psych)
 library(gridExtra)
-library(car)
+library(ggplot2)
 
 ```
 
@@ -50,7 +50,7 @@ number_group <- c(nrow(d1),nrow(d2),nrow(d3),nrow(d4),nrow(d5),nrow(d6),nrow(d7)
                   nrow(d8),nrow(d9),nrow(d10),nrow(d11))
 part_demographics <- data.frame(cbind(nrow(d1),nrow(d2),nrow(d3),nrow(d4),nrow(d5),nrow(d6),nrow(d7),nrow(d8),nrow(d9),nrow(d10),nrow(d11)))
 
-names (part_demographics) <- c("Age_Group1 (6 to 8 yrs)", "Age_Group2 (9 to 11 yrs)", "Age_Group3 (12< yrs)", "Gender_Male","Gender_Female", "Vaginally_born", "C-section_born", "Psych_Dis", "Cog_dis", "Gen_dis", "Video_gameplay")
+names (part_demographics) <- c("Age_Group1 (6 to 8 yrs)", "Age_Group2 (9 to 11 yrs)", "Age_Group3 (12< yrs)", "Gender_Male","Gender_Female", "Vaginally_born", "C-sec_born", "Psych_Dis", "Cog_dis", "Gen_dis", "Video_gameplay")
 
 
 kable (part_demographics)
@@ -81,16 +81,25 @@ hist(data1$ACCURACY)
 hist(data1$AGE)
 
 # Boxplot distribution for Age Groups
+boxplot (data1$REAC_TIME~data1$AGE)
 boxplot (data1$REAC_TIME~data1$AGE_GROUPS)
+
+boxplot (data1$ACCURACY~ data1$AGE)
 boxplot (data1$ACCURACY~ data1$AGE_GROUPS)
 
 # Boxplot distribution for Birth Experience Groups
 boxplot (data1$REAC_TIME~data1$BIRTH_EXP)
 boxplot (data1$ACCURACY~data1$BIRTH_EXP)
 
+qplot(AGE_GROUPS, REAC_TIME, data=data1, fill = BIRTH_EXP, geom = 'boxplot', main = "Mixed ANOVA")
+
+
 # Boxplot distribution for Gender
 boxplot (data1$REAC_TIME~data1$GENDER)
 boxplot (data1$ACCURACY~data1$GENDER)
+
+
+
 ```
 
 # Correlation check
@@ -100,6 +109,17 @@ plot (data1$ACCURACY~data1$REAC_TIME)
 ```
 
 There is a positive weak correlation , r = 0.4, between Reaction Time and Accuracy in trials. 
+
+#TWO-WAY ANOVA
+```{r ANOVA}
+# IV- Birth Experience and Age Groups, DV - Reaction Time
+
+
+# IV- Birth Experience and Age Groups, DV - Accuracy
+
+
+```
+
 
 # MANOVA
 ```{r MANOVA}
