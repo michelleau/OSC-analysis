@@ -25,7 +25,7 @@ library(ggplot2)
 # Descriptives/ Preliminary Analyses
 
 ```{r data}
-data <- read.csv ("OSC_cleaned.csv")
+data <- read.csv ("OSC_cleaned_ct.csv")
 View (data)
 data1 <- select (data, ID, AGE,GENDER,BIRTH_EXP,PSYC_DIS,COG_DIS, DIS, PLAY_GAME, REAC_TIME, ACCURACY)
 View (data1)
