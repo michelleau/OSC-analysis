@@ -1,9 +1,10 @@
 ---
-title: "OSC_Data_Analysis"
+title: "OSC_Analysis_CorrectTrials"
 author: "Aarthi Ravi"
-date: "18/06/2021"
+date: "13/07/2021"
 output: html_document
 ---
+
 ```{r setup}
 require("knitr")
 knitr::opts_chunk$set(echo = TRUE)
@@ -25,7 +26,7 @@ library(ggplot2)
 # Descriptives/ Preliminary Analyses
 
 ```{r data}
-data <- read.csv ("OSC_cleaned.csv")
+data <- read.csv ("OSC_cleaned_ct.csv")
 View (data)
 data1 <- select (data, ID, AGE,GENDER,BIRTH_EXP,PSYC_DIS,COG_DIS, DIS, PLAY_GAME, REAC_TIME, ACCURACY)
 View (data1)
@@ -67,7 +68,6 @@ data1$AGE_GROUPS[which(data1$AGE > 11)]<- "3"
 data1$AGE_GROUPS <- as.factor (data1$AGE_GROUPS)
 data1$BIRTH_EXP <- as.factor (data1$BIRTH_EXP)
 data1$GENDER <- as.factor(data1$GENDER)
-data1$DIS <- as.factor(data1$DIS)
 ```
 
 # Data Distribution Plots
@@ -75,48 +75,23 @@ data1$DIS <- as.factor(data1$DIS)
 # Normal Distribution
 
 shapiro.test(d2$REAC_TIME)
-shapiro.test(data1$ACCURACY)
 shapiro.test(d2$AGE)
 hist (data1$REAC_TIME)
-hist(data1$ACCURACY)
 hist(data1$AGE)
 
 # Boxplot distribution for Age Groups
 boxplot (data1$REAC_TIME~data1$AGE)
 boxplot (data1$REAC_TIME~data1$AGE_GROUPS)
 
-boxplot (data1$ACCURACY~ data1$AGE)
-boxplot (data1$ACCURACY~ data1$AGE_GROUPS)
+
 
 # Boxplot distribution for Birth Experience Groups
 boxplot (data1$REAC_TIME~data1$BIRTH_EXP)
-boxplot (data1$ACCURACY~data1$BIRTH_EXP)
+qplot(AGE_GROUPS, REAC_TIME, data=data1, fill = BIRTH_EXP, geom = 'boxplot', main = "Mixed ANOVA", ylab = "REAC_TIME_CT")
 
-qplot(AGE_GROUPS, REAC_TIME, data=data1, fill = BIRTH_EXP, geom = 'boxplot', main = "Mixed ANOVA")
-qplot(AGE_GROUPS, ACCURACY, data=data1, fill = BIRTH_EXP, geom = 'boxplot', main = "Mixed ANOVA")
 
 # Boxplot distribution for Gender
 boxplot (data1$REAC_TIME~data1$GENDER)
-boxplot (data1$ACCURACY~data1$GENDER)
-
-data%>%ggplot(aes(x=Value, fill=Var))+geom_density(alpha=0.5)
-
-```
-
-# Correlation check
-```{r cor}
-cor.test (data1$REAC_TIME, data1$ACCURACY, method = "pearson")
-plot (data1$ACCURACY~data1$REAC_TIME)
-
-chisq.test(data1$BIRTH_EXP, data1$DIS, correct = FALSE)
-```
-
-There is a positive weak correlation , r = 0.4, between Reaction Time and Accuracy in trials. 
-
-
-#TWO-WAY ANOVA
-```{r ANOVA}
-# IV- Birth Experience and Age Groups, DV - Reaction Time
 
 model1 <- aov(REAC_TIME~BIRTH_EXP+AGE_GROUPS+DIS+GENDER, data = data1)
 summary (model1)
@@ -125,15 +100,4 @@ pairwise.t.test(data1$AGE_GROUPS, data1$BIRTH_EXP,
                 p.adjust.method = "BH")
 mod <- aov (REAC_TIME~BIRTH_EXP*AGE_GROUPS, data= data1)
 summary (mod)
-
-# IV- Birth Experience and Age Groups, DV - Accuracy
-
-
 ```
-
-
-# MANOVA
-```{r MANOVA}
-
-```
-
