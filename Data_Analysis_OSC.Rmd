@@ -31,7 +31,10 @@ data1 <- select (data, ID, AGE,GENDER,BIRTH_EXP,PSYC_DIS,COG_DIS, DIS, PLAY_GAME
 View (data1)
 summary (data1)
 describe (data1)
+```
 
+
+```{r descriptives table}
 d1 <- filter (data1, AGE < 9 )
 d2 <- filter (data1, (AGE<12 & AGE>8))
 d3 <- filter (data1, AGE>11)
@@ -55,6 +58,30 @@ names (part_demographics) <- c("Age_Group1 (6 to 8 yrs)", "Age_Group2 (9 to 11 y
 kable (part_demographics)
 ```
 
+
+```{r descriptives table 2}
+#Age Group 1
+
+A1V <- nrow (filter(d1,BIRTH_EXP == "V"))
+#C-section born
+A1C <- nrow (filter(d1,BIRTH_EXP == "C"))
+cat ("Age Group 1", "\n", "Vaginally born = ", A1V, "\n","C-Section born = ", A1C,"\n","\n")
+
+#Age Group 2
+# Vaginally born
+A2V <- nrow (filter(d2,BIRTH_EXP == "V"))
+#C-section born
+A2C <- nrow (filter(d2,BIRTH_EXP == "C"))
+cat ("Age Group 2", "\n", "Vaginally born = ", A2V, "\n","C-Section born = ", A2C,"\n","\n")
+
+#Age Group 3
+# Vaginally born
+A3V <- nrow (filter(d3,BIRTH_EXP == "V"))
+# C-section born
+A3C <- nrow (filter(d3,BIRTH_EXP == "C"))
+cat ("Age Group 3", "\n", "Vaginally born = ", A3V, "\n","C-Section born = ", A3C,"\n","\n")
+```
+
 # Creating Factors
 ```{r Factors}
 # Creating factors
@@ -68,6 +95,7 @@ data1$AGE_GROUPS <- as.factor (data1$AGE_GROUPS)
 data1$BIRTH_EXP <- as.factor (data1$BIRTH_EXP)
 data1$GENDER <- as.factor(data1$GENDER)
 data1$DIS <- as.factor(data1$DIS)
+data1$PLAY_GAME <- as.factor(data1$PLAY_GAME)
 ```
 
 # Data Distribution Plots
@@ -99,8 +127,6 @@ qplot(AGE_GROUPS, ACCURACY, data=data1, fill = BIRTH_EXP, geom = 'boxplot', main
 boxplot (data1$REAC_TIME~data1$GENDER)
 boxplot (data1$ACCURACY~data1$GENDER)
 
-data%>%ggplot(aes(x=Value, fill=Var))+geom_density(alpha=0.5)
-
 ```
 
 # Correlation check
@@ -118,15 +144,45 @@ There is a positive weak correlation , r = 0.4, between Reaction Time and Accura
 ```{r ANOVA}
 # IV- Birth Experience and Age Groups, DV - Reaction Time
 
-model1 <- aov(REAC_TIME~BIRTH_EXP+AGE_GROUPS+DIS+GENDER, data = data1)
+model1 <- aov(REAC_TIME~BIRTH_EXP+AGE_GROUPS, data = data1)
 summary (model1)
-TukeyHSD(model1)
-pairwise.t.test(data1$AGE_GROUPS, data1$BIRTH_EXP,
-                p.adjust.method = "BH")
-mod <- aov (REAC_TIME~BIRTH_EXP*AGE_GROUPS, data= data1)
-summary (mod)
+
+mod1 <- aov (REAC_TIME~BIRTH_EXP*AGE_GROUPS, data= data1)
+summary (mod1)
 
 # IV- Birth Experience and Age Groups, DV - Accuracy
+
+model2 <- aov(ACCURACY~BIRTH_EXP+AGE_GROUPS, data = data1)
+summary (model2)
+
+mod2 <- aov (ACCURACY~BIRTH_EXP*AGE_GROUPS, data= data1)
+summary (mod2)
+TukeyHSD(mod2)
+
+
+```
+```{r age group ANOVA}
+cat ("Age Group 1","\n")
+model3 <- aov(ACCURACY~BIRTH_EXP+AGE+GENDER+PLAY_GAME, data = d1)
+summary (model3)
+
+mod3 <- aov (ACCURACY~BIRTH_EXP*AGE+BIRTH_EXP*PLAY_GAME, data= d1)
+summary (mod3)
+
+cat ("\n","\n","Age Group 2","\n")
+model4 <- aov(ACCURACY~BIRTH_EXP+AGE+GENDER+PLAY_GAME, data = d2)
+summary (model4)
+
+mod4 <- aov (ACCURACY~BIRTH_EXP*AGE+BIRTH_EXP*PLAY_GAME, data= d2)
+summary (mod4)
+
+cat ("\n","\n","Age Group 3","\n")
+model5 <- aov(ACCURACY~BIRTH_EXP+AGE+GENDER+PLAY_GAME, data = d3)
+summary (model5)
+
+mod5 <- aov (ACCURACY~BIRTH_EXP*AGE+BIRTH_EXP*PLAY_GAME, data= d3)
+summary (mod5)
+
 
 
 ```

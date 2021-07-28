@@ -92,12 +92,14 @@ qplot(AGE_GROUPS, REAC_TIME, data=data1, fill = BIRTH_EXP, geom = 'boxplot', mai
 
 # Boxplot distribution for Gender
 boxplot (data1$REAC_TIME~data1$GENDER)
+```
 
-model1 <- aov(REAC_TIME~BIRTH_EXP+AGE_GROUPS+DIS+GENDER, data = data1)
+
+```{r ANOVA}
+model1 <- aov(REAC_TIME~BIRTH_EXP+AGE_GROUPS, data = data1)
 summary (model1)
 TukeyHSD(model1)
-pairwise.t.test(data1$AGE_GROUPS, data1$BIRTH_EXP,
-                p.adjust.method = "BH")
-mod <- aov (REAC_TIME~BIRTH_EXP*AGE_GROUPS, data= data1)
-summary (mod)
+
+mod1 <- aov (REAC_TIME~BIRTH_EXP*AGE_GROUPS, data= data1)
+summary (mod1)
 ```
