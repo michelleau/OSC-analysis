@@ -12,14 +12,14 @@ knitr::opts_chunk$set(tidy.opts=list(width.cutoff=50),tidy=TRUE)
 library(data.table)
 library(tidyverse)
 library(magrittr)
-library(lavaan)
 library(car)
-library(tidySEM)
 library(gridExtra)
-library(equatiomatic)
 library(psych)
-library(gridExtra)
 library(ggplot2)
+library(multcomp)
+library(plotly)
+library(apaTables)
+library(dplyr)
 ```
 
 # Descriptives/ Preliminary Analyses
@@ -27,7 +27,7 @@ library(ggplot2)
 ```{r data}
 data <- read.csv ("OSC_cleaned.csv")
 View (data)
-data1 <- select (data, ID, AGE,GENDER,BIRTH_EXP,PSYC_DIS,COG_DIS, DIS, PLAY_GAME, REAC_TIME, ACCURACY)
+data1 <- select (data, ID, AGE,BIRTH_EXP,DIS, REAC_TIME, ACCURACY)
 View (data1)
 summary (data1)
 describe (data1)
@@ -38,21 +38,15 @@ describe (data1)
 d1 <- filter (data1, AGE < 9 )
 d2 <- filter (data1, (AGE<12 & AGE>8))
 d3 <- filter (data1, AGE>11)
-d4 <- filter (data1, GENDER == "male")
-d5 <- filter (data1, GENDER == "female")
-d6 <- filter (data1, BIRTH_EXP == "V")
-d7 <- filter (data1, BIRTH_EXP == "C")
-d8 <- filter (data1, PSYC_DIS == "Y")
-d9 <- filter (data1, COG_DIS == "Y")
-d10 <- filter (data1, DIS == "Y")
-d11 <- filter (data1, PLAY_GAME == "Y")
+d4 <- filter (data1, BIRTH_EXP == "V")
+d5 <- filter (data1, BIRTH_EXP == "C")
+d6 <- filter (data1, DIS == "Y")
 
 
-number_group <- c(nrow(d1),nrow(d2),nrow(d3),nrow(d4),nrow(d5),nrow(d6),nrow(d7),
-                  nrow(d8),nrow(d9),nrow(d10),nrow(d11))
-part_demographics <- data.frame(cbind(nrow(d1),nrow(d2),nrow(d3),nrow(d4),nrow(d5),nrow(d6),nrow(d7),nrow(d8),nrow(d9),nrow(d10),nrow(d11)))
+number_group <- c(nrow(d1),nrow(d2),nrow(d3),nrow(d4),nrow(d5),nrow(d6))
+part_demographics <- data.frame(cbind(nrow(d1),nrow(d2),nrow(d3),nrow(d4),nrow(d5),nrow(d6)))
 
-names (part_demographics) <- c("Age_Group1 (6 to 8 yrs)", "Age_Group2 (9 to 11 yrs)", "Age_Group3 (12< yrs)", "Gender_Male","Gender_Female", "Vaginally_born", "C-sec_born", "Psych_Dis", "Cog_dis", "Gen_dis", "Video_gameplay")
+names (part_demographics) <- c("Age_Group1 (6 to 8 yrs)", "Age_Group2 (9 to 11 yrs)", "Age_Group3 (12< yrs)", "Vaginally_born", "C-sec_born", "Gen_dis")
 
 
 kable (part_demographics)
@@ -60,26 +54,8 @@ kable (part_demographics)
 
 
 ```{r descriptives table 2}
-#Age Group 1
-
-A1V <- nrow (filter(d1,BIRTH_EXP == "V"))
-#C-section born
-A1C <- nrow (filter(d1,BIRTH_EXP == "C"))
-cat ("Age Group 1", "\n", "Vaginally born = ", A1V, "\n","C-Section born = ", A1C,"\n","\n")
-
-#Age Group 2
-# Vaginally born
-A2V <- nrow (filter(d2,BIRTH_EXP == "V"))
-#C-section born
-A2C <- nrow (filter(d2,BIRTH_EXP == "C"))
-cat ("Age Group 2", "\n", "Vaginally born = ", A2V, "\n","C-Section born = ", A2C,"\n","\n")
-
-#Age Group 3
-# Vaginally born
-A3V <- nrow (filter(d3,BIRTH_EXP == "V"))
-# C-section born
-A3C <- nrow (filter(d3,BIRTH_EXP == "C"))
-cat ("Age Group 3", "\n", "Vaginally born = ", A3V, "\n","C-Section born = ", A3C,"\n","\n")
+table (data1$BIRTH_EXP,data1$AGE_GROUPS)
+table (data1$BIRTH_EXP,data1$DIS)
 ```
 
 # Creating Factors
@@ -93,48 +69,26 @@ data1$AGE_GROUPS[which(data1$AGE > 11)]<- "3"
 
 data1$AGE_GROUPS <- as.factor (data1$AGE_GROUPS)
 data1$BIRTH_EXP <- as.factor (data1$BIRTH_EXP)
-data1$GENDER <- as.factor(data1$GENDER)
-data1$DIS <- as.factor(data1$DIS)
-data1$PLAY_GAME <- as.factor(data1$PLAY_GAME)
+View (data1)
 ```
 
 # Data Distribution Plots
 ```{r plots}
 # Normal Distribution
-
-shapiro.test(d2$REAC_TIME)
-shapiro.test(data1$ACCURACY)
-shapiro.test(d2$AGE)
-hist (data1$REAC_TIME)
-hist(data1$ACCURACY)
-hist(data1$AGE)
-
-# Boxplot distribution for Age Groups
-boxplot (data1$REAC_TIME~data1$AGE)
-boxplot (data1$REAC_TIME~data1$AGE_GROUPS)
-
-boxplot (data1$ACCURACY~ data1$AGE)
-boxplot (data1$ACCURACY~ data1$AGE_GROUPS)
-
-# Boxplot distribution for Birth Experience Groups
-boxplot (data1$REAC_TIME~data1$BIRTH_EXP)
-boxplot (data1$ACCURACY~data1$BIRTH_EXP)
-
 qplot(AGE_GROUPS, REAC_TIME, data=data1, fill = BIRTH_EXP, geom = 'boxplot', main = "Mixed ANOVA")
 qplot(AGE_GROUPS, ACCURACY, data=data1, fill = BIRTH_EXP, geom = 'boxplot', main = "Mixed ANOVA")
-
-# Boxplot distribution for Gender
-boxplot (data1$REAC_TIME~data1$GENDER)
-boxplot (data1$ACCURACY~data1$GENDER)
-
 ```
 
-# Correlation check
-```{r cor}
-cor.test (data1$REAC_TIME, data1$ACCURACY, method = "pearson")
-plot (data1$ACCURACY~data1$REAC_TIME)
+# Bar Graph Accuracy vs Age-Groups
+```{r barplot}
 
-chisq.test(data1$BIRTH_EXP, data1$DIS, correct = FALSE)
+ggplot(data1, aes(BIRTH_EXP, ACCURACY, fill = AGE_GROUPS)) + 
+  geom_bar(stat="identity", position = "dodge") + 
+  scale_fill_brewer(palette = "Set1")
+
+ggplot(data1, aes(AGE_GROUPS, ACCURACY, fill = BIRTH_EXP)) + 
+  geom_bar(stat="identity", position = "dodge") + 
+  scale_fill_brewer(palette = "Set1")
 ```
 
 There is a positive weak correlation , r = 0.4, between Reaction Time and Accuracy in trials. 
@@ -147,7 +101,7 @@ There is a positive weak correlation , r = 0.4, between Reaction Time and Accura
 model1 <- aov(REAC_TIME~BIRTH_EXP+AGE_GROUPS, data = data1)
 summary (model1)
 
-mod1 <- aov (REAC_TIME~BIRTH_EXP*AGE_GROUPS, data= data1)
+mod1 <- aov (REAC_TIME~BIRTH_EXP+AGE_GROUPS+BIRTH_EXP*AGE_GROUPS, data= data1)
 summary (mod1)
 
 # IV- Birth Experience and Age Groups, DV - Accuracy
@@ -155,41 +109,20 @@ summary (mod1)
 model2 <- aov(ACCURACY~BIRTH_EXP+AGE_GROUPS, data = data1)
 summary (model2)
 
-mod2 <- aov (ACCURACY~BIRTH_EXP*AGE_GROUPS, data= data1)
+mod2 <- aov (ACCURACY~BIRTH_EXP+AGE_GROUPS+BIRTH_EXP*AGE_GROUPS, data= data1)
 summary (mod2)
 TukeyHSD(mod2)
 
-
-```
-```{r age group ANOVA}
-cat ("Age Group 1","\n")
-model3 <- aov(ACCURACY~BIRTH_EXP+AGE+GENDER+PLAY_GAME, data = d1)
-summary (model3)
-
-mod3 <- aov (ACCURACY~BIRTH_EXP*AGE+BIRTH_EXP*PLAY_GAME, data= d1)
-summary (mod3)
-
-cat ("\n","\n","Age Group 2","\n")
-model4 <- aov(ACCURACY~BIRTH_EXP+AGE+GENDER+PLAY_GAME, data = d2)
-summary (model4)
-
-mod4 <- aov (ACCURACY~BIRTH_EXP*AGE+BIRTH_EXP*PLAY_GAME, data= d2)
-summary (mod4)
-
-cat ("\n","\n","Age Group 3","\n")
-model5 <- aov(ACCURACY~BIRTH_EXP+AGE+GENDER+PLAY_GAME, data = d3)
-summary (model5)
-
-mod5 <- aov (ACCURACY~BIRTH_EXP*AGE+BIRTH_EXP*PLAY_GAME, data= d3)
-summary (mod5)
-
-
-
+pairwise.t.test(data1$BIRTH_EXP,data1$ACCURACY,
+                p.adjust.method = "BH")
 ```
 
 
-# MANOVA
-```{r MANOVA}
+```{r interaction}
+plot(mod2, 1)
+plot(mod2, 2)
 
+interaction.plot(data1$AGE_GROUPS, ACCURACY, BIRTH_EXP, fixed = TRUE, type = "p")
 ```
+
 
