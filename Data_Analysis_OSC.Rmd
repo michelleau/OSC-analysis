@@ -2,7 +2,10 @@
 title: "OSC_Data_Analysis"
 author: "Aarthi Ravi"
 date: "18/06/2021"
-output: html_document
+output:
+  pdf_document: default
+  html_document: default
+  word_document: default
 ---
 ```{r setup}
 require("knitr")
@@ -22,19 +25,22 @@ library(apaTables)
 library(dplyr)
 ```
 
-# Descriptives/ Preliminary Analyses
-
+# Import Datasets - Full data and Data of correct trials only
 ```{r data}
 data <- read.csv ("OSC_cleaned.csv")
-View (data)
-data1 <- select (data, ID, AGE,BIRTH_EXP,DIS, REAC_TIME, ACCURACY)
-View (data1)
+data_ct <- read.csv ("OSC_cleaned_ct.csv")
+```
+
+# Descriptives/ Preliminary Analyses
+```{r descriptives data}
+data1 <- select (data, ID, AGE, BIRTH_EXP, DIS, REAC_TIME, ACCURACY)
+head (data1)
 summary (data1)
 describe (data1)
 ```
 
-
-```{r descriptives table}
+# Table : Number of Participants in each Group
+```{r descriptives table, echo =FALSE}
 d1 <- filter (data1, AGE < 9 )
 d2 <- filter (data1, (AGE<12 & AGE>8))
 d3 <- filter (data1, AGE>11)
@@ -49,17 +55,22 @@ part_demographics <- data.frame(cbind(nrow(d1),nrow(d2),nrow(d3),nrow(d4),nrow(d
 names (part_demographics) <- c("Age_Group1 (6 to 8 yrs)", "Age_Group2 (9 to 11 yrs)", "Age_Group3 (12< yrs)", "Vaginally_born", "C-sec_born", "Gen_dis")
 
 
-kable (part_demographics)
+kable (part_demographics, align = "cccccc")
 ```
 
 
-```{r descriptives table 2}
-table (data1$BIRTH_EXP,data1$AGE_GROUPS)
-table (data1$BIRTH_EXP,data1$DIS)
+
+
+# Descriptives/ Preliminary Analyses Correct Trials
+```{r descriptives data correct trials}
+data2 <- select (data_ct, ID, AGE, BIRTH_EXP, DIS, REAC_TIME)
+head (data2)
+summary (data2)
+describe (data2)
 ```
 
-# Creating Factors
-```{r Factors}
+
+```{r Factors , echo=FALSE}
 # Creating factors
 data1$AGE_GROUPS <- factor(data1$AGE)
 data1$AGE_GROUPS <- data1$AGE
@@ -69,60 +80,149 @@ data1$AGE_GROUPS[which(data1$AGE > 11)]<- "3"
 
 data1$AGE_GROUPS <- as.factor (data1$AGE_GROUPS)
 data1$BIRTH_EXP <- as.factor (data1$BIRTH_EXP)
-View (data1)
+
+
+
+# Creating factors correct trials
+data2$AGE_GROUPS <- factor(data2$AGE)
+data2$AGE_GROUPS <- data2$AGE
+data2$AGE_GROUPS[which(data2$AGE < 9)]<- "1"
+data2$AGE_GROUPS[which(data2$AGE<12 & data2$AGE>8)]<- "2"
+data2$AGE_GROUPS[which(data2$AGE > 11)]<- "3"
+
+data2$AGE_GROUPS <- as.factor (data2$AGE_GROUPS)
+data2$BIRTH_EXP <- as.factor (data2$BIRTH_EXP)
+```
+
+
+# Table : Number of Participants in Each Age Group and their Birth Experience
+```{r descriptives table 2}
+table(data1$BIRTH_EXP,data1$AGE_GROUPS)
+```
+
+# Table : Number of Participants with Disability and their Birth Experience 
+```{r descriptives table 3}
+table(data1$BIRTH_EXP,data1$DIS)
 ```
 
 # Data Distribution Plots
+
 ```{r plots}
-# Normal Distribution
-qplot(AGE_GROUPS, REAC_TIME, data=data1, fill = BIRTH_EXP, geom = 'boxplot', main = "Mixed ANOVA")
-qplot(AGE_GROUPS, ACCURACY, data=data1, fill = BIRTH_EXP, geom = 'boxplot', main = "Mixed ANOVA")
+# Boxplot for Accuracy in Trials and Birth Experience
+qplot(AGE_GROUPS, ACCURACY, data=data1, fill = BIRTH_EXP, geom = 'boxplot', main = "Mixed ANOVA", xlab = "AGE GROUPS",ylab = "ACCURACY")
+
+# Boxplot for Reaction Time in Correct Trials and Birth Experience
+qplot(AGE_GROUPS, REAC_TIME, data=data2, fill = BIRTH_EXP, geom = 'boxplot', main = "Mixed ANOVA",xlab = "AGE GROUPS", ylab = "REACTION TIME")
+
 ```
 
 # Bar Graph Accuracy vs Age-Groups
 ```{r barplot}
 
 ggplot(data1, aes(BIRTH_EXP, ACCURACY, fill = AGE_GROUPS)) + 
-  geom_bar(stat="identity", position = "dodge") + 
-  scale_fill_brewer(palette = "Set1")
+  geom_bar(stat="identity", position = "dodge", width=0.3) + 
+  scale_fill_brewer(palette = "Set1", labs(y="Age Groups"))
 
 ggplot(data1, aes(AGE_GROUPS, ACCURACY, fill = BIRTH_EXP)) + 
-  geom_bar(stat="identity", position = "dodge") + 
-  scale_fill_brewer(palette = "Set1")
+  geom_bar(stat="identity", position = "dodge", width=0.3) + 
+  scale_fill_brewer(palette = "Set1", labs(y="Birth Experience"))
 ```
 
-There is a positive weak correlation , r = 0.4, between Reaction Time and Accuracy in trials. 
+# Bar Graph Reaction Time vs Age-Groups
+```{r barplot2}
+ggplot(data1, aes(BIRTH_EXP, REAC_TIME, fill = AGE_GROUPS)) + 
+  geom_bar(stat="identity", position = "dodge",  width=0.3) + 
+  scale_fill_manual(values = c("violet","pink", "orange"), labs(y="Age Groups"))
+
+ggplot(data1, aes(AGE_GROUPS, REAC_TIME, fill = BIRTH_EXP)) + 
+  geom_bar(stat="identity", position = "dodge", width=0.3) + 
+ scale_fill_manual(values = c("violet", "pink" ), labs(y="Birth Experience"))
+```
 
 
-#TWO-WAY ANOVA
+```{r scatterplot}
+# Scatterplot
+
+aggregated <- ggplot(data2, aes(AGE, REAC_TIME, colour=BIRTH_EXP)) + geom_point()+ labs(x = "Age", y = "Reaction Time") 
+
+facetted <-data2 %>%
+ggplot(aes(x=AGE, y = REAC_TIME, color = BIRTH_EXP)) +
+geom_point() +
+facet_grid(cols = vars(AGE_GROUPS), rows = vars(BIRTH_EXP)) +
+labs(x = "Age Groups", y = "Reaction Time") +
+theme_bw() +
+theme(legend.position="none")
+
+grid.arrange(facetted, aggregated, ncol = 2)
+```
+
+
+
+
+#TWO-WAY ANOVA - ACCURACY
 ```{r ANOVA}
 # IV- Birth Experience and Age Groups, DV - Reaction Time
 
-model1 <- aov(REAC_TIME~BIRTH_EXP+AGE_GROUPS, data = data1)
+model1 <- aov(ACCURACY~BIRTH_EXP+AGE_GROUPS, data = data1)
 summary (model1)
 
-mod1 <- aov (REAC_TIME~BIRTH_EXP+AGE_GROUPS+BIRTH_EXP*AGE_GROUPS, data= data1)
-summary (mod1)
+int_mod1 <- aov (ACCURACY~BIRTH_EXP*AGE_GROUPS, data= data1)
+summary (int_mod1)
+TukeyHSD(int_mod1)
 
-# IV- Birth Experience and Age Groups, DV - Accuracy
+options(contrasts = c("contr.sum", "contr.poly"))
+lm_output <- lm(ACCURACY ~ BIRTH_EXP*AGE_GROUPS, data = data1)
+apa.aov.table(lm_output)
 
-model2 <- aov(ACCURACY~BIRTH_EXP+AGE_GROUPS, data = data1)
-summary (model2)
-
-mod2 <- aov (ACCURACY~BIRTH_EXP+AGE_GROUPS+BIRTH_EXP*AGE_GROUPS, data= data1)
-summary (mod2)
-TukeyHSD(mod2)
-
-pairwise.t.test(data1$BIRTH_EXP,data1$ACCURACY,
-                p.adjust.method = "BH")
+apa.2way.table(BIRTH_EXP, AGE_GROUPS, ACCURACY, data = data1)
+```
+```{r Diagnostics 1}
+plot(int_mod1)
 ```
 
 
-```{r interaction}
-plot(mod2, 1)
-plot(mod2, 2)
+```{r Accuracy interaction plot}
 
-interaction.plot(data1$AGE_GROUPS, ACCURACY, BIRTH_EXP, fixed = TRUE, type = "p")
+with (data1, {
+  interaction.plot(AGE_GROUPS, BIRTH_EXP, ACCURACY, fun = mean,
+                type = c("l", "p", "b", "o", "c"), legend = TRUE,
+                trace.label = "Birth Experience",
+                fixed = TRUE,
+                col = c ("red", "blue"),
+                lty = 1,
+                xlab = "Age Groups",
+                ylab = "Accuracy")
+                
+               
+})
+                
+
+```
+
+
+
+
+
+#TWO-WAY ANOVA - REACTION TIME
+```{r ANOVA2}
+# IV- Birth Experience and Age Groups, DV - Reaction Time
+
+model2 <- aov(REAC_TIME~ BIRTH_EXP+AGE_GROUPS, data = data2)
+summary(model2)
+
+int_mod2 <- aov (REAC_TIME~BIRTH_EXP*AGE_GROUPS, data= data2)
+summary (int_mod2)
+
+options(contrasts = c("contr.sum", "contr.poly"))
+lm_output2 <- lm(REAC_TIME ~ BIRTH_EXP*AGE_GROUPS, data = data2)
+apa.aov.table(lm_output2)
+
+apa.2way.table(BIRTH_EXP, AGE_GROUPS, REACT_TIME, data = data1)
+```
+
+
+```{r Diagnostics 2}
+plot(int_mod2)
 ```
 
 

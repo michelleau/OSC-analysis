@@ -24,29 +24,28 @@ library(apaTables)
 
 # Descriptives/ Preliminary Analyses
 
-```{r data}
-data <- read.csv ("OSC_cleaned_ct.csv")
-View (data)
-data1 <- select (data, ID, AGE,BIRTH_EXP, DIS, REAC_TIME)
-View (data1)
-summary (data1)
-describe (data1)
+```{r data correct trials,echo=FALSE}
+data_ct <- read.csv ("OSC_cleaned_ct.csv")
+data2 <- select (data_ct, ID, AGE,BIRTH_EXP, DIS, REAC_TIME)
+head (data2)
+summary (data2)
+describe (data2)
 
-d1 <- filter (data1, AGE < 9 )
-d2 <- filter (data1, (AGE<12 & AGE>8))
-d3 <- filter (data1, AGE>11)
-d4 <- filter (data1, BIRTH_EXP == "V")
-d5 <- filter (data1, BIRTH_EXP == "C")
-d6 <- filter (data1, DIS == "Y")
-
-
-number_group <- c(nrow(d1),nrow(d2),nrow(d3),nrow(d4),nrow(d5),nrow(d6))
-part_demographics <- data.frame(cbind(nrow(d1),nrow(d2),nrow(d3),nrow(d4),nrow(d5),nrow(d6)))
-
-names (part_demographics) <- c("Age_Group1 (6 to 8 yrs)", "Age_Group2 (9 to 11 yrs)", "Age_Group3 (12< yrs)", "Vaginally_born", "C-sec_born", "Gen_dis")
+c1 <- filter (data2, AGE < 9 )
+c2 <- filter (data2, (AGE<12 & AGE>8))
+c3 <- filter (data2, AGE>11)
+c4 <- filter (data2, BIRTH_EXP == "V")
+c5 <- filter (data2, BIRTH_EXP == "C")
+c6 <- filter (data2, DIS == "Y")
 
 
-kable (part_demographics)
+number_group2 <- c(nrow(c1),nrow(c2),nrow(c3),nrow(c4),nrow(c5),nrow(c6))
+part_demographics2 <- data.frame(cbind(nrow(c1),nrow(c2),nrow(c3),nrow(c4),nrow(c5),nrow(c6)))
+
+names (part_demographics2) <- c("Age_Group1 (6 to 8 yrs)", "Age_Group2 (9 to 11 yrs)", "Age_Group3 (12< yrs)", "Vaginally_born", "C-sec_born", "Gen_dis")
+
+
+kable (part_demographics2, align ="cccccc")
 ```
 
 # Creating Factors
