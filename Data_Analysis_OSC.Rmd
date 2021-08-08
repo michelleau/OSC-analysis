@@ -7,7 +7,7 @@ output:
   html_document: default
   word_document: default
 ---
-```{r setup}
+```{r setup, results='hide'}
 require("knitr")
 knitr::opts_chunk$set(echo = TRUE)
 knitr::opts_chunk$set(tidy.opts=list(width.cutoff=50),tidy=TRUE)
@@ -112,7 +112,7 @@ table(data1$BIRTH_EXP,data1$DIS)
 qplot(AGE_GROUPS, ACCURACY, data=data1, fill = BIRTH_EXP, geom = 'boxplot', main = "Mixed ANOVA", xlab = "AGE GROUPS",ylab = "ACCURACY")
 
 # Boxplot for Reaction Time in Correct Trials and Birth Experience
-qplot(AGE_GROUPS, REAC_TIME, data=data2, fill = BIRTH_EXP, geom = 'boxplot', main = "Mixed ANOVA",xlab = "AGE GROUPS", ylab = "REACTION TIME")
+qplot(AGE_GROUPS, REAC_TIME, data=data2, fill = BIRTH_EXP, geom = 'boxplot', main = "Mixed ANOVA",xlab = "AGE GROUPS", ylab = "REACTION TIME (s)")
 
 ```
 
@@ -130,11 +130,11 @@ ggplot(data1, aes(AGE_GROUPS, ACCURACY, fill = BIRTH_EXP)) +
 
 # Bar Graph Reaction Time vs Age-Groups
 ```{r barplot2}
-ggplot(data1, aes(BIRTH_EXP, REAC_TIME, fill = AGE_GROUPS)) + 
+ggplot(data2, aes(BIRTH_EXP, REAC_TIME, fill = AGE_GROUPS)) + 
   geom_bar(stat="identity", position = "dodge",  width=0.3) + 
   scale_fill_manual(values = c("violet","pink", "orange"), labs(y="Age Groups"))
 
-ggplot(data1, aes(AGE_GROUPS, REAC_TIME, fill = BIRTH_EXP)) + 
+ggplot(data2, aes(AGE_GROUPS, REAC_TIME, fill = BIRTH_EXP)) + 
   geom_bar(stat="identity", position = "dodge", width=0.3) + 
  scale_fill_manual(values = c("violet", "pink" ), labs(y="Birth Experience"))
 ```
@@ -143,25 +143,37 @@ ggplot(data1, aes(AGE_GROUPS, REAC_TIME, fill = BIRTH_EXP)) +
 ```{r scatterplot}
 # Scatterplot
 
-aggregated <- ggplot(data2, aes(AGE, REAC_TIME, colour=BIRTH_EXP)) + geom_point()+ labs(x = "Age", y = "Reaction Time") 
+aggregated <- ggplot(data2, aes(AGE, REAC_TIME, colour=BIRTH_EXP)) + geom_point()+ labs(x = "Age (yrs)", y = "Reaction Time (sec)") 
 
 facetted <-data2 %>%
 ggplot(aes(x=AGE, y = REAC_TIME, color = BIRTH_EXP)) +
 geom_point() +
 facet_grid(cols = vars(AGE_GROUPS), rows = vars(BIRTH_EXP)) +
-labs(x = "Age Groups", y = "Reaction Time") +
+labs(x = "Age (yrs)", y = "Reaction Time (sec)") +
 theme_bw() +
 theme(legend.position="none")
 
 grid.arrange(facetted, aggregated, ncol = 2)
 ```
 
+```{r line graphs}
 
+ggplot(data=data2, aes(x=AGE_GROUPS, y=REAC_TIME, group=BIRTH_EXP, color=BIRTH_EXP))+
+  geom_line(stat='summary', fun.y='mean') + 
+  geom_point(stat='summary', fun.y='mean') +
+  labs(x = "Age Groups", y = "Reaction Time (sec)")
+
+ggplot(data=data2, aes(x=AGE, y=REAC_TIME, group=BIRTH_EXP, color=BIRTH_EXP))+
+  geom_line(stat='summary', fun.y='mean') + 
+  geom_point(stat='summary', fun.y='mean') +
+  labs(x = "Age (yrs)", y = "Reaction Time (sec)")
+
+```
 
 
 #TWO-WAY ANOVA - ACCURACY
 ```{r ANOVA}
-# IV- Birth Experience and Age Groups, DV - Reaction Time
+# IV- Birth Experience and Age Groups, DV - Accuracy
 
 model1 <- aov(ACCURACY~BIRTH_EXP+AGE_GROUPS, data = data1)
 summary (model1)
@@ -217,7 +229,7 @@ options(contrasts = c("contr.sum", "contr.poly"))
 lm_output2 <- lm(REAC_TIME ~ BIRTH_EXP*AGE_GROUPS, data = data2)
 apa.aov.table(lm_output2)
 
-apa.2way.table(BIRTH_EXP, AGE_GROUPS, REACT_TIME, data = data1)
+apa.2way.table(BIRTH_EXP, AGE_GROUPS, REAC_TIME, data = data1)
 ```
 
 
