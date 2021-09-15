@@ -1,0 +1,717 @@
+---
+title: "Analysis for OSC Data - Birth Experience"
+author: "Aarthi Ravi"
+date: "25/08/2021"
+output:
+  pdf_document: default
+  html_document: default
+---
+```{r setup, warning=FALSE,message=FALSE}
+
+require("knitr")
+knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(tidy.opts=list(width.cutoff=50),tidy=TRUE)
+
+library(data.table)
+library(tidyverse)
+library(magrittr)
+library(car)
+library(gridExtra)
+library(psych)
+library(ggplot2)
+library(multcomp)
+library(plotly)
+library(apaTables)
+library(dplyr)
+library(rstatix)
+library(plyr)
+```
+
+# Import Datasets - Full data and Data of correct trials only
+
+```{r data}
+data <- read.csv ("OSC_Full_Data.csv")
+data_cue <- read.csv ("OSC_cue_trials.csv")
+data_nocue <- read.csv ("OSC_nocue_trials.csv")
+```
+
+# Descriptives/ Preliminary Analyses
+
+```{r descriptives data}
+data1 <- select (data, ID, AGE, BIRTH_EXP, DIS,TRIAL_TYPE, REAC_TIME, ACCURACY, REAC_TIME_CT)
+head (data1)
+summary (data1)
+describe (data1)
+
+data2 <- select (data_cue, ID, AGE, BIRTH_EXP, DIS, REAC_TIME, ACCURACY, REAC_TIME_CT)
+head (data2)
+summary (data2)
+describe (data2)
+
+data3 <- select (data_nocue, ID, AGE, BIRTH_EXP, DIS, REAC_TIME, ACCURACY, REAC_TIME_CT)
+head (data3)
+summary (data3)
+describe (data3)
+
+```
+# Table : Number of Participants in each Group
+
+```{r descriptives table, echo =FALSE}
+d1 <- filter (data1, AGE < 9 )
+d2 <- filter (data1, (AGE<12 & AGE>8))
+d3 <- filter (data1, AGE>11)
+d4 <- filter (data1, BIRTH_EXP == "V")
+d5 <- filter (data1, BIRTH_EXP == "C")
+d6 <- filter (data1, DIS == "Y")
+
+
+number_group <- c(nrow(d1),nrow(d2),nrow(d3),nrow(d4),nrow(d5),nrow(d6))
+part_demographics <- data.frame(cbind(nrow(d1),nrow(d2),nrow(d3),nrow(d4),nrow(d5),nrow(d6)))
+
+names (part_demographics) <- c("Age_Group1 (6 to 8 yrs)", "Age_Group2 (9 to 11 yrs)", "Age_Group3 (12< yrs)", "Vaginally_born", "C-sec_born", "Gen_dis")
+
+
+kable (part_demographics, align = "cccccc")
+```
+
+```{r Factors , echo=FALSE, results='hide'}
+# Creating factors
+data1$AGE_GROUPS <- factor(data1$AGE)
+data1$AGE_GROUPS <- data1$AGE
+data1$AGE_GROUPS[which(data1$AGE < 9)]<- "1"
+data1$AGE_GROUPS[which(data1$AGE<12 & data1$AGE>8)]<- "2"
+data1$AGE_GROUPS[which(data1$AGE > 11)]<- "3"
+
+data1$AGE_GROUPS <- as.factor (data1$AGE_GROUPS)
+data1$BIRTH_EXP <- as.factor (data1$BIRTH_EXP)
+data1$TRIAL_TYPE <- as.factor (data1$TRIAL_TYPE)
+
+
+# Creating factors cue 
+data2$AGE_GROUPS <- factor(data2$AGE)
+data2$AGE_GROUPS <- data2$AGE
+data2$AGE_GROUPS[which(data2$AGE < 9)]<- "1"
+data2$AGE_GROUPS[which(data2$AGE<12 & data2$AGE>8)]<- "2"
+data2$AGE_GROUPS[which(data2$AGE > 11)]<- "3"
+
+data2$AGE_GROUPS <- as.factor (data2$AGE_GROUPS)
+data2$BIRTH_EXP <- as.factor (data2$BIRTH_EXP)
+
+
+
+# Creating factors nocue
+data3$AGE_GROUPS <- factor(data3$AGE)
+data3$AGE_GROUPS <- data3$AGE
+data3$AGE_GROUPS[which(data3$AGE < 9)]<- "1"
+data3$AGE_GROUPS[which(data3$AGE<12 & data3$AGE>8)]<- "2"
+data3$AGE_GROUPS[which(data3$AGE > 11)]<- "3"
+
+data3$AGE_GROUPS <- as.factor (data3$AGE_GROUPS)
+data3$BIRTH_EXP <- as.factor (data3$BIRTH_EXP)
+```
+
+# Graphs
+
+### Function to calculate mean and standard deviation of each group
+
+```{r function,  echo=FALSE}
+
+## Gives count, mean, standard deviation, standard error of the mean, and confidence interval (default 95%).
+##   data: a data frame.
+##   measurevar: the name of a column that contains the variable to be summariezed
+##   groupvars: a vector containing names of columns that contain grouping variables
+##   na.rm: a boolean that indicates whether to ignore NA's
+##   conf.interval: the percent range of the confidence interval (default is 95%)
+summarySE <- function(data=NULL, measurevar, groupvars=NULL, na.rm=FALSE,
+                      conf.interval=.95, .drop=TRUE) {
+    library(plyr)
+
+    # New version of length which can handle NA's: if na.rm==T, don't count them
+    length2 <- function (x, na.rm=FALSE) {
+        if (na.rm) sum(!is.na(x))
+        else       length(x)
+    }
+
+    # This does the summary. For each group's data frame, return a vector with
+    # N, mean, and sd
+    datac <- ddply(data, groupvars, .drop=.drop,
+      .fun = function(xx, col) {
+        c(N    = length2(xx[[col]], na.rm=na.rm),
+          mean = mean   (xx[[col]], na.rm=na.rm),
+          sd   = sd     (xx[[col]], na.rm=na.rm)
+        )
+      },
+      measurevar
+    )
+
+    # Rename the "mean" column    
+    datac <- rename(datac, c("mean" = measurevar))
+
+    datac$se <- datac$sd / sqrt(datac$N)  # Calculate standard error of the mean
+
+    # Confidence interval multiplier for standard error
+    # Calculate t-statistic for confidence interval: 
+    # e.g., if conf.interval is .95, use .975 (above/below), and use df=N-1
+    ciMult <- qt(conf.interval/2 + .5, datac$N-1)
+    datac$ci <- datac$se * ciMult
+
+    return(datac)
+}
+
+```
+
+
+## 1. Accuracy
+
+```{r Graph 1}
+# Graph 1 for Retrieval Phase 1
+fd_graph <- summarySE(data1, measurevar="ACCURACY", groupvars=c("AGE_GROUPS","BIRTH_EXP","TRIAL_TYPE"))
+head (fd_graph)
+
+pd <- position_dodge(0.1)
+ggplot(fd_graph, aes(x=AGE_GROUPS , y= ACCURACY, group=BIRTH_EXP, color=BIRTH_EXP)) + 
+  facet_grid(TRIAL_TYPE~.)+
+    geom_errorbar(aes(ymin=ACCURACY-se, ymax=ACCURACY+se), colour="black", width=.1, position=pd, size = 1) +
+    geom_line(position=pd, size = 1.1) +
+    geom_point(position=pd, size=3, shape=21, fill="white") + # 21 is filled circle
+    xlab("AGE GROUPS (years)") +
+    ylab("ACCURACY") +
+    scale_colour_hue(name = "Birth Experience",
+                     breaks=c("C", "V"),
+                     labels=c("C-section", "Vaginal"),
+                     l=40) + 
+    theme(legend.position = "bottom")+ 
+    ggtitle("Accuracy in Each Trial Condition for Birth Experience") + # Use darker colors, lightness=40
+    expand_limits(y=c(0.2, 0.6)) +                        # Expand y range
+    theme_bw()
+   
+```
+
+
+## 2. Reaction Time
+
+```{r Graph 2}
+# Graph 1 for Retrieval Phase 1
+fd_graph_RT <- summarySE(data1, measurevar="REAC_TIME_CT", groupvars=c("AGE_GROUPS","BIRTH_EXP","TRIAL_TYPE"))
+head (fd_graph_RT)
+
+pd <- position_dodge(0.1)
+ggplot(fd_graph_RT, aes(x=AGE_GROUPS , y= REAC_TIME_CT , group=BIRTH_EXP, color=BIRTH_EXP)) + 
+  facet_grid(TRIAL_TYPE~.)+
+    geom_errorbar(aes(ymin=REAC_TIME_CT -se, ymax=REAC_TIME_CT+se), colour="black", width=.1, position=pd, size = 1) +
+    geom_line(position=pd, size = 1.1) +
+    geom_point(position=pd, size=3, shape=21, fill="white") + # 21 is filled circle
+    xlab("AGE GROUPS (years)") +
+    ylab("Reaction Time (sec)") +
+    scale_colour_hue(name = "Birth Experience",
+                     breaks=c("C", "V"),
+                     labels=c("C-section", "Vaginal"),
+                     l=40) + 
+    theme(legend.position = "bottom")+ 
+    ggtitle("Reaction Time in Each Trial Condition for Birth Experience") + # Use darker colors, lightness=40
+    expand_limits(y=c(0.2, 0.6)) +                        # Expand y range
+    theme_bw()
+   
+```
+
+# For the Full Data
+
+## Check assumptions
+
+```{r assumptions}
+# Outliers - Accuracy
+data1 %>%
+  group_by(AGE_GROUPS, TRIAL_TYPE, BIRTH_EXP) %>%
+  identify_outliers(ACCURACY)
+
+# Normality  - Accuracy
+data1 %>%
+  group_by(AGE_GROUPS, TRIAL_TYPE, BIRTH_EXP) %>%
+  shapiro_test(ACCURACY)
+
+# Outliers - Reaction Time
+data1 %>%
+  group_by(AGE_GROUPS, TRIAL_TYPE, BIRTH_EXP) %>%
+  identify_outliers(REAC_TIME_CT)
+
+# Normality - Reaction Time
+data1 %>%
+  group_by(AGE_GROUPS, TRIAL_TYPE, BIRTH_EXP) %>%
+  shapiro_test(REAC_TIME_CT)
+```
+
+Participant 205 - extreme outlier for Vaginal, cue, age group 3
+
+
+## ANOVA - ACCURACY - Full data
+
+```{r ANOVA 1}
+# IV- Birth Experience and Age Groups, DV - Accuracy
+
+model1 <- aov(ACCURACY~BIRTH_EXP+AGE_GROUPS+TRIAL_TYPE, data= data1)
+summary (model1)
+
+int_mod1 <- aov (ACCURACY~ BIRTH_EXP*AGE_GROUPS*TRIAL_TYPE, data= data1)
+summary (int_mod1)
+
+effectsize::eta_squared(int_mod1)
+
+# options(contrasts = c("contr.sum", "contr.poly"))
+# lm_output <- lm(ACCURACY ~ BIRTH_EXP*AGE_GROUPS*TRIAL_TYPE, data = data1)
+# summary (lm_output)
+# # apa.aov.table(lm_output)
+# apa.2way.table(BIRTH_EXP, AGE_GROUPS, ACCURACY, data = data1)
+# levels (data1$BIRTH_EXP)
+# summary.lm(model1)
+# summary.lm(int_mod1)
+
+
+```
+
+### Pairwise - Accuracy
+```{r pairwise}
+## Pairwise t-test to check for interaction effects
+pairwise.t.test(d1$ACCURACY, d1$BIRTH_EXP, p.adj = "bonf")
+pairwise.t.test(d2$ACCURACY, d2$BIRTH_EXP, p.adj = "bonf")
+pairwise.t.test(d3$ACCURACY, d3$BIRTH_EXP, p.adj = "bonf")
+```
+1. There is a main effect of Trial type (cue and no cue) in accuracy 
+2. There is an interaction effect between birth experience and age groups.
+
+
+### Planned contrasts - AGE_GROUP>>BIRTH_EXPERIENCE - ACCURACY
+
+```{r pc datasets, echo=FALSE}
+data4 <- data1 %>%
+  filter (AGE < 9) %>%
+  select (ID, AGE, BIRTH_EXP, DIS,TRIAL_TYPE, REAC_TIME, ACCURACY, REAC_TIME_CT)
+data5 <- data1 %>%
+  filter (AGE<12 & AGE>8) %>%
+  select (ID, AGE, BIRTH_EXP, DIS,TRIAL_TYPE, REAC_TIME, ACCURACY, REAC_TIME_CT)
+data6 <- data1 %>%
+  filter (AGE>11) %>%
+  select (ID, AGE, BIRTH_EXP, DIS,TRIAL_TYPE, REAC_TIME, ACCURACY, REAC_TIME_CT)
+
+data4_V <- data4 %>%
+  filter (BIRTH_EXP == 'V')
+data4_C <- data4 %>%
+  filter (BIRTH_EXP == 'C')
+
+data5_V <- data5 %>%
+  filter (BIRTH_EXP == 'V')
+data5_C <- data5 %>%
+  filter (BIRTH_EXP == 'C')
+
+data6_V <- data6 %>%
+  filter (BIRTH_EXP == 'V')
+data6_C <- data6 %>%
+  filter (BIRTH_EXP == 'C')
+
+```
+
+```{r planned contrasts accuracy 1}
+
+contr <- c(-1, 1)
+
+
+## Age Group 1
+mod1 <- aov(ACCURACY~BIRTH_EXP, data= data4)
+GS_1 <- glht(mod1,
+linfct = mcp(BIRTH_EXP = contr))
+summary(GS_1)
+
+## Age Group 2
+mod2 <- aov(ACCURACY~BIRTH_EXP, data= data5)
+GS_2<- glht(mod2,
+linfct = mcp(BIRTH_EXP = contr))
+summary(GS_2)
+
+## Age Group 3
+mod3 <- aov(ACCURACY~BIRTH_EXP, data= data6)
+GS_3<- glht(mod3,
+linfct = mcp(BIRTH_EXP = contr))
+summary(GS_3)
+
+```
+
+### Planned contrasts - AGE_GROUP>>BIRTH_EXPERIENCE>>>TRIAL_TYPE - ACCURACY
+
+```{r planned contrasts accuracy 2}
+
+contrC_N <- c(1, -1)
+
+
+## Age Group 1
+
+mod4_V <- aov(ACCURACY~TRIAL_TYPE, data= data4_V)
+GS_4V <- glht(mod4_V,
+linfct = mcp(TRIAL_TYPE = contrC_N))
+summary(GS_4V)
+
+mod4_C <- aov(ACCURACY~TRIAL_TYPE, data= data4_C)
+GS_4C <- glht(mod4_C,
+linfct = mcp(TRIAL_TYPE = contrC_N))
+summary(GS_4C)
+
+## Age Group 2
+mod5_V <- aov(ACCURACY~TRIAL_TYPE, data= data5_V)
+GS_5V <- glht(mod5_V,
+linfct = mcp(TRIAL_TYPE = contrC_N))
+summary(GS_5V)
+
+mod5_C <- aov(ACCURACY~TRIAL_TYPE, data= data5_C)
+GS_5C <- glht(mod5_C,
+linfct = mcp(TRIAL_TYPE = contrC_N))
+summary(GS_5C)
+
+
+## Age Group 3
+mod6_V <- aov(ACCURACY~TRIAL_TYPE, data= data6_V)
+GS_6V <- glht(mod6_V,
+linfct = mcp(TRIAL_TYPE = contrC_N))
+summary(GS_6V)
+
+mod6_C <- aov(ACCURACY~TRIAL_TYPE, data= data6_C)
+GS_6C <- glht(mod6_C,
+linfct = mcp(TRIAL_TYPE = contrC_N))
+summary(GS_6C)
+
+```
+
+```{r Diagnostics 1}
+par(mfrow=c(2,2))
+plot(int_mod1)
+```
+
+## ANOVA - REACTION TIME OF CORRECT TRIALS - Full Data
+
+```{r ANOVA2}
+# IV- Birth Experience and Age Groups, DV - Reaction Time
+
+model2 <- aov(REAC_TIME_CT~ BIRTH_EXP+AGE_GROUPS+TRIAL_TYPE, data = data1)
+summary(model2)
+
+int_mod2 <- aov (REAC_TIME_CT~BIRTH_EXP*AGE_GROUPS*TRIAL_TYPE, data= data1)
+summary (int_mod2)
+
+options(contrasts = c("contr.sum", "contr.poly"))
+lm_output2 <- lm(REAC_TIME ~ BIRTH_EXP*AGE_GROUPS*TRIAL_TYPE, data = data1)
+apa.aov.table(lm_output2)
+
+apa.2way.table(BIRTH_EXP, AGE_GROUPS, REAC_TIME, data = data1)
+
+```
+
+1. There is a main effect of Trial type (cue and no cue) on reaction time in correct trials
+
+
+
+
+### Planned contrasts - Birth Experience differences in each Age group - REACTION TIME
+
+```{r planned contrasts reaction time 1}
+
+contr <- c(-1, 1)
+
+## Age Group 1
+mod1.1 <- aov(REAC_TIME_CT~BIRTH_EXP, data= data4)
+GS_1.1 <- glht(mod1.1,
+linfct = mcp(BIRTH_EXP = contr))
+summary(GS_1.1)
+
+## Age Group 2
+mod2.1 <- aov(REAC_TIME_CT~BIRTH_EXP, data= data5)
+GS_2.1 <- glht(mod2.1,
+linfct = mcp(BIRTH_EXP = contr))
+summary(GS_2.1)
+
+## Age Group 3
+mod3.1 <- aov(REAC_TIME_CT~BIRTH_EXP, data= data6)
+GS_3.1 <- glht(mod3.1,
+linfct = mcp(BIRTH_EXP= contr))
+summary(GS_3.1)
+```
+
+### Planned contrasts - AGE_GROUP>>BIRTH_EXPERIENCE>>>TRIAL_TYPE - REACTION TIME
+
+```{r planned contrasts reaction time 2}
+contrC_N <- c(1, -1)
+
+
+## Age Group 1
+
+mod4_V.1 <- aov(REAC_TIME_CT~TRIAL_TYPE, data= data4_V)
+GS_4V.1 <- glht(mod4_V.1,
+linfct = mcp(TRIAL_TYPE = contrC_N))
+summary(GS_4V.1)
+
+mod4_C.1 <- aov(REAC_TIME_CT~TRIAL_TYPE, data= data4_C)
+GS_4C.1 <- glht(mod4_C.1,
+linfct = mcp(TRIAL_TYPE = contrC_N))
+summary(GS_4C.1)
+
+## Age Group 2
+mod5_V.1 <- aov(REAC_TIME_CT~TRIAL_TYPE, data= data5_V)
+GS_5V.1 <- glht(mod5_V.1,
+linfct = mcp(TRIAL_TYPE = contrC_N))
+summary(GS_5V.1)
+
+mod5_C.1 <- aov(REAC_TIME_CT~TRIAL_TYPE, data= data5_C)
+GS_5C.1 <- glht(mod5_C.1,
+linfct = mcp(TRIAL_TYPE = contrC_N))
+summary(GS_5C.1)
+
+
+## Age Group 3
+mod6_V.1 <- aov(REAC_TIME_CT~TRIAL_TYPE, data= data6_V)
+GS_6V.1 <- glht(mod6_V.1,
+linfct = mcp(TRIAL_TYPE = contrC_N))
+summary(GS_6V.1)
+
+mod6_C.1 <- aov(REAC_TIME_CT~TRIAL_TYPE, data= data6_C)
+GS_6C.1 <- glht(mod6_C.1,
+linfct = mcp(TRIAL_TYPE = contrC_N))
+summary(GS_6C.1)
+
+```
+
+
+```{r Diagnostics 2}
+par(mfrow=c(2,2))
+plot(int_mod2)
+```
+
+
+# For each Trial Condition
+
+## Cue Trials
+
+### 1. TWO-WAY ANOVA - ACCURACY 
+
+```{r ANOVA 3}
+# IV- Birth Experience and Age Groups, DV - Accuracy
+
+model3 <- aov(ACCURACY~BIRTH_EXP+AGE_GROUPS, data = data2)
+summary (model3)
+
+int_mod3 <- aov (ACCURACY~ BIRTH_EXP*AGE_GROUPS, data= data2)
+summary (int_mod3)
+TukeyHSD(int_mod3)
+
+options(contrasts = c("contr.sum", "contr.poly"))
+lm_output3 <- lm(ACCURACY ~ BIRTH_EXP*AGE_GROUPS, data = data2)
+summary (lm_output3)
+apa.aov.table(lm_output3)
+
+```
+
+```{r Diagnostics 3}
+plot(int_mod3)
+```
+
+### 2. TWO-WAY ANOVA - REACTION TIME 
+
+```{r ANOVA4}
+# IV- Birth Experience and Age Groups, DV - Reaction Time
+
+model4 <- aov(REAC_TIME_CT~ BIRTH_EXP+AGE_GROUPS, data = data2)
+summary(model4)
+
+int_mod4 <- aov (REAC_TIME_CT~BIRTH_EXP*AGE_GROUPS, data= data2)
+summary (int_mod4)
+TukeyHSD(int_mod4)
+
+options(contrasts = c("contr.sum", "contr.poly"))
+lm_output4 <- lm(REAC_TIME_CT ~ BIRTH_EXP*AGE_GROUPS, data = data2)
+apa.aov.table(lm_output4)
+```
+
+```{r Diagnostics 4}
+plot(int_mod4)
+```
+
+
+
+
+
+
+
+
+## No Cue Trials
+
+### 1. TWO-WAY ANOVA - ACCURACY 
+
+```{r ANOVA 5}
+# IV- Birth Experience and Age Groups, DV - Accuracy
+
+model5 <- aov(ACCURACY~BIRTH_EXP+AGE_GROUPS, data = data3)
+summary (model5)
+
+int_mod5 <- aov (ACCURACY~ BIRTH_EXP*AGE_GROUPS, data= data3)
+summary (int_mod5)
+TukeyHSD(int_mod5)
+
+options(contrasts = c("contr.sum", "contr.poly"))
+lm_output5 <- lm(ACCURACY ~ BIRTH_EXP*AGE_GROUPS, data = data3)
+apa.aov.table(lm_output5)
+
+```
+
+```{r Diagnostics 5}
+plot(int_mod5)
+```
+
+### 2. TWO-WAY ANOVA - REACTION TIME 
+
+```{r ANOVA 6}
+# IV- Birth Experience and Age Groups, DV - Reaction Time
+
+model6 <- aov(REAC_TIME_CT~ BIRTH_EXP+AGE_GROUPS, data = data3)
+summary(model6)
+
+int_mod6 <- aov (REAC_TIME_CT~BIRTH_EXP*AGE_GROUPS, data= data3)
+summary (int_mod6)
+TukeyHSD(int_mod6)
+
+options(contrasts = c("contr.sum", "contr.poly"))
+lm_output6 <- lm(REAC_TIME_CT ~ BIRTH_EXP*AGE_GROUPS, data = data3)
+apa.aov.table(lm_output6)
+```
+
+```{r Diagnostics 6}
+plot(int_mod6)
+```
+
+# Age Group 1 - 6 to 8 years analysis
+```{r creating groups for age group1}
+data4_V$AGE_GRP <- factor(data4_V$AGE)
+data4_C$AGE_GRP <- factor(data4_C$AGE)
+
+data4_V6_cue <- filter(data4_V, AGE_GRP == 6, TRIAL_TYPE == "Cue")
+data4_V6_nocue <- filter(data4_V, AGE_GRP == 6, TRIAL_TYPE == "NoCue")
+sample_V6_cue <- data4_V6_cue [sample(nrow(data4_V6_cue ), 3), ]
+sample_V6_cue$ID <- temp1
+data4_V6_nocue <- subset(data4_V6_nocue, ID!= any(temp1))
+filter (data4_V6_nocue, ID != sample_V6_cue$ID)
+
+
+
+sample_V6_nocue <- data4_V6_nocue [sample(nrow(data4_V6_nocue ), 3), ]
+temp1 <-  sample_V6_cue$ID
+
+
+sample_V6_nocue <-  data4_V6_nocue[sample(nrow(data4_V6_nocue ), 3), ]
+sample_V6
+
+data4_C6_cue <- filter(data4_C, AGE_GRP == 6, TRIAL_TYPE == "Cue")
+data4_C6_nocue <- filter(data4_C, AGE_GRP == 6, TRIAL_TYPE == "NoCue")
+sample_C6_cue <- data4_C6_cue [sample(nrow(data4_C6_cue ), 3, replace = F), ]
+sample_C6_nocue <- data4_C6_nocue [sample(nrow(data4_C6_nocue ), 3,replace = F), ]
+
+
+data4_V7_cue <- filter(data4_V, AGE_GRP == 7, TRIAL_TYPE == "Cue")
+data4_V7_nocue <- filter(data4_V, AGE_GRP == 7, TRIAL_TYPE == "NoCue")
+sample_V7_cue <- data4_V7_cue [sample(nrow(data4_V7_cue ), 3, replace = F), ]
+sample_V7_nocue <- data4_V7_nocue [sample(nrow(data4_V7_nocue ), 3,replace = F), ]
+
+data4_C7_cue <- filter(data4_C, AGE_GRP == 7, TRIAL_TYPE == "Cue")
+data4_C7_nocue <- filter(data4_C, AGE_GRP == 7, TRIAL_TYPE == "NoCue")
+sample_C7_cue <- data4_C7_cue [sample(nrow(data4_C7_cue ), 3, replace = F), ]
+sample_C7_nocue <- data4_C7_nocue [sample(nrow(data4_C7_nocue ), 3,replace = F), ]
+
+data4_V8_cue <- filter(data4_V, AGE_GRP == 8, TRIAL_TYPE == "Cue")
+data4_V8_nocue <- filter(data4_V, AGE_GRP == 8, TRIAL_TYPE == "NoCue")
+sample_V8_cue <- data4_V8_cue [sample(nrow(data4_V8_cue ), 3, replace = F), ]
+sample_V8_nocue <- data4_V8_nocue [sample(nrow(data4_V8_nocue ), 3,replace = F), ]
+
+data4_C8_cue <- filter(data4_C, AGE_GRP == 8, TRIAL_TYPE == "Cue")
+data4_C8_nocue <- filter(data4_C, AGE_GRP == 8, TRIAL_TYPE == "NoCue")
+sample_C8_cue <- data4_C8_cue [sample(nrow(data4_C8_cue ), 3, replace = F), ]
+sample_C8_nocue <- data4_C8_nocue [sample(nrow(data4_C8_nocue ), 3,replace = F), ]
+
+sample <- rbind (sample_V6_cue, sample_V6_nocue, sample_C6_cue, sample_C6_nocue,sample_V7_cue, sample_V7_nocue, sample_C7_cue, sample_C7_nocue, sample_V8_cue,sample_V8_nocue, sample_C8_cue, sample_C8_nocue)
+
+
+
+```
+
+## Accuracy
+
+
+
+### Graph
+
+```{r Graph Age Group1_acc}
+# Graph 1 for Retrieval Phase 1
+g1_graph_acc <- summarySE(sample, measurevar="ACCURACY", groupvars=c("AGE_GRP","BIRTH_EXP","TRIAL_TYPE"))
+head (g1_graph_acc)
+
+pd <- position_dodge(0.1)
+ggplot(g1_graph_acc, aes(x=AGE_GRP , y= ACCURACY, group=BIRTH_EXP, color=BIRTH_EXP)) + 
+  facet_grid(TRIAL_TYPE~.)+
+    geom_errorbar(aes(ymin=ACCURACY-se, ymax=ACCURACY+se), colour="black", width=.1, position=pd, size = 1) +
+    geom_line(position=pd, size = 1.1) +
+    geom_point(position=pd, size=3, shape=21, fill="white") + # 21 is filled circle
+    xlab("AGE GROUPS (years)") +
+    ylab("ACCURACY") +
+    scale_colour_hue(name = "Birth Experience",
+                     breaks=c("C", "V"),
+                     labels=c("C-section", "Vaginal"),
+                     l=40) + 
+    theme(legend.position = "bottom")+ 
+    ggtitle("Accuracy in Each Trial Condition for Birth Experience") + # Use darker colors, lightness=40
+    expand_limits(y=c(0.2, 0.6)) +                        # Expand y range
+    theme_bw()
+   
+```
+
+### ANOVA 
+
+```{r age1 accuracy}
+model7 <- aov(ACCURACY~ AGE_GRP+BIRTH_EXP+TRIAL_TYPE, data = sample)
+summary(model7)
+
+int_mod7 <- aov (ACCURACY~AGE_GRP*BIRTH_EXP*TRIAL_TYPE, data= sample)
+summary (int_mod7)
+TukeyHSD(int_mod7)
+```
+
+## Reaction Time
+
+### Graph
+
+```{r Graph Age Group1_rt}
+# Graph 1 for Retrieval Phase 1
+g1_graph_rt <- summarySE(sample, measurevar="REAC_TIME_CT", groupvars=c("AGE_GRP","BIRTH_EXP","TRIAL_TYPE"))
+head (g1_graph_rt)
+
+pd <- position_dodge(0.1)
+ggplot(g1_graph_rt, aes(x=AGE_GRP , y= REAC_TIME_CT , group=BIRTH_EXP, color=BIRTH_EXP)) + 
+  facet_grid(TRIAL_TYPE~.)+
+    geom_errorbar(aes(ymin=REAC_TIME_CT -se, ymax=REAC_TIME_CT+se), colour="black", width=.1, position=pd, size = 1) +
+    geom_line(position=pd, size = 1.1) +
+    geom_point(position=pd, size=3, shape=21, fill="white") + # 21 is filled circle
+    xlab("AGE GROUPS (years)") +
+    ylab("Reaction Time (sec)") +
+    scale_colour_hue(name = "Birth Experience",
+                     breaks=c("C", "V"),
+                     labels=c("C-section", "Vaginal"),
+                     l=40) + 
+    theme(legend.position = "bottom")+ 
+    ggtitle("Reaction Time in Each Trial Condition for Birth Experience") + # Use darker colors, lightness=40
+    expand_limits(y=c(0.2, 0.6)) +                        # Expand y range
+    theme_bw()
+   
+```
+
+### ANOVA
+
+```{r age1 reaction time}
+model7.2 <- aov(REAC_TIME_CT~ AGE_GRP+BIRTH_EXP+TRIAL_TYPE, data = sample)
+summary(model7.2)
+
+int_mod7.2 <- aov (REAC_TIME_CT~AGE_GRP*BIRTH_EXP*TRIAL_TYPE, data= sample)
+summary (int_mod7.2)
+TukeyHSD(int_mod7.2)
+```
+
